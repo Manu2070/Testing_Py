@@ -1,1 +1,1 @@
-Feel free to use
+Feel free to use or improve the code.
