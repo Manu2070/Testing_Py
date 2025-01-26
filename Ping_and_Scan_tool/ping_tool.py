@@ -71,10 +71,10 @@ frame.grid(row=0, column=0, sticky='nsew')
 box = tk.Frame(root, bg=BG)
 box.grid(row=1, column=0, sticky='sew')
 
-text = tk.Text(frame, bg='#1a1d24', fg='white')
+text = tk.Text(frame, bg=BG, fg='white')
 text.grid(row=0, column=0, sticky='nsew')
 
-scrollbar = tk.Scrollbar(frame, bg='#1a1d24')
+scrollbar = tk.Scrollbar(frame, bg=BG)
 scrollbar.grid(row=0, column=1, sticky='ns')
 
 text['yscrollcommand'] = scrollbar.set
@@ -85,7 +85,7 @@ progress_bar = ttk.Progressbar(box, orient='horizontal', length=400, mode='deter
 progress_bar.grid(row=0, column=0, pady=5, padx=5, sticky= 'ew')
 
 # --- IP Address Entry ---
-address = tk.Entry(master=box, bg='#292d33', fg='white')
+address = tk.Entry(master=box, bg=BG, fg='white')
 address.insert(0, 'localhost')
 address.bind('<Return>', lambda x: run())
 address.bind('<Button-1>', lambda x: on_focus_in(address))
@@ -94,7 +94,7 @@ address.config(state='disabled')
 address.grid(row=1, column=0, sticky='nsew', padx=5, pady=5)
 
 # --- Port Entry ---  
-portE = tk.Entry(master=box, bg='#292d33', fg='white')
+portE = tk.Entry(master=box, bg=BG, fg='white')
 portE.insert(0, 'Port')
 portE.config(state='disabled')
 portE.grid(row=1, column=1, sticky='nsew',  padx=5, pady=5)
@@ -232,11 +232,11 @@ def on_focus_out(entry, placeholder):
         entry.configure(state='disabled')
 
 # - button -
-button = tk.Button(master=box, text='Start Ping', command=run, bg='#1a1d24', fg='white', width=20)
+button = tk.Button(master=box, text='Start Ping', command=run, bg=BG, fg='white', width=20)
 button.grid(row=2, column=0, sticky='nsew', padx=5, pady=5)
 
 # Button to start the port scan function
-port_scan_button = tk.Button(box, text="Start Port Scan", command=port_scan, bg='#1a1d24', fg='white')
+port_scan_button = tk.Button(box, text="Start Port Scan", command=port_scan, bg=BG, fg='white')
 port_scan_button.grid(row=2, column=1, sticky='nsew', padx=5, pady=5)
 
 
