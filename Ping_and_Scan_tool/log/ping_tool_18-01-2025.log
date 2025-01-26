@@ -1,0 +1,3216 @@
+INFO - [2025-01-18-18:22:24] ----------------Scan---------------
+
+INFO - [2025-01-18-18:22:24] [Scan Started]
+
+INFO - [2025-01-18-18:22:24] Scanning ports Port on localhost
+ERROR - [2025-01-18-18:22:24] Invalid port range: Port
+INFO - [2025-01-18-18:22:28] ----------------Scan---------------
+
+INFO - [2025-01-18-18:22:28] [Scan Started]
+
+INFO - [2025-01-18-18:22:28] Scanning ports 100-200 on localhost
+DEBUG - [2025-01-18-18:22:28] Port range: 100 to 200
+DEBUG - [2025-01-18-18:22:28] Scanning ports 100 to 200
+DEBUG - [2025-01-18-18:22:28] Port 100 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 101 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 102 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 103 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 104 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 105 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 106 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 107 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 108 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 109 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 110 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 111 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 112 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 113 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 114 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 115 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 116 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 117 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 118 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 119 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 120 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 121 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 122 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 123 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 124 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 125 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 126 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 127 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 128 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 129 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 130 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 131 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 132 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 133 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 134 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 135 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 136 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 137 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 138 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 139 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 140 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 141 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 142 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 143 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 144 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 145 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 146 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 147 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 148 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 149 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 150 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 151 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 152 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 153 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 154 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 155 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 156 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 157 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 158 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 159 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 160 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 161 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 162 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 163 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 164 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 165 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 166 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 167 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 168 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 169 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 170 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 171 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 172 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 173 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 174 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 175 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 176 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 177 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 178 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 179 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 180 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 181 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 182 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 183 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 184 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 185 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 186 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 187 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 188 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 189 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 190 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 191 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 192 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 193 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 194 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 195 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 196 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 197 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 198 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 199 added to queue
+DEBUG - [2025-01-18-18:22:28] Port 200 added to queue
+INFO - [2025-01-18-18:22:28] [Number of threads: 16]
+
+DEBUG - [2025-01-18-18:22:28] Starting thread
+DEBUG - [2025-01-18-18:22:28] Scanning port 100
+DEBUG - [2025-01-18-18:22:28] Starting thread
+INFO - [2025-01-18-18:32:00] ----------------Scan---------------
+
+INFO - [2025-01-18-18:32:00] [Scan Started]
+
+INFO - [2025-01-18-18:32:00] Scanning ports 100-200 on localhost
+INFO - [2025-01-18-18:32:00] [Number of threads: 16]
+
+WARNING - [localhost] Port 135 open
+INFO - [2025-01-18-18:36:54] ----------------Scan---------------
+INFO - [2025-01-18-18:36:54] [Scan Started]
+
+INFO - [2025-01-18-18:36:54] Scanning ports 100-200 on localhost
+INFO - [2025-01-18-18:36:54] [Number of threads: 16]
+
+WARNING - [localhost] Port 135 open
+INFO - [2025-01-18-18:38:15] ----------------Scan---------------
+INFO - [2025-01-18-18:38:15] [Scan Started]
+
+INFO - [2025-01-18-18:38:15] Scanning ports 100-500 on localhost
+INFO - [2025-01-18-18:38:15] [Number of threads: 16]
+
+WARNING - [2025-01-18-18:38:17] [localhost] Port 135 open
+WARNING - [2025-01-18-18:38:37] [localhost] Port 445 open
+INFO - [2025-01-18-18:39:30] 
+ ----------------Scan---------------
+INFO - [2025-01-18-18:39:30] [Scan Started]
+
+INFO - [2025-01-18-18:39:30] Scanning ports 100-200 on localhost
+INFO - [2025-01-18-18:39:30] [Number of threads: 16]
+
+WARNING - [2025-01-18-18:39:32] [localhost] Port 135 open
+INFO - 
+[2025-01-18-18:40:14] <----------------Scan--------------->
+INFO - [2025-01-18-18:40:14] [Scan Started]
+
+INFO - [2025-01-18-18:40:14] Scanning ports 100-200 on localhost
+INFO - [2025-01-18-18:40:14] [Number of threads: 16]
+
+WARNING - [2025-01-18-18:40:16] [localhost] Port 135 open
+INFO - [2025-01-18-18:42:04] <----------------Scan--------------->
+INFO - [2025-01-18-18:42:04] [Scan Started]
+
+INFO - [2025-01-18-18:42:04] Scanning ports 100-200 on localhost
+INFO - [2025-01-18-18:42:04] [Number of threads: 16]
+
+WARNING - [2025-01-18-18:42:06] [localhost] Port 135 open
+INFO - [2025-01-18-18:49:32] [Start ping]
+
+INFO - [2025-01-18-18:49:32] <----------------ping--------------->
+INFO - [2025-01-18-18:49:32] [Thread:start]
+
+ERROR - [2025-01-18-18:49:32] No address to ping
+ERROR - [2025-01-18-18:49:32] No address to ping
+INFO - [2025-01-18-18:49:32] ----------------------------------------
+INFO - [2025-01-18-18:49:32] [Thread: end]
+INFO - [2025-01-18-18:49:32] [End ping]
+
+INFO - [2025-01-18-18:49:53] [Start ping]
+
+INFO - [2025-01-18-18:49:53] <----------------ping--------------->
+INFO - [2025-01-18-18:49:53] [Thread:start]
+
+INFO - [2025-01-18-18:49:53] Pinging Manu [::1] with 32 bytes of data:
+INFO - [2025-01-18-18:49:53] Reply from ::1: time<1ms
+INFO - [2025-01-18-18:49:53] Reply from ::1: time<1ms
+INFO - [2025-01-18-18:49:53] Reply from ::1: time<1ms
+INFO - [2025-01-18-18:49:53] Reply from ::1: time<1ms
+INFO - [2025-01-18-18:49:53] Ping statistics for ::1:
+INFO - [2025-01-18-18:49:53] Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+INFO - [2025-01-18-18:49:53] Approximate round trip times in milli-seconds:
+INFO - [2025-01-18-18:49:53] Minimum = 0ms, Maximum = 0ms, Average = 0ms
+INFO - [2025-01-18-18:49:53] ----------------------------------------
+INFO - [2025-01-18-18:49:53] [Thread: end]
+INFO - [2025-01-18-18:49:53] [End ping]
+
+INFO - [2025-01-18-18:50:56] [Start ping]
+
+INFO - [2025-01-18-18:50:56] <----------------ping--------------->
+INFO - [2025-01-18-18:50:56] [Thread:start]
+
+INFO - [2025-01-18-18:50:56] Pinging Manu [::1] with 32 bytes of data:
+INFO - [2025-01-18-18:50:56] Reply from ::1: time<1ms
+INFO - [2025-01-18-18:50:56] Reply from ::1: time<1ms
+INFO - [2025-01-18-18:50:56] Reply from ::1: time<1ms
+INFO - [2025-01-18-18:50:56] Reply from ::1: time<1ms
+INFO - [2025-01-18-18:50:56] Ping statistics for ::1:
+INFO - [2025-01-18-18:50:56] Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+INFO - [2025-01-18-18:50:56] Approximate round trip times in milli-seconds:
+INFO - [2025-01-18-18:50:56] Minimum = 0ms, Maximum = 0ms, Average = 0ms
+INFO - [2025-01-18-18:50:56] 
+INFO - [2025-01-18-18:50:56] [Thread: end]
+INFO - [2025-01-18-18:50:56] [End ping]
+
+INFO - [2025-01-18-18:51:46] [Start ping]
+
+INFO - [2025-01-18-18:51:46] <----------------ping--------------->
+INFO - [2025-01-18-18:51:46] [Thread:start]
+
+INFO - [2025-01-18-18:51:46] Pinging Manu [::1] with 32 bytes of data:
+INFO - [2025-01-18-18:51:46] Reply from ::1: time<1ms
+INFO - [2025-01-18-18:51:46] Reply from ::1: time<1ms
+INFO - [2025-01-18-18:51:46] Reply from ::1: time<1ms
+INFO - [2025-01-18-18:51:46] Reply from ::1: time<1ms
+INFO - [2025-01-18-18:51:46] Ping statistics for ::1:
+INFO - [2025-01-18-18:51:46] Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+INFO - [2025-01-18-18:51:46] Approximate round trip times in milli-seconds:
+INFO - [2025-01-18-18:51:46] Minimum = 0ms, Maximum = 0ms, Average = 0ms
+INFO - [2025-01-18-18:51:46] -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO - [2025-01-18-18:51:46] [Thread: end]
+INFO - [2025-01-18-18:51:46] [End ping]
+
+INFO - [2025-01-18-18:54:09] [Start ping]
+INFO - [2025-01-18-18:54:09] <----------------ping--------------->
+INFO - [2025-01-18-18:54:09] [Thread:start]
+
+INFO - [2025-01-18-18:54:09] Pinging Manu [::1] with 32 bytes of data:
+INFO - [2025-01-18-18:54:09] Reply from ::1: time<1ms
+INFO - [2025-01-18-18:54:09] Reply from ::1: time<1ms
+INFO - [2025-01-18-18:54:09] Reply from ::1: time<1ms
+INFO - [2025-01-18-18:54:09] Reply from ::1: time<1ms
+INFO - [2025-01-18-18:54:09] Ping statistics for ::1:
+INFO - [2025-01-18-18:54:09] Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+INFO - [2025-01-18-18:54:09] Approximate round trip times in milli-seconds:
+INFO - [2025-01-18-18:54:09] Minimum = 0ms, Maximum = 0ms, Average = 0ms
+INFO - [2025-01-18-18:54:09] <----------------------------------->
+INFO - [2025-01-18-18:54:09] [Thread: end]
+INFO - [2025-01-18-18:54:09] [End ping]
+
+INFO - [2025-01-18-18:54:14] [Start ping]
+INFO - [2025-01-18-18:54:14] <----------------ping--------------->
+INFO - [2025-01-18-18:54:14] [Thread:start]
+
+INFO - [2025-01-18-18:54:14] Pinging Manu [::1] with 32 bytes of data:
+INFO - [2025-01-18-18:54:14] Reply from ::1: time<1ms
+INFO - [2025-01-18-18:54:14] Reply from ::1: time<1ms
+INFO - [2025-01-18-18:54:14] Reply from ::1: time<1ms
+INFO - [2025-01-18-18:54:14] Reply from ::1: time<1ms
+INFO - [2025-01-18-18:54:14] Ping statistics for ::1:
+INFO - [2025-01-18-18:54:14] Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+INFO - [2025-01-18-18:54:14] Approximate round trip times in milli-seconds:
+INFO - [2025-01-18-18:54:14] Minimum = 0ms, Maximum = 0ms, Average = 0ms
+INFO - [2025-01-18-18:54:14] <----------------------------------->
+INFO - [2025-01-18-18:54:14] [Thread: end]
+INFO - [2025-01-18-18:54:14] [End ping]
+
+INFO - [2025-01-18-19:00:44] [Scan Started]
+INFO - [2025-01-18-19:00:44] <----------------------------------->
+INFO - [2025-01-18-19:00:44] Scanning ports 100-200 on localhost
+INFO - [2025-01-18-19:00:44] [Number of threads: 16]
+
+INFO - [2025-01-18-19:00:44] <----------------------------------->
+INFO - [2025-01-18-19:00:44] [Scan Ended]
+
+WARNING - [2025-01-18-19:00:46] [localhost] Port 135 open
+INFO - [2025-01-18-19:02:27] [Scan Started]
+INFO - [2025-01-18-19:02:27] <----------------------------------->
+INFO - [2025-01-18-19:02:27] Scanning ports 100-200 on localhost
+INFO - [2025-01-18-19:02:27] [Number of threads: 16]
+
+WARNING - [2025-01-18-19:02:27] [localhost] Port 200 open
+INFO - [2025-01-18-19:02:27] <----------------------------------->
+INFO - [2025-01-18-19:02:27] [Scan Ended]
+
+INFO - [2025-01-18-19:04:31] [Scan Started]
+INFO - [2025-01-18-19:04:31] <----------------------------------->
+INFO - [2025-01-18-19:04:31] Scanning ports 1-2000 on localhost
+INFO - [2025-01-18-19:04:31] [Number of threads: 16]
+
+WARNING - [2025-01-18-19:04:31] [localhost] Port 2000 open
+INFO - [2025-01-18-19:04:31] <----------------------------------->
+INFO - [2025-01-18-19:04:31] [Scan Ended]
+
+INFO - [2025-01-18-19:06:05] [Scan Started]
+INFO - [2025-01-18-19:06:05] <----------------------------------->
+INFO - [2025-01-18-19:06:05] Scanning ports 100-200 on localhost
+INFO - [2025-01-18-19:06:05] [Number of threads: 16]
+
+INFO - [2025-01-18-19:06:05] <----------------------------------->
+INFO - [2025-01-18-19:06:05] [Scan Ended]
+
+INFO - [2025-01-18-19:07:12] [Scan Started]
+INFO - [2025-01-18-19:07:12] <----------------------------------->
+INFO - [2025-01-18-19:07:12] Scanning ports 100-200 on localhost
+INFO - [2025-01-18-19:07:12] [Number of threads: 16]
+
+WARNING - [2025-01-18-19:07:12] [localhost] Port 200 open
+INFO - [2025-01-18-19:07:12] <----------------------------------->
+INFO - [2025-01-18-19:07:12] [Scan Ended]
+
+WARNING - [2025-01-18-19:07:13] [localhost] Port 111 open
+WARNING - [2025-01-18-19:07:13] [localhost] Port 109 open
+WARNING - [2025-01-18-19:07:13] [localhost] Port 106 open
+WARNING - [2025-01-18-19:07:13] [localhost] Port 100 open
+WARNING - [2025-01-18-19:07:13] [localhost] Port 108 open
+WARNING - [2025-01-18-19:07:13] [localhost] Port 107 open
+WARNING - [2025-01-18-19:07:13] [localhost] Port 112 open
+WARNING - [2025-01-18-19:07:13] [localhost] Port 115 open
+WARNING - [2025-01-18-19:07:13] [localhost] Port 114 open
+WARNING - [2025-01-18-19:07:13] [localhost] Port 102 open
+WARNING - [2025-01-18-19:07:13] [localhost] Port 110 open
+WARNING - [2025-01-18-19:07:13] [localhost] Port 113 open
+WARNING - [2025-01-18-19:07:13] [localhost] Port 101 open
+WARNING - [2025-01-18-19:07:13] [localhost] Port 104 open
+WARNING - [2025-01-18-19:07:13] [localhost] Port 103 open
+WARNING - [2025-01-18-19:07:13] [localhost] Port 105 open
+WARNING - [2025-01-18-19:07:14] [localhost] Port 122 open
+WARNING - [2025-01-18-19:07:14] [localhost] Port 124 open
+WARNING - [2025-01-18-19:07:14] [localhost] Port 130 open
+WARNING - [2025-01-18-19:07:14] [localhost] Port 117 open
+WARNING - [2025-01-18-19:07:14] [localhost] Port 118 open
+WARNING - [2025-01-18-19:07:14] [localhost] Port 119 open
+WARNING - [2025-01-18-19:07:14] [localhost] Port 121 open
+WARNING - [2025-01-18-19:07:14] [localhost] Port 116 open
+WARNING - [2025-01-18-19:07:14] [localhost] Port 123 open
+WARNING - [2025-01-18-19:07:14] [localhost] Port 131 open
+WARNING - [2025-01-18-19:07:14] [localhost] Port 129 open
+WARNING - [2025-01-18-19:07:14] [localhost] Port 120 open
+WARNING - [2025-01-18-19:07:14] [localhost] Port 125 open
+WARNING - [2025-01-18-19:07:14] [localhost] Port 127 open
+WARNING - [2025-01-18-19:07:14] [localhost] Port 128 open
+WARNING - [2025-01-18-19:07:14] [localhost] Port 126 open
+WARNING - [2025-01-18-19:07:14] [localhost] Port 135 open
+WARNING - [2025-01-18-19:07:15] [localhost] Port 137 open
+WARNING - [2025-01-18-19:07:15] [localhost] Port 132 open
+WARNING - [2025-01-18-19:07:16] [localhost] Port 136 open
+WARNING - [2025-01-18-19:07:16] [localhost] Port 145 open
+WARNING - [2025-01-18-19:07:16] [localhost] Port 134 open
+WARNING - [2025-01-18-19:07:16] [localhost] Port 138 open
+WARNING - [2025-01-18-19:07:16] [localhost] Port 133 open
+WARNING - [2025-01-18-19:07:16] [localhost] Port 146 open
+WARNING - [2025-01-18-19:07:16] [localhost] Port 148 open
+WARNING - [2025-01-18-19:07:16] [localhost] Port 142 open
+WARNING - [2025-01-18-19:07:16] [localhost] Port 141 open
+WARNING - [2025-01-18-19:07:16] [localhost] Port 139 open
+WARNING - [2025-01-18-19:07:16] [localhost] Port 140 open
+WARNING - [2025-01-18-19:07:16] [localhost] Port 144 open
+WARNING - [2025-01-18-19:07:16] [localhost] Port 143 open
+WARNING - [2025-01-18-19:07:16] [localhost] Port 147 open
+WARNING - [2025-01-18-19:07:16] [localhost] Port 149 open
+WARNING - [2025-01-18-19:07:17] [localhost] Port 150 open
+WARNING - [2025-01-18-19:07:17] [localhost] Port 157 open
+WARNING - [2025-01-18-19:07:17] [localhost] Port 153 open
+WARNING - [2025-01-18-19:07:17] [localhost] Port 151 open
+WARNING - [2025-01-18-19:07:17] [localhost] Port 155 open
+WARNING - [2025-01-18-19:07:17] [localhost] Port 152 open
+WARNING - [2025-01-18-19:07:17] [localhost] Port 158 open
+WARNING - [2025-01-18-19:07:17] [localhost] Port 154 open
+WARNING - [2025-01-18-19:07:17] [localhost] Port 159 open
+WARNING - [2025-01-18-19:07:17] [localhost] Port 156 open
+WARNING - [2025-01-18-19:07:17] [localhost] Port 160 open
+WARNING - [2025-01-18-19:07:17] [localhost] Port 161 open
+WARNING - [2025-01-18-19:07:17] [localhost] Port 164 open
+WARNING - [2025-01-18-19:07:17] [localhost] Port 162 open
+WARNING - [2025-01-18-19:07:17] [localhost] Port 163 open
+WARNING - [2025-01-18-19:07:17] [localhost] Port 165 open
+WARNING - [2025-01-18-19:07:18] [localhost] Port 166 open
+WARNING - [2025-01-18-19:07:18] [localhost] Port 174 open
+WARNING - [2025-01-18-19:07:18] [localhost] Port 167 open
+WARNING - [2025-01-18-19:07:18] [localhost] Port 168 open
+WARNING - [2025-01-18-19:07:18] [localhost] Port 172 open
+WARNING - [2025-01-18-19:07:18] [localhost] Port 176 open
+WARNING - [2025-01-18-19:07:18] [localhost] Port 171 open
+WARNING - [2025-01-18-19:07:18] [localhost] Port 177 open
+WARNING - [2025-01-18-19:07:18] [localhost] Port 173 open
+WARNING - [2025-01-18-19:07:18] [localhost] Port 170 open
+WARNING - [2025-01-18-19:07:18] [localhost] Port 169 open
+WARNING - [2025-01-18-19:07:18] [localhost] Port 175 open
+WARNING - [2025-01-18-19:07:18] [localhost] Port 178 open
+WARNING - [2025-01-18-19:07:18] [localhost] Port 179 open
+WARNING - [2025-01-18-19:07:18] [localhost] Port 180 open
+WARNING - [2025-01-18-19:07:18] [localhost] Port 181 open
+WARNING - [2025-01-18-19:07:19] [localhost] Port 182 open
+WARNING - [2025-01-18-19:07:19] [localhost] Port 183 open
+WARNING - [2025-01-18-19:07:19] [localhost] Port 184 open
+WARNING - [2025-01-18-19:07:19] [localhost] Port 186 open
+WARNING - [2025-01-18-19:07:19] [localhost] Port 187 open
+WARNING - [2025-01-18-19:07:19] [localhost] Port 185 open
+WARNING - [2025-01-18-19:07:19] [localhost] Port 189 open
+WARNING - [2025-01-18-19:07:19] [localhost] Port 188 open
+WARNING - [2025-01-18-19:07:19] [localhost] Port 196 open
+WARNING - [2025-01-18-19:07:19] [localhost] Port 193 open
+WARNING - [2025-01-18-19:07:19] [localhost] Port 194 open
+WARNING - [2025-01-18-19:07:19] [localhost] Port 195 open
+WARNING - [2025-01-18-19:07:19] [localhost] Port 191 open
+WARNING - [2025-01-18-19:07:19] [localhost] Port 190 open
+WARNING - [2025-01-18-19:07:19] [localhost] Port 192 open
+WARNING - [2025-01-18-19:07:19] [localhost] Port 197 open
+WARNING - [2025-01-18-19:07:20] [localhost] Port 198 open
+WARNING - [2025-01-18-19:07:20] [localhost] Port 199 open
+WARNING - [2025-01-18-19:07:20] [localhost] Port 200 open
+INFO - [2025-01-18-19:08:16] [Scan Started]
+INFO - [2025-01-18-19:08:16] <----------------------------------->
+INFO - [2025-01-18-19:08:16] Scanning ports 100-200 on localhost
+INFO - [2025-01-18-19:08:16] [Number of threads: 16]
+
+INFO - [2025-01-18-19:08:16] <----------------------------------->
+INFO - [2025-01-18-19:08:16] [Scan Ended]
+
+WARNING - [2025-01-18-19:08:18] [localhost] Port 135 open
+INFO - [2025-01-18-19:09:40] [Scan Started]
+INFO - [2025-01-18-19:09:40] <----------------------------------->
+INFO - [2025-01-18-19:09:40] Scanning ports 1-500 on localhost
+INFO - [2025-01-18-19:09:40] [Number of threads: 16]
+
+INFO - [2025-01-18-19:09:40] <----------------------------------->
+INFO - [2025-01-18-19:09:40] [Scan Results:]
+
+WARNING - [2025-01-18-19:09:49] [localhost] Port 135 open
+WARNING - [2025-01-18-19:10:08] [localhost] Port 445 open
+INFO - [2025-01-18-19:16:10] [Scan Started]
+INFO - [2025-01-18-19:16:10] <----------------------------------->
+INFO - [2025-01-18-19:16:10] Scanning ports 1-500 on localhost
+INFO - [2025-01-18-19:16:10] [Number of threads: 16]
+
+INFO - [2025-01-18-19:16:10] <----------------------------------->
+INFO - [2025-01-18-19:16:10] [Scan Results:]
+
+INFO - [2025-01-18-19:16:11] [localhost] Port 10 is open
+INFO - [2025-01-18-19:16:11] [localhost] Port 8 is open
+INFO - [2025-01-18-19:16:11] [localhost] Port 14 is open
+INFO - [2025-01-18-19:16:11] [localhost] Port 13 is open
+INFO - [2025-01-18-19:16:11] [localhost] Port 6 is open
+INFO - [2025-01-18-19:16:11] [localhost] Port 7 is open
+INFO - [2025-01-18-19:16:11] [localhost] Port 2 is open
+INFO - [2025-01-18-19:16:11] [localhost] Port 12 is open
+INFO - [2025-01-18-19:16:11] [localhost] Port 1 is open
+INFO - [2025-01-18-19:16:11] [localhost] Port 3 is open
+INFO - [2025-01-18-19:16:11] [localhost] Port 4 is open
+INFO - [2025-01-18-19:16:11] [localhost] Port 15 is open
+INFO - [2025-01-18-19:16:11] [localhost] Port 9 is open
+INFO - [2025-01-18-19:16:11] [localhost] Port 5 is open
+INFO - [2025-01-18-19:16:11] [localhost] Port 11 is open
+INFO - [2025-01-18-19:16:11] [localhost] Port 16 is open
+INFO - [2025-01-18-19:16:12] [localhost] Port 19 is open
+INFO - [2025-01-18-19:16:12] [localhost] Port 28 is open
+INFO - [2025-01-18-19:16:12] [localhost] Port 20 is open
+INFO - [2025-01-18-19:16:12] [localhost] Port 24 is open
+INFO - [2025-01-18-19:16:12] [localhost] Port 21 is open, FTP server running
+INFO - [2025-01-18-19:16:12] [localhost] Port 22 is open, SSH server running
+INFO - [2025-01-18-19:16:12] [localhost] Port 26 is open
+INFO - [2025-01-18-19:16:12] [localhost] Port 25 is open, SMTP server running
+INFO - [2025-01-18-19:16:12] [localhost] Port 29 is open
+INFO - [2025-01-18-19:16:12] [localhost] Port 30 is open
+INFO - [2025-01-18-19:16:12] [localhost] Port 31 is open
+INFO - [2025-01-18-19:16:12] [localhost] Port 23 is open
+INFO - [2025-01-18-19:16:12] [localhost] Port 18 is open
+INFO - [2025-01-18-19:16:12] [localhost] Port 27 is open
+INFO - [2025-01-18-19:16:12] [localhost] Port 17 is open
+INFO - [2025-01-18-19:16:12] [localhost] Port 32 is open
+INFO - [2025-01-18-19:16:13] [localhost] Port 33 is open
+INFO - [2025-01-18-19:16:13] [localhost] Port 34 is open
+INFO - [2025-01-18-19:16:13] [localhost] Port 36 is open
+INFO - [2025-01-18-19:16:13] [localhost] Port 35 is open
+INFO - [2025-01-18-19:16:13] [localhost] Port 38 is open
+INFO - [2025-01-18-19:16:13] [localhost] Port 37 is open
+INFO - [2025-01-18-19:16:13] [localhost] Port 44 is open
+INFO - [2025-01-18-19:16:13] [localhost] Port 41 is open
+INFO - [2025-01-18-19:16:13] [localhost] Port 39 is open
+INFO - [2025-01-18-19:16:13] [localhost] Port 46 is open
+INFO - [2025-01-18-19:16:13] [localhost] Port 48 is open
+INFO - [2025-01-18-19:16:13] [localhost] Port 47 is open
+INFO - [2025-01-18-19:16:13] [localhost] Port 43 is open
+INFO - [2025-01-18-19:16:13] [localhost] Port 45 is open
+INFO - [2025-01-18-19:16:13] [localhost] Port 42 is open
+INFO - [2025-01-18-19:16:13] [localhost] Port 40 is open
+INFO - [2025-01-18-19:16:14] [localhost] Port 50 is open
+INFO - [2025-01-18-19:16:14] [localhost] Port 51 is open
+INFO - [2025-01-18-19:16:14] [localhost] Port 53 is open
+INFO - [2025-01-18-19:16:14] [localhost] Port 54 is open
+INFO - [2025-01-18-19:16:14] [localhost] Port 52 is open
+INFO - [2025-01-18-19:16:14] [localhost] Port 49 is open
+INFO - [2025-01-18-19:16:14] [localhost] Port 56 is open
+INFO - [2025-01-18-19:16:14] [localhost] Port 59 is open
+INFO - [2025-01-18-19:16:14] [localhost] Port 58 is open
+INFO - [2025-01-18-19:16:14] [localhost] Port 61 is open
+INFO - [2025-01-18-19:16:14] [localhost] Port 63 is open
+INFO - [2025-01-18-19:16:14] [localhost] Port 55 is open
+INFO - [2025-01-18-19:16:14] [localhost] Port 62 is open
+INFO - [2025-01-18-19:16:14] [localhost] Port 57 is open
+INFO - [2025-01-18-19:16:14] [localhost] Port 60 is open
+INFO - [2025-01-18-19:16:14] [localhost] Port 64 is open
+INFO - [2025-01-18-19:16:15] [localhost] Port 65 is open
+INFO - [2025-01-18-19:16:15] [localhost] Port 67 is open
+INFO - [2025-01-18-19:16:15] [localhost] Port 68 is open
+INFO - [2025-01-18-19:16:15] [localhost] Port 69 is open
+INFO - [2025-01-18-19:16:15] [localhost] Port 70 is open
+INFO - [2025-01-18-19:16:15] [localhost] Port 66 is open
+INFO - [2025-01-18-19:16:15] [localhost] Port 71 is open
+INFO - [2025-01-18-19:16:15] [localhost] Port 74 is open
+INFO - [2025-01-18-19:16:15] [localhost] Port 73 is open
+INFO - [2025-01-18-19:16:15] [localhost] Port 77 is open
+INFO - [2025-01-18-19:16:15] [localhost] Port 76 is open
+INFO - [2025-01-18-19:16:15] [localhost] Port 72 is open
+INFO - [2025-01-18-19:16:15] [localhost] Port 78 is open
+INFO - [2025-01-18-19:16:15] [localhost] Port 75 is open
+INFO - [2025-01-18-19:16:15] [localhost] Port 80 is open, HTTP server running
+INFO - [2025-01-18-19:16:15] [localhost] Port 79 is open
+INFO - [2025-01-18-19:16:16] [localhost] Port 86 is open
+INFO - [2025-01-18-19:16:16] [localhost] Port 83 is open
+INFO - [2025-01-18-19:16:16] [localhost] Port 85 is open
+INFO - [2025-01-18-19:16:16] [localhost] Port 81 is open
+INFO - [2025-01-18-19:16:16] [localhost] Port 82 is open
+INFO - [2025-01-18-19:16:16] [localhost] Port 84 is open
+INFO - [2025-01-18-19:16:16] [localhost] Port 89 is open
+INFO - [2025-01-18-19:16:16] [localhost] Port 87 is open
+INFO - [2025-01-18-19:16:16] [localhost] Port 92 is open
+INFO - [2025-01-18-19:16:16] [localhost] Port 88 is open
+INFO - [2025-01-18-19:16:16] [localhost] Port 93 is open
+INFO - [2025-01-18-19:16:16] [localhost] Port 91 is open
+INFO - [2025-01-18-19:16:16] [localhost] Port 90 is open
+INFO - [2025-01-18-19:16:16] [localhost] Port 96 is open
+INFO - [2025-01-18-19:16:16] [localhost] Port 95 is open
+INFO - [2025-01-18-19:16:16] [localhost] Port 94 is open
+INFO - [2025-01-18-19:16:17] [localhost] Port 97 is open
+INFO - [2025-01-18-19:16:17] [localhost] Port 101 is open
+INFO - [2025-01-18-19:16:17] [localhost] Port 99 is open
+INFO - [2025-01-18-19:16:17] [localhost] Port 102 is open
+INFO - [2025-01-18-19:16:17] [localhost] Port 98 is open
+INFO - [2025-01-18-19:16:17] [localhost] Port 100 is open
+INFO - [2025-01-18-19:16:17] [localhost] Port 107 is open
+INFO - [2025-01-18-19:16:17] [localhost] Port 103 is open
+INFO - [2025-01-18-19:16:17] [localhost] Port 105 is open
+INFO - [2025-01-18-19:16:17] [localhost] Port 106 is open
+INFO - [2025-01-18-19:16:17] [localhost] Port 104 is open
+INFO - [2025-01-18-19:16:17] [localhost] Port 109 is open
+INFO - [2025-01-18-19:16:17] [localhost] Port 108 is open
+INFO - [2025-01-18-19:16:17] [localhost] Port 110 is open, POP3 server running
+INFO - [2025-01-18-19:16:17] [localhost] Port 112 is open
+INFO - [2025-01-18-19:16:17] [localhost] Port 111 is open
+INFO - [2025-01-18-19:16:18] [localhost] Port 114 is open
+INFO - [2025-01-18-19:16:18] [localhost] Port 115 is open
+INFO - [2025-01-18-19:16:18] [localhost] Port 117 is open
+INFO - [2025-01-18-19:16:18] [localhost] Port 118 is open
+INFO - [2025-01-18-19:16:18] [localhost] Port 113 is open
+INFO - [2025-01-18-19:16:18] [localhost] Port 116 is open
+INFO - [2025-01-18-19:16:18] [localhost] Port 119 is open
+INFO - [2025-01-18-19:16:18] [localhost] Port 121 is open
+INFO - [2025-01-18-19:16:18] [localhost] Port 122 is open
+INFO - [2025-01-18-19:16:18] [localhost] Port 120 is open
+INFO - [2025-01-18-19:16:18] [localhost] Port 123 is open
+INFO - [2025-01-18-19:16:18] [localhost] Port 125 is open
+INFO - [2025-01-18-19:16:18] [localhost] Port 124 is open
+WARNING - [2025-01-18-19:16:18] [localhost] Port 135 open
+INFO - [2025-01-18-19:16:18] [localhost] Port 137 is open
+INFO - [2025-01-18-19:16:18] [localhost] Port 135 is open
+INFO - [2025-01-18-19:16:18] [localhost] Port 126 is open
+INFO - [2025-01-18-19:16:18] [localhost] Port 127 is open
+INFO - [2025-01-18-19:16:18] [localhost] Port 128 is open
+INFO - [2025-01-18-19:16:19] [localhost] Port 132 is open
+INFO - [2025-01-18-19:16:19] [localhost] Port 130 is open
+INFO - [2025-01-18-19:16:19] [localhost] Port 129 is open
+INFO - [2025-01-18-19:16:19] [localhost] Port 134 is open
+INFO - [2025-01-18-19:16:19] [localhost] Port 131 is open
+INFO - [2025-01-18-19:16:19] [localhost] Port 133 is open
+INFO - [2025-01-18-19:16:19] [localhost] Port 136 is open
+INFO - [2025-01-18-19:16:19] [localhost] Port 138 is open
+INFO - [2025-01-18-19:16:19] [localhost] Port 139 is open
+INFO - [2025-01-18-19:16:19] [localhost] Port 140 is open
+INFO - [2025-01-18-19:16:19] [localhost] Port 146 is open
+INFO - [2025-01-18-19:16:19] [localhost] Port 142 is open
+INFO - [2025-01-18-19:16:19] [localhost] Port 145 is open
+INFO - [2025-01-18-19:16:19] [localhost] Port 144 is open
+INFO - [2025-01-18-19:16:19] [localhost] Port 143 is open, IMAP server running
+INFO - [2025-01-18-19:16:19] [localhost] Port 141 is open
+INFO - [2025-01-18-19:16:20] [localhost] Port 151 is open
+INFO - [2025-01-18-19:16:20] [localhost] Port 149 is open
+INFO - [2025-01-18-19:16:20] [localhost] Port 147 is open
+INFO - [2025-01-18-19:16:20] [localhost] Port 152 is open
+INFO - [2025-01-18-19:16:20] [localhost] Port 150 is open
+INFO - [2025-01-18-19:16:20] [localhost] Port 148 is open
+INFO - [2025-01-18-19:16:20] [localhost] Port 155 is open
+INFO - [2025-01-18-19:16:20] [localhost] Port 153 is open
+INFO - [2025-01-18-19:16:20] [localhost] Port 156 is open
+INFO - [2025-01-18-19:16:20] [localhost] Port 154 is open
+INFO - [2025-01-18-19:16:20] [localhost] Port 157 is open
+INFO - [2025-01-18-19:16:20] [localhost] Port 159 is open
+INFO - [2025-01-18-19:16:20] [localhost] Port 161 is open
+INFO - [2025-01-18-19:16:20] [localhost] Port 162 is open
+INFO - [2025-01-18-19:16:20] [localhost] Port 158 is open
+INFO - [2025-01-18-19:16:20] [localhost] Port 160 is open
+INFO - [2025-01-18-19:16:21] [localhost] Port 164 is open
+INFO - [2025-01-18-19:16:21] [localhost] Port 167 is open
+INFO - [2025-01-18-19:16:21] [localhost] Port 163 is open
+INFO - [2025-01-18-19:16:21] [localhost] Port 166 is open
+INFO - [2025-01-18-19:16:21] [localhost] Port 165 is open
+INFO - [2025-01-18-19:16:21] [localhost] Port 168 is open
+INFO - [2025-01-18-19:16:21] [localhost] Port 170 is open
+INFO - [2025-01-18-19:16:21] [localhost] Port 169 is open
+INFO - [2025-01-18-19:16:21] [localhost] Port 172 is open
+INFO - [2025-01-18-19:16:21] [localhost] Port 171 is open
+INFO - [2025-01-18-19:16:21] [localhost] Port 177 is open
+INFO - [2025-01-18-19:16:21] [localhost] Port 178 is open
+INFO - [2025-01-18-19:16:21] [localhost] Port 173 is open
+INFO - [2025-01-18-19:16:21] [localhost] Port 175 is open
+INFO - [2025-01-18-19:16:21] [localhost] Port 174 is open
+INFO - [2025-01-18-19:16:21] [localhost] Port 176 is open
+INFO - [2025-01-18-19:16:22] [localhost] Port 181 is open
+INFO - [2025-01-18-19:16:22] [localhost] Port 184 is open
+INFO - [2025-01-18-19:16:22] [localhost] Port 180 is open
+INFO - [2025-01-18-19:16:22] [localhost] Port 183 is open
+INFO - [2025-01-18-19:16:22] [localhost] Port 182 is open
+INFO - [2025-01-18-19:16:22] [localhost] Port 179 is open
+INFO - [2025-01-18-19:16:22] [localhost] Port 185 is open
+INFO - [2025-01-18-19:16:22] [localhost] Port 187 is open
+INFO - [2025-01-18-19:16:22] [localhost] Port 186 is open
+INFO - [2025-01-18-19:16:22] [localhost] Port 188 is open
+INFO - [2025-01-18-19:16:22] [localhost] Port 189 is open
+INFO - [2025-01-18-19:16:22] [localhost] Port 191 is open
+INFO - [2025-01-18-19:16:22] [localhost] Port 194 is open
+INFO - [2025-01-18-19:16:22] [localhost] Port 192 is open
+INFO - [2025-01-18-19:16:22] [localhost] Port 190 is open
+INFO - [2025-01-18-19:16:22] [localhost] Port 193 is open
+INFO - [2025-01-18-19:16:23] [localhost] Port 196 is open
+INFO - [2025-01-18-19:16:23] [localhost] Port 199 is open
+INFO - [2025-01-18-19:16:23] [localhost] Port 198 is open
+INFO - [2025-01-18-19:16:23] [localhost] Port 200 is open
+INFO - [2025-01-18-19:16:23] [localhost] Port 195 is open
+INFO - [2025-01-18-19:16:23] [localhost] Port 197 is open
+INFO - [2025-01-18-19:16:23] [localhost] Port 202 is open
+INFO - [2025-01-18-19:16:23] [localhost] Port 204 is open
+INFO - [2025-01-18-19:16:23] [localhost] Port 203 is open
+INFO - [2025-01-18-19:16:23] [localhost] Port 201 is open
+INFO - [2025-01-18-19:16:23] [localhost] Port 210 is open
+INFO - [2025-01-18-19:16:23] [localhost] Port 209 is open
+INFO - [2025-01-18-19:16:23] [localhost] Port 207 is open
+INFO - [2025-01-18-19:16:23] [localhost] Port 205 is open
+INFO - [2025-01-18-19:16:23] [localhost] Port 206 is open
+INFO - [2025-01-18-19:16:23] [localhost] Port 208 is open
+INFO - [2025-01-18-19:16:24] [localhost] Port 212 is open
+INFO - [2025-01-18-19:16:24] [localhost] Port 214 is open
+INFO - [2025-01-18-19:16:24] [localhost] Port 215 is open
+INFO - [2025-01-18-19:16:24] [localhost] Port 211 is open
+INFO - [2025-01-18-19:16:24] [localhost] Port 216 is open
+INFO - [2025-01-18-19:16:24] [localhost] Port 213 is open
+INFO - [2025-01-18-19:16:24] [localhost] Port 217 is open
+INFO - [2025-01-18-19:16:24] [localhost] Port 219 is open
+INFO - [2025-01-18-19:16:24] [localhost] Port 220 is open
+INFO - [2025-01-18-19:16:24] [localhost] Port 218 is open
+INFO - [2025-01-18-19:16:24] [localhost] Port 222 is open
+INFO - [2025-01-18-19:16:24] [localhost] Port 225 is open
+INFO - [2025-01-18-19:16:24] [localhost] Port 221 is open
+INFO - [2025-01-18-19:16:24] [localhost] Port 226 is open
+INFO - [2025-01-18-19:16:24] [localhost] Port 224 is open
+INFO - [2025-01-18-19:16:24] [localhost] Port 223 is open
+INFO - [2025-01-18-19:16:25] [localhost] Port 230 is open
+INFO - [2025-01-18-19:16:25] [localhost] Port 228 is open
+INFO - [2025-01-18-19:16:25] [localhost] Port 227 is open
+INFO - [2025-01-18-19:16:25] [localhost] Port 231 is open
+INFO - [2025-01-18-19:16:25] [localhost] Port 229 is open
+INFO - [2025-01-18-19:16:25] [localhost] Port 232 is open
+INFO - [2025-01-18-19:16:25] [localhost] Port 234 is open
+INFO - [2025-01-18-19:16:25] [localhost] Port 236 is open
+INFO - [2025-01-18-19:16:25] [localhost] Port 235 is open
+INFO - [2025-01-18-19:16:25] [localhost] Port 233 is open
+INFO - [2025-01-18-19:16:25] [localhost] Port 239 is open
+INFO - [2025-01-18-19:16:25] [localhost] Port 240 is open
+INFO - [2025-01-18-19:16:25] [localhost] Port 237 is open
+INFO - [2025-01-18-19:16:25] [localhost] Port 238 is open
+INFO - [2025-01-18-19:16:25] [localhost] Port 241 is open
+INFO - [2025-01-18-19:16:25] [localhost] Port 242 is open
+INFO - [2025-01-18-19:16:26] [localhost] Port 244 is open
+INFO - [2025-01-18-19:16:26] [localhost] Port 245 is open
+INFO - [2025-01-18-19:16:26] [localhost] Port 247 is open
+INFO - [2025-01-18-19:16:26] [localhost] Port 246 is open
+INFO - [2025-01-18-19:16:26] [localhost] Port 243 is open
+INFO - [2025-01-18-19:16:26] [localhost] Port 248 is open
+INFO - [2025-01-18-19:16:26] [localhost] Port 251 is open
+INFO - [2025-01-18-19:16:26] [localhost] Port 250 is open
+INFO - [2025-01-18-19:16:26] [localhost] Port 249 is open
+INFO - [2025-01-18-19:16:26] [localhost] Port 252 is open
+INFO - [2025-01-18-19:16:26] [localhost] Port 253 is open
+INFO - [2025-01-18-19:16:26] [localhost] Port 257 is open
+INFO - [2025-01-18-19:16:26] [localhost] Port 258 is open
+INFO - [2025-01-18-19:16:26] [localhost] Port 254 is open
+INFO - [2025-01-18-19:16:26] [localhost] Port 255 is open
+INFO - [2025-01-18-19:16:26] [localhost] Port 256 is open
+INFO - [2025-01-18-19:16:27] [localhost] Port 260 is open
+INFO - [2025-01-18-19:16:27] [localhost] Port 261 is open
+INFO - [2025-01-18-19:16:27] [localhost] Port 259 is open
+INFO - [2025-01-18-19:16:27] [localhost] Port 262 is open
+INFO - [2025-01-18-19:16:27] [localhost] Port 263 is open
+INFO - [2025-01-18-19:16:27] [localhost] Port 264 is open
+INFO - [2025-01-18-19:16:27] [localhost] Port 265 is open
+INFO - [2025-01-18-19:16:27] [localhost] Port 266 is open
+INFO - [2025-01-18-19:16:27] [localhost] Port 267 is open
+INFO - [2025-01-18-19:16:27] [localhost] Port 268 is open
+INFO - [2025-01-18-19:16:27] [localhost] Port 269 is open
+INFO - [2025-01-18-19:16:27] [localhost] Port 271 is open
+INFO - [2025-01-18-19:16:27] [localhost] Port 270 is open
+INFO - [2025-01-18-19:16:27] [localhost] Port 273 is open
+INFO - [2025-01-18-19:16:27] [localhost] Port 272 is open
+INFO - [2025-01-18-19:16:27] [localhost] Port 274 is open
+INFO - [2025-01-18-19:16:28] [localhost] Port 280 is open
+INFO - [2025-01-18-19:16:28] [localhost] Port 275 is open
+INFO - [2025-01-18-19:16:28] [localhost] Port 276 is open
+INFO - [2025-01-18-19:16:28] [localhost] Port 277 is open
+INFO - [2025-01-18-19:16:28] [localhost] Port 278 is open
+INFO - [2025-01-18-19:16:28] [localhost] Port 279 is open
+INFO - [2025-01-18-19:16:28] [localhost] Port 282 is open
+INFO - [2025-01-18-19:16:28] [localhost] Port 281 is open
+INFO - [2025-01-18-19:16:28] [localhost] Port 284 is open
+INFO - [2025-01-18-19:16:28] [localhost] Port 283 is open
+INFO - [2025-01-18-19:16:28] [localhost] Port 286 is open
+INFO - [2025-01-18-19:16:28] [localhost] Port 288 is open
+INFO - [2025-01-18-19:16:28] [localhost] Port 289 is open
+INFO - [2025-01-18-19:16:28] [localhost] Port 287 is open
+INFO - [2025-01-18-19:16:28] [localhost] Port 285 is open
+INFO - [2025-01-18-19:16:28] [localhost] Port 290 is open
+INFO - [2025-01-18-19:16:29] [localhost] Port 292 is open
+INFO - [2025-01-18-19:16:29] [localhost] Port 291 is open
+INFO - [2025-01-18-19:16:29] [localhost] Port 295 is open
+INFO - [2025-01-18-19:16:29] [localhost] Port 297 is open
+INFO - [2025-01-18-19:16:29] [localhost] Port 294 is open
+INFO - [2025-01-18-19:16:29] [localhost] Port 293 is open
+INFO - [2025-01-18-19:16:29] [localhost] Port 296 is open
+INFO - [2025-01-18-19:16:29] [localhost] Port 299 is open
+INFO - [2025-01-18-19:16:29] [localhost] Port 300 is open
+INFO - [2025-01-18-19:16:29] [localhost] Port 298 is open
+INFO - [2025-01-18-19:16:29] [localhost] Port 301 is open
+INFO - [2025-01-18-19:16:29] [localhost] Port 305 is open
+INFO - [2025-01-18-19:16:29] [localhost] Port 304 is open
+INFO - [2025-01-18-19:16:29] [localhost] Port 303 is open
+INFO - [2025-01-18-19:16:29] [localhost] Port 306 is open
+INFO - [2025-01-18-19:16:29] [localhost] Port 302 is open
+INFO - [2025-01-18-19:16:30] [localhost] Port 307 is open
+INFO - [2025-01-18-19:16:30] [localhost] Port 308 is open
+INFO - [2025-01-18-19:16:30] [localhost] Port 312 is open
+INFO - [2025-01-18-19:16:30] [localhost] Port 310 is open
+INFO - [2025-01-18-19:16:30] [localhost] Port 309 is open
+INFO - [2025-01-18-19:16:30] [localhost] Port 311 is open
+INFO - [2025-01-18-19:16:30] [localhost] Port 313 is open
+INFO - [2025-01-18-19:16:30] [localhost] Port 315 is open
+INFO - [2025-01-18-19:16:30] [localhost] Port 317 is open
+INFO - [2025-01-18-19:16:30] [localhost] Port 316 is open
+INFO - [2025-01-18-19:16:30] [localhost] Port 314 is open
+INFO - [2025-01-18-19:16:30] [localhost] Port 320 is open
+INFO - [2025-01-18-19:16:30] [localhost] Port 319 is open
+INFO - [2025-01-18-19:16:30] [localhost] Port 318 is open
+INFO - [2025-01-18-19:16:30] [localhost] Port 322 is open
+INFO - [2025-01-18-19:16:30] [localhost] Port 321 is open
+INFO - [2025-01-18-19:16:31] [localhost] Port 323 is open
+INFO - [2025-01-18-19:16:31] [localhost] Port 324 is open
+INFO - [2025-01-18-19:16:31] [localhost] Port 329 is open
+INFO - [2025-01-18-19:16:31] [localhost] Port 327 is open
+INFO - [2025-01-18-19:16:31] [localhost] Port 325 is open
+INFO - [2025-01-18-19:16:31] [localhost] Port 326 is open
+INFO - [2025-01-18-19:16:31] [localhost] Port 328 is open
+INFO - [2025-01-18-19:16:31] [localhost] Port 330 is open
+INFO - [2025-01-18-19:16:31] [localhost] Port 332 is open
+INFO - [2025-01-18-19:16:31] [localhost] Port 331 is open
+INFO - [2025-01-18-19:16:31] [localhost] Port 333 is open
+INFO - [2025-01-18-19:16:31] [localhost] Port 334 is open
+INFO - [2025-01-18-19:16:31] [localhost] Port 338 is open
+INFO - [2025-01-18-19:16:31] [localhost] Port 337 is open
+INFO - [2025-01-18-19:16:31] [localhost] Port 335 is open
+INFO - [2025-01-18-19:16:31] [localhost] Port 336 is open
+INFO - [2025-01-18-19:16:32] [localhost] Port 339 is open
+INFO - [2025-01-18-19:16:32] [localhost] Port 340 is open
+INFO - [2025-01-18-19:16:32] [localhost] Port 341 is open
+INFO - [2025-01-18-19:16:32] [localhost] Port 343 is open
+INFO - [2025-01-18-19:16:32] [localhost] Port 342 is open
+INFO - [2025-01-18-19:16:32] [localhost] Port 344 is open
+INFO - [2025-01-18-19:16:32] [localhost] Port 347 is open
+INFO - [2025-01-18-19:16:32] [localhost] Port 345 is open
+INFO - [2025-01-18-19:16:32] [localhost] Port 346 is open
+INFO - [2025-01-18-19:16:32] [localhost] Port 349 is open
+INFO - [2025-01-18-19:16:32] [localhost] Port 348 is open
+INFO - [2025-01-18-19:16:32] [localhost] Port 350 is open
+INFO - [2025-01-18-19:16:32] [localhost] Port 351 is open
+INFO - [2025-01-18-19:16:32] [localhost] Port 354 is open
+INFO - [2025-01-18-19:16:32] [localhost] Port 353 is open
+INFO - [2025-01-18-19:16:32] [localhost] Port 352 is open
+INFO - [2025-01-18-19:16:33] [localhost] Port 356 is open
+INFO - [2025-01-18-19:16:33] [localhost] Port 355 is open
+INFO - [2025-01-18-19:16:33] [localhost] Port 358 is open
+INFO - [2025-01-18-19:16:33] [localhost] Port 359 is open
+INFO - [2025-01-18-19:16:33] [localhost] Port 360 is open
+INFO - [2025-01-18-19:16:33] [localhost] Port 357 is open
+INFO - [2025-01-18-19:16:33] [localhost] Port 363 is open
+INFO - [2025-01-18-19:16:33] [localhost] Port 362 is open
+INFO - [2025-01-18-19:16:33] [localhost] Port 361 is open
+INFO - [2025-01-18-19:16:33] [localhost] Port 364 is open
+INFO - [2025-01-18-19:16:33] [localhost] Port 365 is open
+INFO - [2025-01-18-19:16:33] [localhost] Port 369 is open
+INFO - [2025-01-18-19:16:33] [localhost] Port 370 is open
+INFO - [2025-01-18-19:16:33] [localhost] Port 366 is open
+INFO - [2025-01-18-19:16:33] [localhost] Port 368 is open
+INFO - [2025-01-18-19:16:33] [localhost] Port 367 is open
+INFO - [2025-01-18-19:16:34] [localhost] Port 371 is open
+INFO - [2025-01-18-19:16:34] [localhost] Port 372 is open
+INFO - [2025-01-18-19:16:34] [localhost] Port 373 is open
+INFO - [2025-01-18-19:16:34] [localhost] Port 374 is open
+INFO - [2025-01-18-19:16:34] [localhost] Port 376 is open
+INFO - [2025-01-18-19:16:34] [localhost] Port 375 is open
+INFO - [2025-01-18-19:16:34] [localhost] Port 381 is open
+INFO - [2025-01-18-19:16:34] [localhost] Port 377 is open
+INFO - [2025-01-18-19:16:34] [localhost] Port 378 is open
+INFO - [2025-01-18-19:16:34] [localhost] Port 380 is open
+INFO - [2025-01-18-19:16:34] [localhost] Port 379 is open
+INFO - [2025-01-18-19:16:34] [localhost] Port 383 is open
+INFO - [2025-01-18-19:16:34] [localhost] Port 385 is open
+INFO - [2025-01-18-19:16:34] [localhost] Port 382 is open
+INFO - [2025-01-18-19:16:34] [localhost] Port 386 is open
+INFO - [2025-01-18-19:16:34] [localhost] Port 384 is open
+INFO - [2025-01-18-19:16:35] [localhost] Port 387 is open
+INFO - [2025-01-18-19:16:35] [localhost] Port 388 is open
+INFO - [2025-01-18-19:16:35] [localhost] Port 390 is open
+INFO - [2025-01-18-19:16:35] [localhost] Port 391 is open
+INFO - [2025-01-18-19:16:35] [localhost] Port 389 is open
+INFO - [2025-01-18-19:16:35] [localhost] Port 392 is open
+INFO - [2025-01-18-19:16:35] [localhost] Port 393 is open
+INFO - [2025-01-18-19:16:35] [localhost] Port 394 is open
+INFO - [2025-01-18-19:16:35] [localhost] Port 395 is open
+INFO - [2025-01-18-19:16:35] [localhost] Port 397 is open
+INFO - [2025-01-18-19:16:35] [localhost] Port 396 is open
+INFO - [2025-01-18-19:16:35] [localhost] Port 398 is open
+INFO - [2025-01-18-19:16:35] [localhost] Port 402 is open
+INFO - [2025-01-18-19:16:35] [localhost] Port 399 is open
+INFO - [2025-01-18-19:16:35] [localhost] Port 401 is open
+INFO - [2025-01-18-19:16:35] [localhost] Port 400 is open
+INFO - [2025-01-18-19:16:36] [localhost] Port 404 is open
+INFO - [2025-01-18-19:16:36] [localhost] Port 403 is open
+INFO - [2025-01-18-19:16:36] [localhost] Port 408 is open
+INFO - [2025-01-18-19:16:36] [localhost] Port 406 is open
+INFO - [2025-01-18-19:16:36] [localhost] Port 405 is open
+INFO - [2025-01-18-19:16:36] [localhost] Port 407 is open
+INFO - [2025-01-18-19:16:36] [localhost] Port 410 is open
+INFO - [2025-01-18-19:16:36] [localhost] Port 412 is open
+INFO - [2025-01-18-19:16:36] [localhost] Port 409 is open
+INFO - [2025-01-18-19:16:36] [localhost] Port 413 is open
+INFO - [2025-01-18-19:16:36] [localhost] Port 411 is open
+INFO - [2025-01-18-19:16:36] [localhost] Port 415 is open
+INFO - [2025-01-18-19:16:36] [localhost] Port 416 is open
+INFO - [2025-01-18-19:16:36] [localhost] Port 418 is open
+INFO - [2025-01-18-19:16:36] [localhost] Port 417 is open
+INFO - [2025-01-18-19:16:36] [localhost] Port 414 is open
+INFO - [2025-01-18-19:16:37] [localhost] Port 419 is open
+INFO - [2025-01-18-19:16:37] [localhost] Port 420 is open
+INFO - [2025-01-18-19:16:37] [localhost] Port 423 is open
+INFO - [2025-01-18-19:16:37] [localhost] Port 421 is open
+INFO - [2025-01-18-19:16:37] [localhost] Port 424 is open
+INFO - [2025-01-18-19:16:37] [localhost] Port 422 is open
+INFO - [2025-01-18-19:16:37] [localhost] Port 425 is open
+INFO - [2025-01-18-19:16:37] [localhost] Port 426 is open
+INFO - [2025-01-18-19:16:37] [localhost] Port 427 is open
+INFO - [2025-01-18-19:16:37] [localhost] Port 428 is open
+INFO - [2025-01-18-19:16:37] [localhost] Port 431 is open
+INFO - [2025-01-18-19:16:37] [localhost] Port 430 is open
+INFO - [2025-01-18-19:16:37] [localhost] Port 432 is open
+INFO - [2025-01-18-19:16:37] [localhost] Port 429 is open
+WARNING - [2025-01-18-19:16:37] [localhost] Port 445 open
+INFO - [2025-01-18-19:16:37] [localhost] Port 445 is open
+INFO - [2025-01-18-19:16:37] [localhost] Port 434 is open
+INFO - [2025-01-18-19:16:37] [localhost] Port 433 is open
+INFO - [2025-01-18-19:16:38] [localhost] Port 435 is open
+INFO - [2025-01-18-19:16:38] [localhost] Port 436 is open
+INFO - [2025-01-18-19:16:38] [localhost] Port 437 is open
+INFO - [2025-01-18-19:16:38] [localhost] Port 438 is open
+INFO - [2025-01-18-19:16:38] [localhost] Port 439 is open
+INFO - [2025-01-18-19:16:38] [localhost] Port 440 is open
+INFO - [2025-01-18-19:16:38] [localhost] Port 444 is open
+INFO - [2025-01-18-19:16:38] [localhost] Port 441 is open
+INFO - [2025-01-18-19:16:38] [localhost] Port 443 is open, HTTPS server running
+INFO - [2025-01-18-19:16:38] [localhost] Port 442 is open
+INFO - [2025-01-18-19:16:38] [localhost] Port 446 is open
+INFO - [2025-01-18-19:16:38] [localhost] Port 447 is open
+INFO - [2025-01-18-19:16:38] [localhost] Port 449 is open
+INFO - [2025-01-18-19:16:38] [localhost] Port 448 is open
+INFO - [2025-01-18-19:16:38] [localhost] Port 450 is open
+INFO - [2025-01-18-19:16:38] [localhost] Port 451 is open
+INFO - [2025-01-18-19:16:39] [localhost] Port 452 is open
+INFO - [2025-01-18-19:16:39] [localhost] Port 453 is open
+INFO - [2025-01-18-19:16:39] [localhost] Port 454 is open
+INFO - [2025-01-18-19:16:39] [localhost] Port 456 is open
+INFO - [2025-01-18-19:16:39] [localhost] Port 457 is open
+INFO - [2025-01-18-19:16:39] [localhost] Port 455 is open
+INFO - [2025-01-18-19:16:39] [localhost] Port 459 is open
+INFO - [2025-01-18-19:16:39] [localhost] Port 460 is open
+INFO - [2025-01-18-19:16:39] [localhost] Port 458 is open
+INFO - [2025-01-18-19:16:39] [localhost] Port 461 is open
+INFO - [2025-01-18-19:16:39] [localhost] Port 462 is open
+INFO - [2025-01-18-19:16:39] [localhost] Port 464 is open
+INFO - [2025-01-18-19:16:39] [localhost] Port 463 is open
+INFO - [2025-01-18-19:16:39] [localhost] Port 465 is open
+INFO - [2025-01-18-19:16:39] [localhost] Port 467 is open
+INFO - [2025-01-18-19:16:39] [localhost] Port 466 is open
+INFO - [2025-01-18-19:16:40] [localhost] Port 469 is open
+INFO - [2025-01-18-19:16:40] [localhost] Port 468 is open
+INFO - [2025-01-18-19:16:40] [localhost] Port 472 is open
+INFO - [2025-01-18-19:16:40] [localhost] Port 471 is open
+INFO - [2025-01-18-19:16:40] [localhost] Port 473 is open
+INFO - [2025-01-18-19:16:40] [localhost] Port 470 is open
+INFO - [2025-01-18-19:16:40] [localhost] Port 475 is open
+INFO - [2025-01-18-19:16:40] [localhost] Port 476 is open
+INFO - [2025-01-18-19:16:40] [localhost] Port 477 is open
+INFO - [2025-01-18-19:16:40] [localhost] Port 474 is open
+INFO - [2025-01-18-19:16:40] [localhost] Port 479 is open
+INFO - [2025-01-18-19:16:40] [localhost] Port 478 is open
+INFO - [2025-01-18-19:16:40] [localhost] Port 480 is open
+INFO - [2025-01-18-19:16:40] [localhost] Port 481 is open
+INFO - [2025-01-18-19:16:40] [localhost] Port 483 is open
+INFO - [2025-01-18-19:16:40] [localhost] Port 482 is open
+INFO - [2025-01-18-19:16:41] [localhost] Port 485 is open
+INFO - [2025-01-18-19:16:41] [localhost] Port 484 is open
+INFO - [2025-01-18-19:16:41] [localhost] Port 487 is open
+INFO - [2025-01-18-19:16:41] [localhost] Port 486 is open
+INFO - [2025-01-18-19:16:41] [localhost] Port 489 is open
+INFO - [2025-01-18-19:16:41] [localhost] Port 488 is open
+INFO - [2025-01-18-19:16:41] [localhost] Port 491 is open
+INFO - [2025-01-18-19:16:41] [localhost] Port 490 is open
+INFO - [2025-01-18-19:16:41] [localhost] Port 493 is open
+INFO - [2025-01-18-19:16:41] [localhost] Port 492 is open
+INFO - [2025-01-18-19:16:41] [localhost] Port 494 is open
+INFO - [2025-01-18-19:16:41] [localhost] Port 496 is open
+INFO - [2025-01-18-19:16:41] [localhost] Port 495 is open
+INFO - [2025-01-18-19:16:41] [localhost] Port 497 is open
+INFO - [2025-01-18-19:16:41] [localhost] Port 499 is open
+INFO - [2025-01-18-19:16:41] [localhost] Port 498 is open
+INFO - [2025-01-18-19:16:42] [localhost] Port 500 is open
+INFO - [2025-01-18-19:18:31] [Scan Started]
+INFO - [2025-01-18-19:18:31] <----------------------------------->
+INFO - [2025-01-18-19:18:31] Scanning ports 100-200 on localhost
+INFO - [2025-01-18-19:18:31] [Number of threads: 16]
+
+INFO - [2025-01-18-19:18:31] <----------------------------------->
+INFO - [2025-01-18-19:18:31] [Scan Results:]
+
+ERROR - [2025-01-18-19:18:31] Error scanning port 102: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:31] Error scanning port 106: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:31] Error scanning port 103: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:31] Error scanning port 101: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:31] Error scanning port 104: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:31] Error scanning port 112: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:31] Error scanning port 105: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:31] Error scanning port 111: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:31] Error scanning port 110: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:31] Error scanning port 108: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:31] Error scanning port 109: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:31] Error scanning port 114: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:31] Error scanning port 115: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:31] Error scanning port 113: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:31] Error scanning port 107: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:31] Error scanning port 100: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:32] Error scanning port 119: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:32] Error scanning port 118: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:32] Error scanning port 121: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:32] Error scanning port 123: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:32] Error scanning port 117: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:32] Error scanning port 116: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:32] Error scanning port 122: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:32] Error scanning port 124: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:32] Error scanning port 120: cannot access local variable 'port_descriptions' where it is not associated with a value
+WARNING - [2025-01-18-19:18:33] [localhost] Port 135 open
+ERROR - [2025-01-18-19:18:33] Error scanning port 137: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:32] Error scanning port 127: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:32] Error scanning port 129: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:32] Error scanning port 128: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:32] Error scanning port 130: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:32] Error scanning port 126: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:32] Error scanning port 131: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:32] Error scanning port 125: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:33] Error scanning port 133: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:33] Error scanning port 134: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:33] Error scanning port 132: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:33] Error scanning port 138: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:33] Error scanning port 141: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:33] Error scanning port 139: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:33] Error scanning port 144: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:33] Error scanning port 140: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:33] Error scanning port 142: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:33] Error scanning port 143: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:33] Error scanning port 136: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:33] Error scanning port 146: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:33] Error scanning port 147: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:33] Error scanning port 148: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:33] Error scanning port 149: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:33] Error scanning port 145: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:34] Error scanning port 152: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:34] Error scanning port 150: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:34] Error scanning port 151: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:34] Error scanning port 154: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:34] Error scanning port 153: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:34] Error scanning port 155: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:34] Error scanning port 156: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:34] Error scanning port 160: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:34] Error scanning port 157: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:34] Error scanning port 163: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:34] Error scanning port 158: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:34] Error scanning port 162: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:34] Error scanning port 159: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:34] Error scanning port 161: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:34] Error scanning port 164: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:34] Error scanning port 165: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:35] Error scanning port 166: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:35] Error scanning port 168: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:35] Error scanning port 167: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:35] Error scanning port 170: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:35] Error scanning port 169: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:35] Error scanning port 171: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:35] Error scanning port 172: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:35] Error scanning port 174: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:35] Error scanning port 173: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:35] Error scanning port 175: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:35] Error scanning port 177: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:35] Error scanning port 176: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:35] Error scanning port 178: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:35] Error scanning port 179: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:35] Error scanning port 181: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:35] Error scanning port 180: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:36] Error scanning port 182: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:36] Error scanning port 183: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:36] Error scanning port 184: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:36] Error scanning port 185: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:36] Error scanning port 188: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:36] Error scanning port 187: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:36] Error scanning port 186: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:36] Error scanning port 190: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:36] Error scanning port 192: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:36] Error scanning port 193: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:36] Error scanning port 191: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:36] Error scanning port 189: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:36] Error scanning port 196: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:36] Error scanning port 194: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:36] Error scanning port 195: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:36] Error scanning port 197: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:37] Error scanning port 198: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:37] Error scanning port 199: cannot access local variable 'port_descriptions' where it is not associated with a value
+ERROR - [2025-01-18-19:18:37] Error scanning port 200: cannot access local variable 'port_descriptions' where it is not associated with a value
+INFO - [2025-01-18-19:21:48] [Scan Started]
+INFO - [2025-01-18-19:21:48] <----------------------------------->
+INFO - [2025-01-18-19:21:48] Scanning ports 100-200 on localhost
+INFO - [2025-01-18-19:21:48] [Number of threads: 16]
+
+INFO - [2025-01-18-19:21:48] <----------------------------------->
+INFO - [2025-01-18-19:21:48] [Scan Results:]
+
+INFO - [2025-01-18-19:21:49] [localhost] Port 110 is open, POP3 server running
+WARNING - [2025-01-18-19:21:50] [localhost] Port 135 open
+INFO - [2025-01-18-19:21:51] [localhost] Port 143 is open, IMAP server running
+INFO - [2025-01-18-19:24:01] [Scan Started]
+INFO - [2025-01-18-19:24:01] <----------------------------------->
+INFO - [2025-01-18-19:24:01] Scanning ports 100-200 on localhost
+INFO - [2025-01-18-19:24:01] [Number of threads: 16]
+
+INFO - [2025-01-18-19:24:01] <----------------------------------->
+INFO - [2025-01-18-19:24:01] [Scan Results:]
+
+WARNING - [2025-01-18-19:24:03] [localhost] Port 135 open
+INFO - [2025-01-18-19:24:22] [Scan Started]
+INFO - [2025-01-18-19:24:22] <----------------------------------->
+INFO - [2025-01-18-19:24:22] Scanning ports 100-500 on localhost
+INFO - [2025-01-18-19:24:22] [Number of threads: 16]
+
+INFO - [2025-01-18-19:24:22] <----------------------------------->
+INFO - [2025-01-18-19:24:22] [Scan Results:]
+
+WARNING - [2025-01-18-19:24:24] [localhost] Port 135 open
+WARNING - [2025-01-18-19:24:43] [localhost] Port 445 open
+INFO - [2025-01-18-19:25:11] [Scan Started]
+INFO - [2025-01-18-19:25:11] <----------------------------------->
+INFO - [2025-01-18-19:25:11] Scanning ports 100-500 on localhost
+INFO - [2025-01-18-19:25:11] [Number of threads: 16]
+
+INFO - [2025-01-18-19:25:11] <----------------------------------->
+INFO - [2025-01-18-19:25:11] [Scan Results:]
+
+WARNING - [2025-01-18-19:25:12] [localhost] Port 110 closed, POP3 server running
+WARNING - [2025-01-18-19:25:13] [localhost] Port 135 open
+WARNING - [2025-01-18-19:25:14] [localhost] Port 143 closed, IMAP server running
+WARNING - [2025-01-18-19:25:32] [localhost] Port 445 open
+WARNING - [2025-01-18-19:25:33] [localhost] Port 443 closed, HTTPS server running
+INFO - [2025-01-18-19:30:22] [Scan Started]
+INFO - [2025-01-18-19:30:22] <----------------------------------->
+INFO - [2025-01-18-19:30:22] Scanning ports 100-200 on localhost
+INFO - [2025-01-18-19:30:22] [Number of threads: 16]
+
+INFO - [2025-01-18-19:30:22] <----------------------------------->
+INFO - [2025-01-18-19:30:22] [Scan Results:]
+
+ERROR - [2025-01-18-19:30:24] Error scanning port 135: 135
+INFO - [2025-01-18-19:31:33] [Scan Started]
+INFO - [2025-01-18-19:31:33] <----------------------------------->
+INFO - [2025-01-18-19:31:33] Scanning ports 100-220 on localhost
+INFO - [2025-01-18-19:31:33] [Number of threads: 16]
+
+INFO - [2025-01-18-19:31:33] <----------------------------------->
+INFO - [2025-01-18-19:31:33] [Scan Results:]
+
+WARNING - [2025-01-18-19:31:35] [localhost] Port 135 open, Unknown
+INFO - [2025-01-18-19:32:38] [Scan Started]
+INFO - [2025-01-18-19:32:38] <----------------------------------->
+INFO - [2025-01-18-19:32:38] Scanning ports 100-200 on localhost
+INFO - [2025-01-18-19:32:38] [Number of threads: 16]
+
+INFO - [2025-01-18-19:32:38] <----------------------------------->
+INFO - [2025-01-18-19:32:38] [Scan Results:]
+
+WARNING - [2025-01-18-19:32:40] [localhost] Port 135 open, Microsoft RPC server running
+INFO - [2025-01-18-19:32:53] [Scan Started]
+INFO - [2025-01-18-19:32:53] <----------------------------------->
+INFO - [2025-01-18-19:32:53] Scanning ports 100-500 on localhost
+INFO - [2025-01-18-19:32:53] [Number of threads: 16]
+
+INFO - [2025-01-18-19:32:53] <----------------------------------->
+INFO - [2025-01-18-19:32:53] [Scan Results:]
+
+WARNING - [2025-01-18-19:32:55] [localhost] Port 135 open, Microsoft RPC server running
+WARNING - [2025-01-18-19:33:14] [localhost] Port 445 open, 
+INFO - [2025-01-18-20:06:20] [Scan Started]
+INFO - [2025-01-18-20:06:20] <----------------------------------->
+INFO - [2025-01-18-20:06:20] Scanning ports 100-200 on localhost
+INFO - [2025-01-18-20:06:20] [Number of threads: 16]
+
+INFO - [2025-01-18-20:06:20] <----------------------------------->
+INFO - [2025-01-18-20:06:20] [Scan Results:]
+
+WARNING - [2025-01-18-20:06:22] [localhost] Port 135 open
+INFO - [2025-01-18-20:18:51] [Scan Started]
+INFO - [2025-01-18-20:18:51] <----------------------------------->
+INFO - [2025-01-18-20:18:51] Scanning ports 100-200 on localhost
+INFO - [2025-01-18-20:18:51] [Number of threads: 16]
+
+INFO - [2025-01-18-20:18:51] <----------------------------------->
+INFO - [2025-01-18-20:18:51] [Scan Results:]
+
+WARNING - [2025-01-18-20:18:53] [localhost] Port 135 open, {'ftp': 'File Transfer Protocol [Control]', 'ftp_udp': 'File Transfer Protocol [Control]', 'ftp_sctp': 'FTP', 'ssh': 'The Secure Shell (SSH) Protocol', 'ssh_udp': 'The Secure Shell (SSH) Protocol', 'ssh_sctp': 'SSH', 'telnet': 'Telnet', 'telnet_udp': 'Telnet', 'smtp': 'Simple Mail Transfer', 'smtp_udp': 'Simple Mail Transfer', 'dns': 'Domain Name System', 'dns_udp': 'Domain Name System', 'http': 'World Wide Web HTTP', 'http_udp': 'World Wide Web HTTP', 'pop3': 'Post Office Protocol - Version 3', 'pop3_udp': 'Post Office Protocol - Version 3', 'imap': 'Internet Message Access Protocol', 'imap_udp': 'Internet Message Access Protocol', 'snmp': 'Simple Network Management Protocol', 'ldap': 'Lightweight Directory Access Protocol', 'ldap_udp': 'Lightweight Directory Access Protocol', 'https': 'HTTP protocol over TLS/SSL', 'https_udp': 'HTTP protocol over TLS/SSL', 'rdp': 'Remote Desktop Protocol'}
+INFO - [2025-01-18-20:21:10] [Scan Started]
+INFO - [2025-01-18-20:21:10] <----------------------------------->
+INFO - [2025-01-18-20:21:10] Scanning ports 100-200 on localhost
+INFO - [2025-01-18-20:21:10] [Number of threads: 16]
+
+INFO - [2025-01-18-20:21:10] <----------------------------------->
+INFO - [2025-01-18-20:21:10] [Scan Results:]
+
+WARNING - [2025-01-18-20:21:12] [localhost] Port 135 open, 
+INFO - [2025-01-18-20:22:28] [Scan Started]
+INFO - [2025-01-18-20:22:28] <----------------------------------->
+INFO - [2025-01-18-20:22:28] Scanning ports 100-200 on localhost
+INFO - [2025-01-18-20:22:28] [Number of threads: 16]
+
+INFO - [2025-01-18-20:22:28] <----------------------------------->
+INFO - [2025-01-18-20:22:28] [Scan Results:]
+
+WARNING - [2025-01-18-20:22:30] [localhost] Port 135 open, 
+INFO - [2025-01-18-20:24:16] [Scan Started]
+INFO - [2025-01-18-20:24:16] <----------------------------------->
+INFO - [2025-01-18-20:24:16] Scanning ports 100-200 on localhost
+INFO - [2025-01-18-20:24:16] [Number of threads: 16]
+
+INFO - [2025-01-18-20:24:16] <----------------------------------->
+INFO - [2025-01-18-20:24:16] [Scan Results:]
+
+WARNING - [2025-01-18-20:24:18] [localhost] Port 135 open, {'ftp': 'File Transfer Protocol [Control]', 'ftp_udp': 'File Transfer Protocol [Control]', 'ftp_sctp': 'FTP', 'ssh': 'The Secure Shell (SSH) Protocol', 'ssh_udp': 'The Secure Shell (SSH) Protocol', 'ssh_sctp': 'SSH', 'telnet': 'Telnet', 'telnet_udp': 'Telnet', 'smtp': 'Simple Mail Transfer', 'smtp_udp': 'Simple Mail Transfer', 'dns': 'Domain Name System', 'dns_udp': 'Domain Name System', 'http': 'World Wide Web HTTP', 'http_udp': 'World Wide Web HTTP', 'pop3': 'Post Office Protocol - Version 3', 'pop3_udp': 'Post Office Protocol - Version 3', 'imap': 'Internet Message Access Protocol', 'imap_udp': 'Internet Message Access Protocol', 'snmp': 'Simple Network Management Protocol', 'ldap': 'Lightweight Directory Access Protocol', 'ldap_udp': 'Lightweight Directory Access Protocol', 'https': 'HTTP protocol over TLS/SSL', 'https_udp': 'HTTP protocol over TLS/SSL', 'rdp': 'Remote Desktop Protocol'}
+INFO - [2025-01-18-20:28:12] [Scan Started]
+INFO - [2025-01-18-20:28:12] <----------------------------------->
+INFO - [2025-01-18-20:28:12] Scanning ports 100-200 on localhost
+INFO - [2025-01-18-20:28:12] [Number of threads: 16]
+
+INFO - [2025-01-18-20:28:12] <----------------------------------->
+INFO - [2025-01-18-20:28:12] [Scan Results:]
+
+WARNING - [2025-01-18-20:28:14] [localhost] Port 135 open, {'ftp': 'File Transfer Protocol [Control]', 'ftp_udp': 'File Transfer Protocol [Control]', 'ftp_sctp': 'FTP', 'ssh': 'The Secure Shell (SSH) Protocol', 'ssh_udp': 'The Secure Shell (SSH) Protocol', 'ssh_sctp': 'SSH', 'telnet': 'Telnet', 'telnet_udp': 'Telnet', 'smtp': 'Simple Mail Transfer', 'smtp_udp': 'Simple Mail Transfer', 'dns': 'Domain Name System', 'dns_udp': 'Domain Name System', 'http': 'World Wide Web HTTP', 'http_udp': 'World Wide Web HTTP', 'pop3': 'Post Office Protocol - Version 3', 'pop3_udp': 'Post Office Protocol - Version 3', 'imap': 'Internet Message Access Protocol', 'imap_udp': 'Internet Message Access Protocol', 'snmp': 'Simple Network Management Protocol', 'ldap': 'Lightweight Directory Access Protocol', 'ldap_udp': 'Lightweight Directory Access Protocol', 'https': 'HTTP protocol over TLS/SSL', 'https_udp': 'HTTP protocol over TLS/SSL', 'rdp': 'Remote Desktop Protocol'}
+INFO - [2025-01-18-20:28:52] [Scan Started]
+INFO - [2025-01-18-20:28:52] <----------------------------------->
+INFO - [2025-01-18-20:28:52] Scanning ports 100-200 on localhost
+INFO - [2025-01-18-20:28:52] [Number of threads: 16]
+
+INFO - [2025-01-18-20:28:52] <----------------------------------->
+INFO - [2025-01-18-20:28:52] [Scan Results:]
+
+ERROR - [2025-01-18-20:28:54] Error scanning port 135: unhashable type: 'dict'
+INFO - [2025-01-18-20:29:34] [Scan Started]
+INFO - [2025-01-18-20:29:34] <----------------------------------->
+INFO - [2025-01-18-20:29:34] Scanning ports 100-200 on localhost
+INFO - [2025-01-18-20:29:34] [Number of threads: 16]
+
+INFO - [2025-01-18-20:29:34] <----------------------------------->
+INFO - [2025-01-18-20:29:34] [Scan Results:]
+
+ERROR - [2025-01-18-20:29:34] Error scanning port 100: 'description'
+ERROR - [2025-01-18-20:29:34] Error scanning port 106: 'description'
+ERROR - [2025-01-18-20:29:34] Error scanning port 102: 'description'
+ERROR - [2025-01-18-20:29:34] Error scanning port 110: 'description'
+ERROR - [2025-01-18-20:29:34] Error scanning port 108: 'description'
+ERROR - [2025-01-18-20:29:34] Error scanning port 111: 'description'
+ERROR - [2025-01-18-20:29:34] Error scanning port 101: 'description'
+ERROR - [2025-01-18-20:29:34] Error scanning port 105: 'description'
+ERROR - [2025-01-18-20:29:34] Error scanning port 112: 'description'
+ERROR - [2025-01-18-20:29:34] Error scanning port 104: 'description'
+ERROR - [2025-01-18-20:29:34] Error scanning port 109: 'description'
+ERROR - [2025-01-18-20:29:35] Error scanning port 113: 'description'
+ERROR - [2025-01-18-20:29:35] Error scanning port 115: 'description'
+ERROR - [2025-01-18-20:29:35] Error scanning port 114: 'description'
+ERROR - [2025-01-18-20:29:34] Error scanning port 107: 'description'
+ERROR - [2025-01-18-20:29:34] Error scanning port 103: 'description'
+ERROR - [2025-01-18-20:29:36] Error scanning port 118: 'description'
+ERROR - [2025-01-18-20:29:36] Error scanning port 119: 'description'
+ERROR - [2025-01-18-20:29:36] Error scanning port 122: 'description'
+ERROR - [2025-01-18-20:29:36] Error scanning port 117: 'description'
+ERROR - [2025-01-18-20:29:36] Error scanning port 121: 'description'
+ERROR - [2025-01-18-20:29:36] Error scanning port 123: 'description'
+ERROR - [2025-01-18-20:29:36] Error scanning port 124: 'description'
+ERROR - [2025-01-18-20:29:36] Error scanning port 126: 'description'
+ERROR - [2025-01-18-20:29:36] Error scanning port 125: 'description'
+ERROR - [2025-01-18-20:29:36] Error scanning port 127: 'description'
+ERROR - [2025-01-18-20:29:36] Error scanning port 128: 'description'
+ERROR - [2025-01-18-20:29:36] Error scanning port 129: 'description'
+ERROR - [2025-01-18-20:29:36] Error scanning port 130: 'description'
+ERROR - [2025-01-18-20:29:36] Error scanning port 131: 'description'
+ERROR - [2025-01-18-20:29:36] Error scanning port 120: 'description'
+ERROR - [2025-01-18-20:29:36] Error scanning port 116: 'description'
+ERROR - [2025-01-18-20:29:37] Error scanning port 135: 'description'
+ERROR - [2025-01-18-20:29:37] Error scanning port 137: 'description'
+ERROR - [2025-01-18-20:29:37] Error scanning port 133: 'description'
+ERROR - [2025-01-18-20:29:37] Error scanning port 136: 'description'
+ERROR - [2025-01-18-20:29:37] Error scanning port 134: 'description'
+ERROR - [2025-01-18-20:29:37] Error scanning port 138: 'description'
+ERROR - [2025-01-18-20:29:37] Error scanning port 132: 'description'
+ERROR - [2025-01-18-20:29:37] Error scanning port 140: 'description'
+ERROR - [2025-01-18-20:29:37] Error scanning port 142: 'description'
+ERROR - [2025-01-18-20:29:37] Error scanning port 139: 'description'
+ERROR - [2025-01-18-20:29:37] Error scanning port 148: 'description'
+ERROR - [2025-01-18-20:29:37] Error scanning port 146: 'description'
+ERROR - [2025-01-18-20:29:37] Error scanning port 143: 'description'
+ERROR - [2025-01-18-20:29:37] Error scanning port 147: 'description'
+ERROR - [2025-01-18-20:29:37] Error scanning port 141: 'description'
+ERROR - [2025-01-18-20:29:37] Error scanning port 144: 'description'
+ERROR - [2025-01-18-20:29:37] Error scanning port 145: 'description'
+ERROR - [2025-01-18-20:29:37] Error scanning port 149: 'description'
+ERROR - [2025-01-18-20:29:38] Error scanning port 150: 'description'
+ERROR - [2025-01-18-20:29:38] Error scanning port 153: 'description'
+ERROR - [2025-01-18-20:29:38] Error scanning port 151: 'description'
+ERROR - [2025-01-18-20:29:38] Error scanning port 154: 'description'
+ERROR - [2025-01-18-20:29:38] Error scanning port 152: 'description'
+ERROR - [2025-01-18-20:29:38] Error scanning port 158: 'description'
+ERROR - [2025-01-18-20:29:38] Error scanning port 157: 'description'
+ERROR - [2025-01-18-20:29:38] Error scanning port 160: 'description'
+ERROR - [2025-01-18-20:29:38] Error scanning port 163: 'description'
+ERROR - [2025-01-18-20:29:38] Error scanning port 161: 'description'
+ERROR - [2025-01-18-20:29:38] Error scanning port 162: 'description'
+ERROR - [2025-01-18-20:29:38] Error scanning port 159: 'description'
+ERROR - [2025-01-18-20:29:38] Error scanning port 156: 'description'
+ERROR - [2025-01-18-20:29:38] Error scanning port 155: 'description'
+ERROR - [2025-01-18-20:29:38] Error scanning port 164: 'description'
+ERROR - [2025-01-18-20:29:38] Error scanning port 165: 'description'
+ERROR - [2025-01-18-20:29:39] Error scanning port 168: 'description'
+ERROR - [2025-01-18-20:29:39] Error scanning port 169: 'description'
+ERROR - [2025-01-18-20:29:39] Error scanning port 167: 'description'
+ERROR - [2025-01-18-20:29:39] Error scanning port 166: 'description'
+ERROR - [2025-01-18-20:29:39] Error scanning port 170: 'description'
+ERROR - [2025-01-18-20:29:39] Error scanning port 172: 'description'
+ERROR - [2025-01-18-20:29:39] Error scanning port 173: 'description'
+ERROR - [2025-01-18-20:29:39] Error scanning port 171: 'description'
+ERROR - [2025-01-18-20:29:39] Error scanning port 174: 'description'
+ERROR - [2025-01-18-20:29:39] Error scanning port 175: 'description'
+ERROR - [2025-01-18-20:29:39] Error scanning port 178: 'description'
+ERROR - [2025-01-18-20:29:39] Error scanning port 176: 'description'
+ERROR - [2025-01-18-20:29:39] Error scanning port 180: 'description'
+ERROR - [2025-01-18-20:29:39] Error scanning port 177: 'description'
+ERROR - [2025-01-18-20:29:39] Error scanning port 181: 'description'
+ERROR - [2025-01-18-20:29:39] Error scanning port 179: 'description'
+ERROR - [2025-01-18-20:29:40] Error scanning port 182: 'description'
+ERROR - [2025-01-18-20:29:40] Error scanning port 184: 'description'
+ERROR - [2025-01-18-20:29:40] Error scanning port 185: 'description'
+ERROR - [2025-01-18-20:29:40] Error scanning port 186: 'description'
+ERROR - [2025-01-18-20:29:40] Error scanning port 183: 'description'
+ERROR - [2025-01-18-20:29:40] Error scanning port 188: 'description'
+ERROR - [2025-01-18-20:29:40] Error scanning port 189: 'description'
+ERROR - [2025-01-18-20:29:40] Error scanning port 187: 'description'
+ERROR - [2025-01-18-20:29:40] Error scanning port 190: 'description'
+ERROR - [2025-01-18-20:29:40] Error scanning port 194: 'description'
+ERROR - [2025-01-18-20:29:40] Error scanning port 193: 'description'
+ERROR - [2025-01-18-20:29:40] Error scanning port 195: 'description'
+ERROR - [2025-01-18-20:29:40] Error scanning port 191: 'description'
+ERROR - [2025-01-18-20:29:40] Error scanning port 197: 'description'
+ERROR - [2025-01-18-20:29:40] Error scanning port 196: 'description'
+ERROR - [2025-01-18-20:29:40] Error scanning port 192: 'description'
+ERROR - [2025-01-18-20:29:41] Error scanning port 198: 'description'
+ERROR - [2025-01-18-20:29:41] Error scanning port 199: 'description'
+ERROR - [2025-01-18-20:29:41] Error scanning port 200: 'description'
+INFO - [2025-01-18-20:30:17] [Scan Started]
+INFO - [2025-01-18-20:30:17] <----------------------------------->
+INFO - [2025-01-18-20:30:17] Scanning ports 100-200 on localhost
+INFO - [2025-01-18-20:30:17] [Number of threads: 16]
+
+INFO - [2025-01-18-20:30:17] <----------------------------------->
+INFO - [2025-01-18-20:30:17] [Scan Results:]
+
+ERROR - [2025-01-18-20:30:17] Error scanning port 107: 'section'
+ERROR - [2025-01-18-20:30:17] Error scanning port 104: 'section'
+ERROR - [2025-01-18-20:30:17] Error scanning port 103: 'section'
+ERROR - [2025-01-18-20:30:17] Error scanning port 111: 'section'
+ERROR - [2025-01-18-20:30:17] Error scanning port 100: 'section'
+ERROR - [2025-01-18-20:30:17] Error scanning port 109: 'section'
+ERROR - [2025-01-18-20:30:17] Error scanning port 101: 'section'
+ERROR - [2025-01-18-20:30:17] Error scanning port 106: 'section'
+ERROR - [2025-01-18-20:30:17] Error scanning port 105: 'section'
+ERROR - [2025-01-18-20:30:17] Error scanning port 102: 'section'
+ERROR - [2025-01-18-20:30:17] Error scanning port 112: 'section'
+ERROR - [2025-01-18-20:30:17] Error scanning port 110: 'section'
+ERROR - [2025-01-18-20:30:17] Error scanning port 108: 'section'
+ERROR - [2025-01-18-20:30:17] Error scanning port 115: 'section'
+ERROR - [2025-01-18-20:30:17] Error scanning port 114: 'section'
+ERROR - [2025-01-18-20:30:17] Error scanning port 113: 'section'
+ERROR - [2025-01-18-20:30:18] Error scanning port 119: 'section'
+ERROR - [2025-01-18-20:30:18] Error scanning port 116: 'section'
+ERROR - [2025-01-18-20:30:18] Error scanning port 122: 'section'
+ERROR - [2025-01-18-20:30:18] Error scanning port 121: 'section'
+ERROR - [2025-01-18-20:30:18] Error scanning port 123: 'section'
+ERROR - [2025-01-18-20:30:18] Error scanning port 118: 'section'
+ERROR - [2025-01-18-20:30:18] Error scanning port 125: 'section'
+ERROR - [2025-01-18-20:30:18] Error scanning port 120: 'section'
+ERROR - [2025-01-18-20:30:18] Error scanning port 128: 'section'
+ERROR - [2025-01-18-20:30:18] Error scanning port 124: 'section'
+ERROR - [2025-01-18-20:30:18] Error scanning port 126: 'section'
+ERROR - [2025-01-18-20:30:18] Error scanning port 127: 'section'
+ERROR - [2025-01-18-20:30:18] Error scanning port 117: 'section'
+ERROR - [2025-01-18-20:30:19] Error scanning port 135: 'section'
+ERROR - [2025-01-18-20:30:19] Error scanning port 137: 'section'
+ERROR - [2025-01-18-20:30:18] Error scanning port 129: 'section'
+ERROR - [2025-01-18-20:30:18] Error scanning port 130: 'section'
+ERROR - [2025-01-18-20:30:18] Error scanning port 131: 'section'
+ERROR - [2025-01-18-20:30:19] Error scanning port 132: 'section'
+ERROR - [2025-01-18-20:30:19] Error scanning port 133: 'section'
+ERROR - [2025-01-18-20:30:19] Error scanning port 136: 'section'
+ERROR - [2025-01-18-20:30:19] Error scanning port 134: 'section'
+ERROR - [2025-01-18-20:30:19] Error scanning port 140: 'section'
+ERROR - [2025-01-18-20:30:19] Error scanning port 139: 'section'
+ERROR - [2025-01-18-20:30:19] Error scanning port 143: 'section'
+ERROR - [2025-01-18-20:30:19] Error scanning port 144: 'section'
+ERROR - [2025-01-18-20:30:19] Error scanning port 146: 'section'
+ERROR - [2025-01-18-20:30:19] Error scanning port 145: 'section'
+ERROR - [2025-01-18-20:30:19] Error scanning port 138: 'section'
+ERROR - [2025-01-18-20:30:19] Error scanning port 141: 'section'
+ERROR - [2025-01-18-20:30:19] Error scanning port 142: 'section'
+ERROR - [2025-01-18-20:30:19] Error scanning port 147: 'section'
+ERROR - [2025-01-18-20:30:19] Error scanning port 149: 'section'
+ERROR - [2025-01-18-20:30:19] Error scanning port 148: 'section'
+ERROR - [2025-01-18-20:30:20] Error scanning port 150: 'section'
+ERROR - [2025-01-18-20:30:20] Error scanning port 152: 'section'
+ERROR - [2025-01-18-20:30:20] Error scanning port 153: 'section'
+ERROR - [2025-01-18-20:30:20] Error scanning port 151: 'section'
+ERROR - [2025-01-18-20:30:20] Error scanning port 155: 'section'
+ERROR - [2025-01-18-20:30:20] Error scanning port 156: 'section'
+ERROR - [2025-01-18-20:30:20] Error scanning port 157: 'section'
+ERROR - [2025-01-18-20:30:20] Error scanning port 159: 'section'
+ERROR - [2025-01-18-20:30:20] Error scanning port 161: 'section'
+ERROR - [2025-01-18-20:30:20] Error scanning port 162: 'section'
+ERROR - [2025-01-18-20:30:20] Error scanning port 160: 'section'
+ERROR - [2025-01-18-20:30:20] Error scanning port 154: 'section'
+ERROR - [2025-01-18-20:30:20] Error scanning port 158: 'section'
+ERROR - [2025-01-18-20:30:20] Error scanning port 165: 'section'
+ERROR - [2025-01-18-20:30:20] Error scanning port 163: 'section'
+ERROR - [2025-01-18-20:30:20] Error scanning port 164: 'section'
+ERROR - [2025-01-18-20:30:21] Error scanning port 167: 'section'
+ERROR - [2025-01-18-20:30:21] Error scanning port 169: 'section'
+ERROR - [2025-01-18-20:30:21] Error scanning port 168: 'section'
+ERROR - [2025-01-18-20:30:21] Error scanning port 166: 'section'
+ERROR - [2025-01-18-20:30:21] Error scanning port 170: 'section'
+ERROR - [2025-01-18-20:30:21] Error scanning port 172: 'section'
+ERROR - [2025-01-18-20:30:21] Error scanning port 174: 'section'
+ERROR - [2025-01-18-20:30:21] Error scanning port 175: 'section'
+ERROR - [2025-01-18-20:30:21] Error scanning port 176: 'section'
+ERROR - [2025-01-18-20:30:21] Error scanning port 171: 'section'
+ERROR - [2025-01-18-20:30:21] Error scanning port 173: 'section'
+ERROR - [2025-01-18-20:30:21] Error scanning port 181: 'section'
+ERROR - [2025-01-18-20:30:21] Error scanning port 180: 'section'
+ERROR - [2025-01-18-20:30:21] Error scanning port 179: 'section'
+ERROR - [2025-01-18-20:30:21] Error scanning port 177: 'section'
+ERROR - [2025-01-18-20:30:21] Error scanning port 178: 'section'
+INFO - [2025-01-18-20:33:55] [Scan Started]
+INFO - [2025-01-18-20:33:55] <----------------------------------->
+INFO - [2025-01-18-20:33:55] Scanning ports 100-200 on localhost
+INFO - [2025-01-18-20:33:55] [Number of threads: 16]
+
+INFO - [2025-01-18-20:33:55] <----------------------------------->
+INFO - [2025-01-18-20:33:55] [Scan Results:]
+
+WARNING - [2025-01-18-20:33:57] [localhost] Port 135 open, No description availabile
+INFO - [2025-01-18-20:37:39] [Scan Started]
+INFO - [2025-01-18-20:37:39] <----------------------------------->
+INFO - [2025-01-18-20:37:39] Scanning ports 100-200 on localhost
+INFO - [2025-01-18-20:37:39] [Number of threads: 16]
+
+INFO - [2025-01-18-20:37:39] <----------------------------------->
+INFO - [2025-01-18-20:37:39] [Scan Results:]
+
+WARNING - [2025-01-18-20:37:41] [localhost] Port 135 open, No description availabile, Protocol: None
+INFO - [2025-01-18-20:48:06] [Scan Started]
+INFO - [2025-01-18-20:48:06] <----------------------------------->
+INFO - [2025-01-18-20:48:06] Scanning ports 1-8000 on https://www.hackthissite.org/
+INFO - [2025-01-18-20:48:06] [Number of threads: 16]
+
+ERROR - [2025-01-18-20:48:06] Error scanning port 1: [Errno 11001] getaddrinfo failed
+ERROR - [2025-01-18-20:48:06] Error scanning port 5: [Errno 11001] getaddrinfo failed
+ERROR - [2025-01-18-20:48:06] Error scanning port 4: [Errno 11001] getaddrinfo failed
+ERROR - [2025-01-18-20:48:06] Error scanning port 3: [Errno 11001] getaddrinfo failed
+ERROR - [2025-01-18-20:48:06] Error scanning port 6: [Errno 11001] getaddrinfo failed
+ERROR - [2025-01-18-20:48:06] Error scanning port 7: [Errno 11001] getaddrinfo failed
+ERROR - [2025-01-18-20:48:06] Error scanning port 2: [Errno 11001] getaddrinfo failed
+ERROR - [2025-01-18-20:48:06] Error scanning port 8: [Errno 11001] getaddrinfo failed
+ERROR - [2025-01-18-20:48:06] Error scanning port 9: [Errno 11001] getaddrinfo failed
+ERROR - [2025-01-18-20:48:06] Error scanning port 10: [Errno 11001] getaddrinfo failed
+ERROR - [2025-01-18-20:48:06] Error scanning port 11: [Errno 11001] getaddrinfo failed
+ERROR - [2025-01-18-20:48:06] Error scanning port 12: [Errno 11001] getaddrinfo failed
+ERROR - [2025-01-18-20:48:06] Error scanning port 13: [Errno 11001] getaddrinfo failed
+ERROR - [2025-01-18-20:48:06] Error scanning port 14: [Errno 11001] getaddrinfo failed
+INFO - [2025-01-18-20:48:06] <----------------------------------->
+ERROR - [2025-01-18-20:48:06] Error scanning port 15: [Errno 11001] getaddrinfo failed
+ERROR - [2025-01-18-20:48:06] Error scanning port 16: [Errno 11001] getaddrinfo failed
+INFO - [2025-01-18-20:49:03] [Start ping]
+INFO - [2025-01-18-20:49:03] <----------------------------------->
+INFO - [2025-01-18-20:49:03] [Thread:start]
+INFO - [2025-01-18-20:49:03] Ping request could not find host https://www.hackthissite.org. Please check the name and try again.
+INFO - [2025-01-18-20:49:03] <----------------------------------->
+INFO - [2025-01-18-20:49:03] [Thread: end]
+INFO - [2025-01-18-20:49:03] [End ping]
+
+INFO - [2025-01-18-20:49:15] [Start ping]
+INFO - [2025-01-18-20:49:15] <----------------------------------->
+INFO - [2025-01-18-20:49:15] [Thread:start]
+INFO - [2025-01-18-20:49:15] Pinging www.hackthissite.org [137.74.187.100] with 32 bytes of data:
+INFO - [2025-01-18-20:49:15] Reply from 137.74.187.100: bytes=32 time=14ms TTL=50
+INFO - [2025-01-18-20:49:15] Reply from 137.74.187.100: bytes=32 time=13ms TTL=50
+INFO - [2025-01-18-20:49:15] Reply from 137.74.187.100: bytes=32 time=14ms TTL=50
+INFO - [2025-01-18-20:49:15] Reply from 137.74.187.100: bytes=32 time=13ms TTL=50
+INFO - [2025-01-18-20:49:15] Ping statistics for 137.74.187.100:
+INFO - [2025-01-18-20:49:15] Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+INFO - [2025-01-18-20:49:15] Approximate round trip times in milli-seconds:
+INFO - [2025-01-18-20:49:15] Minimum = 13ms, Maximum = 14ms, Average = 13ms
+INFO - [2025-01-18-20:49:15] <----------------------------------->
+INFO - [2025-01-18-20:49:15] [Thread: end]
+INFO - [2025-01-18-20:49:15] [End ping]
+
+INFO - [2025-01-18-20:49:42] [Scan Started]
+INFO - [2025-01-18-20:49:42] <----------------------------------->
+INFO - [2025-01-18-20:49:42] Scanning ports 1-8000 on 137.74.187.100
+INFO - [2025-01-18-20:49:42] [Number of threads: 16]
+
+INFO - [2025-01-18-20:49:42] <----------------------------------->
+INFO - [2025-01-18-20:49:42] [Scan Results:]
+
+WARNING - [2025-01-18-20:49:47] [137.74.187.100] Port 80 open, No description availabile, Protocol: None
+WARNING - [2025-01-18-20:50:10] [137.74.187.100] Port 443 open, No description availabile, Protocol: None
+INFO - [2025-01-18-21:01:33] [Scan Started]
+INFO - [2025-01-18-21:01:33] <----------------------------------->
+INFO - [2025-01-18-21:01:33] Scanning ports 1-500 on 137.74.187.100
+INFO - [2025-01-18-21:01:33] [Number of threads: 16]
+
+INFO - [2025-01-18-21:01:33] <----------------------------------->
+INFO - [2025-01-18-21:01:33] [Scan Results:]
+
+WARNING - [2025-01-18-21:01:37] [137.74.187.100] Port 80 open, World Wide Web HTTP
+WARNING - [2025-01-18-21:02:00] [137.74.187.100] Port 443 open, HTTP protocol over TLS/SSL
+INFO - [2025-01-18-21:03:08] [Scan Started]
+INFO - [2025-01-18-21:03:08] <----------------------------------->
+INFO - [2025-01-18-21:03:08] Scanning ports 1-500 on 137.74.187.100
+INFO - [2025-01-18-21:03:08] [Number of threads: 16]
+
+INFO - [2025-01-18-21:03:08] <----------------------------------->
+INFO - [2025-01-18-21:03:08] [Scan Results:]
+
+WARNING - [2025-01-18-21:03:12] [137.74.187.100] Port 80 open, No description availabile
+WARNING - [2025-01-18-21:03:35] [137.74.187.100] Port 443 open, No description availabile
+ERROR - [2025-01-18-21:03:35] Error scanning port 443: main thread is not in main loop
+INFO - [2025-01-18-21:12:12] [Scan Started]
+INFO - [2025-01-18-21:12:12] <----------------------------------->
+INFO - [2025-01-18-21:12:12] Scanning ports 1-1000 on 137.74.187.100
+INFO - [2025-01-18-21:12:12] [Number of threads: 16]
+
+INFO - [2025-01-18-21:12:12] <----------------------------------->
+INFO - [2025-01-18-21:12:12] [Scan Results:]
+
+WARNING - [2025-01-18-21:12:16] [137.74.187.100] Port 80 open, World Wide Web HTTP
+WARNING - [2025-01-18-21:12:39] [137.74.187.100] Port 443 open, HTTP protocol over TLS/SSL
+INFO - [2025-01-18-21:16:32] [Scan Started]
+INFO - [2025-01-18-21:16:32] <----------------------------------->
+INFO - [2025-01-18-21:16:32] Scanning ports 100-200 on localhost
+INFO - [2025-01-18-21:16:32] [Number of threads: 16]
+
+INFO - [2025-01-18-21:16:32] <----------------------------------->
+INFO - [2025-01-18-21:16:32] [Scan Results:]
+
+INFO - [2025-01-18-21:16:32] all done!
+INFO - [2025-01-18-21:16:32] all done!
+INFO - [2025-01-18-21:16:32] all done!
+INFO - [2025-01-18-21:16:32] all done!
+INFO - [2025-01-18-21:16:32] all done!
+INFO - [2025-01-18-21:16:32] all done!
+INFO - [2025-01-18-21:16:32] all done!
+INFO - [2025-01-18-21:16:32] all done!
+INFO - [2025-01-18-21:16:32] all done!
+INFO - [2025-01-18-21:16:32] all done!
+INFO - [2025-01-18-21:16:32] all done!
+INFO - [2025-01-18-21:16:32] all done!
+INFO - [2025-01-18-21:16:32] all done!
+INFO - [2025-01-18-21:16:32] all done!
+INFO - [2025-01-18-21:16:32] all done!
+INFO - [2025-01-18-21:16:32] all done!
+INFO - [2025-01-18-21:16:33] all done!
+INFO - [2025-01-18-21:16:33] all done!
+INFO - [2025-01-18-21:16:33] all done!
+INFO - [2025-01-18-21:16:33] all done!
+INFO - [2025-01-18-21:16:33] all done!
+INFO - [2025-01-18-21:16:33] all done!
+INFO - [2025-01-18-21:16:33] all done!
+INFO - [2025-01-18-21:16:33] all done!
+INFO - [2025-01-18-21:16:33] all done!
+INFO - [2025-01-18-21:16:33] all done!
+INFO - [2025-01-18-21:16:33] all done!
+INFO - [2025-01-18-21:16:33] all done!
+INFO - [2025-01-18-21:16:33] all done!
+INFO - [2025-01-18-21:16:33] all done!
+INFO - [2025-01-18-21:16:33] all done!
+WARNING - [2025-01-18-21:16:34] [localhost] Port 135 open, No description availabile
+INFO - [2025-01-18-21:16:33] all done!
+INFO - [2025-01-18-21:16:34] all done!
+INFO - [2025-01-18-21:16:34] all done!
+INFO - [2025-01-18-21:16:34] all done!
+INFO - [2025-01-18-21:16:34] all done!
+INFO - [2025-01-18-21:16:34] all done!
+INFO - [2025-01-18-21:16:34] all done!
+INFO - [2025-01-18-21:16:34] all done!
+INFO - [2025-01-18-21:16:34] all done!
+INFO - [2025-01-18-21:16:34] all done!
+INFO - [2025-01-18-21:16:34] all done!
+INFO - [2025-01-18-21:16:34] all done!
+INFO - [2025-01-18-21:16:34] all done!
+INFO - [2025-01-18-21:16:34] all done!
+INFO - [2025-01-18-21:16:34] all done!
+INFO - [2025-01-18-21:16:34] all done!
+INFO - [2025-01-18-21:16:34] all done!
+INFO - [2025-01-18-21:16:34] all done!
+INFO - [2025-01-18-21:16:34] all done!
+INFO - [2025-01-18-21:16:35] all done!
+INFO - [2025-01-18-21:16:35] all done!
+INFO - [2025-01-18-21:16:35] all done!
+INFO - [2025-01-18-21:16:35] all done!
+INFO - [2025-01-18-21:16:35] all done!
+INFO - [2025-01-18-21:16:35] all done!
+INFO - [2025-01-18-21:16:35] all done!
+INFO - [2025-01-18-21:16:35] all done!
+INFO - [2025-01-18-21:16:35] all done!
+INFO - [2025-01-18-21:16:35] all done!
+INFO - [2025-01-18-21:16:35] all done!
+INFO - [2025-01-18-21:16:35] all done!
+INFO - [2025-01-18-21:16:35] all done!
+INFO - [2025-01-18-21:16:35] all done!
+INFO - [2025-01-18-21:16:35] all done!
+INFO - [2025-01-18-21:16:35] all done!
+INFO - [2025-01-18-21:16:36] all done!
+INFO - [2025-01-18-21:16:36] all done!
+INFO - [2025-01-18-21:16:36] all done!
+INFO - [2025-01-18-21:16:36] all done!
+INFO - [2025-01-18-21:16:36] all done!
+INFO - [2025-01-18-21:16:36] all done!
+INFO - [2025-01-18-21:16:36] all done!
+INFO - [2025-01-18-21:16:36] all done!
+INFO - [2025-01-18-21:16:36] all done!
+INFO - [2025-01-18-21:16:36] all done!
+INFO - [2025-01-18-21:16:36] all done!
+INFO - [2025-01-18-21:16:36] all done!
+INFO - [2025-01-18-21:16:36] all done!
+INFO - [2025-01-18-21:16:36] all done!
+INFO - [2025-01-18-21:16:36] all done!
+INFO - [2025-01-18-21:16:36] all done!
+INFO - [2025-01-18-21:16:37] all done!
+INFO - [2025-01-18-21:16:37] all done!
+INFO - [2025-01-18-21:16:37] all done!
+INFO - [2025-01-18-21:16:37] all done!
+INFO - [2025-01-18-21:16:37] all done!
+INFO - [2025-01-18-21:16:37] all done!
+INFO - [2025-01-18-21:16:37] all done!
+INFO - [2025-01-18-21:16:37] all done!
+INFO - [2025-01-18-21:16:37] all done!
+INFO - [2025-01-18-21:16:37] all done!
+INFO - [2025-01-18-21:16:37] all done!
+INFO - [2025-01-18-21:16:37] all done!
+INFO - [2025-01-18-21:16:37] all done!
+INFO - [2025-01-18-21:16:37] all done!
+INFO - [2025-01-18-21:16:37] all done!
+INFO - [2025-01-18-21:16:37] all done!
+INFO - [2025-01-18-21:16:38] all done!
+INFO - [2025-01-18-21:16:38] all done!
+INFO - [2025-01-18-21:16:38] all done!
+INFO - [2025-01-18-21:17:31] [Scan Started]
+INFO - [2025-01-18-21:17:31] <----------------------------------->
+INFO - [2025-01-18-21:17:31] Scanning ports 100-200 on localhost
+INFO - [2025-01-18-21:17:31] [Number of threads: 16]
+
+INFO - [2025-01-18-21:17:31] <----------------------------------->
+INFO - [2025-01-18-21:17:31] [Scan Results:]
+
+ERROR - [2025-01-18-21:17:31] Error scanning port 103: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:31] Error scanning port 107: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:31] Error scanning port 111: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:31] Error scanning port 104: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:31] Error scanning port 108: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:31] Error scanning port 109: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:31] Error scanning port 105: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:31] Error scanning port 100: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:31] Error scanning port 115: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:31] Error scanning port 114: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:31] Error scanning port 112: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:31] Error scanning port 102: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:31] Error scanning port 113: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:31] Error scanning port 106: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:31] Error scanning port 110: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:31] Error scanning port 101: 'Queue' object has no attribute 'size'
+INFO - [2025-01-18-21:17:31] all done!
+INFO - [2025-01-18-21:17:31] all done!
+INFO - [2025-01-18-21:17:31] all done!
+INFO - [2025-01-18-21:17:31] all done!
+INFO - [2025-01-18-21:17:31] all done!
+INFO - [2025-01-18-21:17:31] all done!
+INFO - [2025-01-18-21:17:31] all done!
+INFO - [2025-01-18-21:17:31] all done!
+INFO - [2025-01-18-21:17:31] all done!
+INFO - [2025-01-18-21:17:31] all done!
+INFO - [2025-01-18-21:17:31] all done!
+INFO - [2025-01-18-21:17:31] all done!
+INFO - [2025-01-18-21:17:31] all done!
+INFO - [2025-01-18-21:17:31] all done!
+INFO - [2025-01-18-21:17:31] all done!
+INFO - [2025-01-18-21:17:31] all done!
+ERROR - [2025-01-18-21:17:32] Error scanning port 119: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:32] Error scanning port 117: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:32] Error scanning port 121: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:32] Error scanning port 116: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:32] Error scanning port 118: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:32] Error scanning port 120: 'Queue' object has no attribute 'size'
+INFO - [2025-01-18-21:17:32] all done!
+INFO - [2025-01-18-21:17:32] all done!
+INFO - [2025-01-18-21:17:32] all done!
+INFO - [2025-01-18-21:17:32] all done!
+INFO - [2025-01-18-21:17:32] all done!
+INFO - [2025-01-18-21:17:32] all done!
+ERROR - [2025-01-18-21:17:32] Error scanning port 122: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:32] Error scanning port 125: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:32] Error scanning port 127: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:32] Error scanning port 128: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:32] Error scanning port 129: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:32] Error scanning port 130: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:32] Error scanning port 126: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:32] Error scanning port 131: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:32] Error scanning port 123: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:32] Error scanning port 124: 'Queue' object has no attribute 'size'
+WARNING - [2025-01-18-21:17:33] [localhost] Port 135 open, No description availabile
+INFO - [2025-01-18-21:17:32] all done!
+INFO - [2025-01-18-21:17:32] all done!
+INFO - [2025-01-18-21:17:32] all done!
+INFO - [2025-01-18-21:17:32] all done!
+INFO - [2025-01-18-21:17:32] all done!
+INFO - [2025-01-18-21:17:32] all done!
+INFO - [2025-01-18-21:17:32] all done!
+INFO - [2025-01-18-21:17:32] all done!
+ERROR - [2025-01-18-21:17:33] Error scanning port 137: 'Queue' object has no attribute 'size'
+INFO - [2025-01-18-21:17:32] all done!
+ERROR - [2025-01-18-21:17:33] Error scanning port 135: 'Queue' object has no attribute 'size'
+INFO - [2025-01-18-21:17:32] all done!
+INFO - [2025-01-18-21:17:33] all done!
+INFO - [2025-01-18-21:17:33] all done!
+ERROR - [2025-01-18-21:17:33] Error scanning port 132: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:33] Error scanning port 134: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:33] Error scanning port 133: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:33] Error scanning port 136: 'Queue' object has no attribute 'size'
+INFO - [2025-01-18-21:17:33] all done!
+INFO - [2025-01-18-21:17:33] all done!
+INFO - [2025-01-18-21:17:33] all done!
+INFO - [2025-01-18-21:17:33] all done!
+ERROR - [2025-01-18-21:17:33] Error scanning port 142: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:33] Error scanning port 138: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:33] Error scanning port 139: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:33] Error scanning port 141: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:33] Error scanning port 144: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:33] Error scanning port 140: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:33] Error scanning port 143: 'Queue' object has no attribute 'size'
+INFO - [2025-01-18-21:17:33] all done!
+INFO - [2025-01-18-21:17:33] all done!
+INFO - [2025-01-18-21:17:33] all done!
+INFO - [2025-01-18-21:17:33] all done!
+INFO - [2025-01-18-21:17:33] all done!
+INFO - [2025-01-18-21:17:33] all done!
+ERROR - [2025-01-18-21:17:33] Error scanning port 148: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:33] Error scanning port 146: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:33] Error scanning port 147: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:33] Error scanning port 149: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:33] Error scanning port 145: 'Queue' object has no attribute 'size'
+INFO - [2025-01-18-21:17:33] all done!
+INFO - [2025-01-18-21:17:33] all done!
+INFO - [2025-01-18-21:17:33] all done!
+INFO - [2025-01-18-21:17:33] all done!
+INFO - [2025-01-18-21:17:33] all done!
+INFO - [2025-01-18-21:17:33] all done!
+ERROR - [2025-01-18-21:17:34] Error scanning port 150: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:34] Error scanning port 151: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:34] Error scanning port 152: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:34] Error scanning port 153: 'Queue' object has no attribute 'size'
+INFO - [2025-01-18-21:17:34] all done!
+INFO - [2025-01-18-21:17:34] all done!
+INFO - [2025-01-18-21:17:34] all done!
+INFO - [2025-01-18-21:17:34] all done!
+ERROR - [2025-01-18-21:17:34] Error scanning port 157: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:34] Error scanning port 156: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:34] Error scanning port 155: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:34] Error scanning port 158: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:34] Error scanning port 159: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:34] Error scanning port 154: 'Queue' object has no attribute 'size'
+INFO - [2025-01-18-21:17:34] all done!
+INFO - [2025-01-18-21:17:34] all done!
+INFO - [2025-01-18-21:17:34] all done!
+ERROR - [2025-01-18-21:17:34] Error scanning port 160: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:34] Error scanning port 161: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:34] Error scanning port 164: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:34] Error scanning port 163: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:34] Error scanning port 165: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:34] Error scanning port 162: 'Queue' object has no attribute 'size'
+INFO - [2025-01-18-21:17:34] all done!
+INFO - [2025-01-18-21:17:34] all done!
+INFO - [2025-01-18-21:17:34] all done!
+INFO - [2025-01-18-21:17:34] all done!
+INFO - [2025-01-18-21:17:34] all done!
+INFO - [2025-01-18-21:17:34] all done!
+INFO - [2025-01-18-21:17:34] all done!
+INFO - [2025-01-18-21:17:34] all done!
+INFO - [2025-01-18-21:17:34] all done!
+ERROR - [2025-01-18-21:17:35] Error scanning port 166: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:35] Error scanning port 168: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:35] Error scanning port 167: 'Queue' object has no attribute 'size'
+INFO - [2025-01-18-21:17:35] all done!
+INFO - [2025-01-18-21:17:35] all done!
+INFO - [2025-01-18-21:17:35] all done!
+ERROR - [2025-01-18-21:17:35] Error scanning port 169: 'Queue' object has no attribute 'size'
+INFO - [2025-01-18-21:17:35] all done!
+ERROR - [2025-01-18-21:17:35] Error scanning port 170: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:35] Error scanning port 172: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:35] Error scanning port 171: 'Queue' object has no attribute 'size'
+INFO - [2025-01-18-21:17:35] all done!
+INFO - [2025-01-18-21:17:35] all done!
+INFO - [2025-01-18-21:17:35] all done!
+ERROR - [2025-01-18-21:17:35] Error scanning port 173: 'Queue' object has no attribute 'size'
+INFO - [2025-01-18-21:17:35] all done!
+ERROR - [2025-01-18-21:17:35] Error scanning port 179: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:35] Error scanning port 174: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:35] Error scanning port 176: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:35] Error scanning port 178: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:35] Error scanning port 177: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:35] Error scanning port 175: 'Queue' object has no attribute 'size'
+INFO - [2025-01-18-21:17:35] all done!
+INFO - [2025-01-18-21:17:35] all done!
+INFO - [2025-01-18-21:17:35] all done!
+INFO - [2025-01-18-21:17:35] all done!
+INFO - [2025-01-18-21:17:35] all done!
+ERROR - [2025-01-18-21:17:35] Error scanning port 180: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:35] Error scanning port 181: 'Queue' object has no attribute 'size'
+INFO - [2025-01-18-21:17:35] all done!
+INFO - [2025-01-18-21:17:35] all done!
+INFO - [2025-01-18-21:17:35] all done!
+ERROR - [2025-01-18-21:17:36] Error scanning port 182: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:36] Error scanning port 183: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:36] Error scanning port 184: 'Queue' object has no attribute 'size'
+INFO - [2025-01-18-21:17:36] all done!
+INFO - [2025-01-18-21:17:36] all done!
+INFO - [2025-01-18-21:17:36] all done!
+ERROR - [2025-01-18-21:17:36] Error scanning port 185: 'Queue' object has no attribute 'size'
+INFO - [2025-01-18-21:17:36] all done!
+ERROR - [2025-01-18-21:17:36] Error scanning port 187: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:36] Error scanning port 186: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:36] Error scanning port 188: 'Queue' object has no attribute 'size'
+INFO - [2025-01-18-21:17:36] all done!
+INFO - [2025-01-18-21:17:36] all done!
+INFO - [2025-01-18-21:17:36] all done!
+ERROR - [2025-01-18-21:17:36] Error scanning port 189: 'Queue' object has no attribute 'size'
+INFO - [2025-01-18-21:17:36] all done!
+ERROR - [2025-01-18-21:17:36] Error scanning port 191: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:36] Error scanning port 193: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:36] Error scanning port 194: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:36] Error scanning port 190: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:36] Error scanning port 192: 'Queue' object has no attribute 'size'
+INFO - [2025-01-18-21:17:36] all done!
+INFO - [2025-01-18-21:17:36] all done!
+INFO - [2025-01-18-21:17:36] all done!
+INFO - [2025-01-18-21:17:36] all done!
+INFO - [2025-01-18-21:17:36] all done!
+ERROR - [2025-01-18-21:17:36] Error scanning port 196: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:36] Error scanning port 195: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:36] Error scanning port 197: 'Queue' object has no attribute 'size'
+INFO - [2025-01-18-21:17:36] all done!
+INFO - [2025-01-18-21:17:36] all done!
+INFO - [2025-01-18-21:17:36] all done!
+ERROR - [2025-01-18-21:17:37] Error scanning port 198: 'Queue' object has no attribute 'size'
+INFO - [2025-01-18-21:17:37] all done!
+ERROR - [2025-01-18-21:17:37] Error scanning port 200: 'Queue' object has no attribute 'size'
+ERROR - [2025-01-18-21:17:37] Error scanning port 199: 'Queue' object has no attribute 'size'
+INFO - [2025-01-18-21:17:37] all done!
+INFO - [2025-01-18-21:17:37] all done!
+INFO - [2025-01-18-21:18:31] [Scan Started]
+INFO - [2025-01-18-21:18:31] <----------------------------------->
+INFO - [2025-01-18-21:18:31] Scanning ports 100-1000 on 137.74.187.100
+INFO - [2025-01-18-21:18:31] [Number of threads: 16]
+
+INFO - [2025-01-18-21:18:31] <----------------------------------->
+INFO - [2025-01-18-21:18:31] [Scan Results:]
+
+INFO - [2025-01-18-21:18:31] all done!
+INFO - [2025-01-18-21:18:31] all done!
+INFO - [2025-01-18-21:18:31] all done!
+INFO - [2025-01-18-21:18:31] all done!
+INFO - [2025-01-18-21:18:31] all done!
+INFO - [2025-01-18-21:18:31] all done!
+INFO - [2025-01-18-21:18:31] all done!
+INFO - [2025-01-18-21:18:31] all done!
+INFO - [2025-01-18-21:18:31] all done!
+INFO - [2025-01-18-21:18:31] all done!
+INFO - [2025-01-18-21:18:31] all done!
+INFO - [2025-01-18-21:18:31] all done!
+INFO - [2025-01-18-21:18:31] all done!
+INFO - [2025-01-18-21:18:31] all done!
+INFO - [2025-01-18-21:18:31] all done!
+INFO - [2025-01-18-21:18:31] all done!
+INFO - [2025-01-18-21:18:32] all done!
+INFO - [2025-01-18-21:18:32] all done!
+INFO - [2025-01-18-21:18:32] all done!
+INFO - [2025-01-18-21:18:32] all done!
+INFO - [2025-01-18-21:18:32] all done!
+INFO - [2025-01-18-21:18:32] all done!
+INFO - [2025-01-18-21:18:32] all done!
+INFO - [2025-01-18-21:18:32] all done!
+INFO - [2025-01-18-21:18:32] all done!
+INFO - [2025-01-18-21:18:32] all done!
+INFO - [2025-01-18-21:18:32] all done!
+INFO - [2025-01-18-21:18:32] all done!
+INFO - [2025-01-18-21:18:32] all done!
+INFO - [2025-01-18-21:18:32] all done!
+INFO - [2025-01-18-21:18:32] all done!
+INFO - [2025-01-18-21:18:32] all done!
+INFO - [2025-01-18-21:18:33] all done!
+INFO - [2025-01-18-21:18:33] all done!
+INFO - [2025-01-18-21:18:33] all done!
+INFO - [2025-01-18-21:18:33] all done!
+INFO - [2025-01-18-21:18:33] all done!
+INFO - [2025-01-18-21:18:33] all done!
+INFO - [2025-01-18-21:18:33] all done!
+INFO - [2025-01-18-21:18:33] all done!
+INFO - [2025-01-18-21:18:33] all done!
+INFO - [2025-01-18-21:18:33] all done!
+INFO - [2025-01-18-21:18:33] all done!
+INFO - [2025-01-18-21:18:33] all done!
+INFO - [2025-01-18-21:18:33] all done!
+INFO - [2025-01-18-21:18:33] all done!
+INFO - [2025-01-18-21:18:33] all done!
+INFO - [2025-01-18-21:18:33] all done!
+INFO - [2025-01-18-21:18:34] all done!
+INFO - [2025-01-18-21:18:34] all done!
+INFO - [2025-01-18-21:18:34] all done!
+INFO - [2025-01-18-21:18:34] all done!
+INFO - [2025-01-18-21:18:34] all done!
+INFO - [2025-01-18-21:18:34] all done!
+INFO - [2025-01-18-21:18:34] all done!
+INFO - [2025-01-18-21:18:34] all done!
+INFO - [2025-01-18-21:18:34] all done!
+INFO - [2025-01-18-21:18:34] all done!
+INFO - [2025-01-18-21:18:34] all done!
+INFO - [2025-01-18-21:18:34] all done!
+INFO - [2025-01-18-21:18:34] all done!
+INFO - [2025-01-18-21:18:34] all done!
+INFO - [2025-01-18-21:18:34] all done!
+INFO - [2025-01-18-21:18:34] all done!
+INFO - [2025-01-18-21:18:35] all done!
+INFO - [2025-01-18-21:18:35] all done!
+INFO - [2025-01-18-21:18:35] all done!
+INFO - [2025-01-18-21:18:35] all done!
+INFO - [2025-01-18-21:18:35] all done!
+INFO - [2025-01-18-21:18:35] all done!
+INFO - [2025-01-18-21:18:35] all done!
+INFO - [2025-01-18-21:18:35] all done!
+INFO - [2025-01-18-21:18:35] all done!
+INFO - [2025-01-18-21:18:35] all done!
+INFO - [2025-01-18-21:18:35] all done!
+INFO - [2025-01-18-21:18:35] all done!
+INFO - [2025-01-18-21:18:35] all done!
+INFO - [2025-01-18-21:18:35] all done!
+INFO - [2025-01-18-21:18:35] all done!
+INFO - [2025-01-18-21:18:35] all done!
+INFO - [2025-01-18-21:18:36] all done!
+INFO - [2025-01-18-21:18:36] all done!
+INFO - [2025-01-18-21:18:36] all done!
+INFO - [2025-01-18-21:18:36] all done!
+INFO - [2025-01-18-21:18:36] all done!
+INFO - [2025-01-18-21:18:36] all done!
+INFO - [2025-01-18-21:18:36] all done!
+INFO - [2025-01-18-21:18:36] all done!
+INFO - [2025-01-18-21:18:36] all done!
+INFO - [2025-01-18-21:18:36] all done!
+INFO - [2025-01-18-21:18:36] all done!
+INFO - [2025-01-18-21:18:36] all done!
+INFO - [2025-01-18-21:18:36] all done!
+INFO - [2025-01-18-21:18:36] all done!
+INFO - [2025-01-18-21:18:36] all done!
+INFO - [2025-01-18-21:18:36] all done!
+INFO - [2025-01-18-21:18:37] all done!
+INFO - [2025-01-18-21:18:37] all done!
+INFO - [2025-01-18-21:18:37] all done!
+INFO - [2025-01-18-21:18:37] all done!
+INFO - [2025-01-18-21:18:37] all done!
+INFO - [2025-01-18-21:18:37] all done!
+INFO - [2025-01-18-21:18:37] all done!
+INFO - [2025-01-18-21:18:37] all done!
+INFO - [2025-01-18-21:18:37] all done!
+INFO - [2025-01-18-21:18:37] all done!
+INFO - [2025-01-18-21:18:37] all done!
+INFO - [2025-01-18-21:18:37] all done!
+INFO - [2025-01-18-21:18:37] all done!
+INFO - [2025-01-18-21:18:37] all done!
+INFO - [2025-01-18-21:18:37] all done!
+INFO - [2025-01-18-21:18:37] all done!
+INFO - [2025-01-18-21:18:38] all done!
+INFO - [2025-01-18-21:18:38] all done!
+INFO - [2025-01-18-21:18:38] all done!
+INFO - [2025-01-18-21:18:38] all done!
+INFO - [2025-01-18-21:18:38] all done!
+INFO - [2025-01-18-21:18:38] all done!
+INFO - [2025-01-18-21:18:38] all done!
+INFO - [2025-01-18-21:18:38] all done!
+INFO - [2025-01-18-21:18:38] all done!
+INFO - [2025-01-18-21:18:38] all done!
+INFO - [2025-01-18-21:18:38] all done!
+INFO - [2025-01-18-21:18:38] all done!
+INFO - [2025-01-18-21:18:38] all done!
+INFO - [2025-01-18-21:18:38] all done!
+INFO - [2025-01-18-21:18:38] all done!
+INFO - [2025-01-18-21:18:38] all done!
+INFO - [2025-01-18-21:18:39] all done!
+INFO - [2025-01-18-21:18:39] all done!
+INFO - [2025-01-18-21:18:39] all done!
+INFO - [2025-01-18-21:18:39] all done!
+INFO - [2025-01-18-21:18:39] all done!
+INFO - [2025-01-18-21:18:39] all done!
+INFO - [2025-01-18-21:18:39] all done!
+INFO - [2025-01-18-21:18:39] all done!
+INFO - [2025-01-18-21:18:39] all done!
+INFO - [2025-01-18-21:18:39] all done!
+INFO - [2025-01-18-21:18:39] all done!
+INFO - [2025-01-18-21:18:39] all done!
+INFO - [2025-01-18-21:18:39] all done!
+INFO - [2025-01-18-21:18:39] all done!
+INFO - [2025-01-18-21:18:39] all done!
+INFO - [2025-01-18-21:18:39] all done!
+INFO - [2025-01-18-21:18:40] all done!
+INFO - [2025-01-18-21:18:40] all done!
+INFO - [2025-01-18-21:18:40] all done!
+INFO - [2025-01-18-21:18:40] all done!
+INFO - [2025-01-18-21:18:40] all done!
+INFO - [2025-01-18-21:18:40] all done!
+INFO - [2025-01-18-21:18:40] all done!
+INFO - [2025-01-18-21:18:40] all done!
+INFO - [2025-01-18-21:18:40] all done!
+INFO - [2025-01-18-21:18:40] all done!
+INFO - [2025-01-18-21:18:40] all done!
+INFO - [2025-01-18-21:18:40] all done!
+INFO - [2025-01-18-21:18:40] all done!
+INFO - [2025-01-18-21:18:40] all done!
+INFO - [2025-01-18-21:18:40] all done!
+INFO - [2025-01-18-21:18:40] all done!
+INFO - [2025-01-18-21:18:41] all done!
+INFO - [2025-01-18-21:18:41] all done!
+INFO - [2025-01-18-21:18:41] all done!
+INFO - [2025-01-18-21:18:41] all done!
+INFO - [2025-01-18-21:18:41] all done!
+INFO - [2025-01-18-21:18:41] all done!
+INFO - [2025-01-18-21:18:41] all done!
+INFO - [2025-01-18-21:18:41] all done!
+INFO - [2025-01-18-21:18:41] all done!
+INFO - [2025-01-18-21:18:41] all done!
+INFO - [2025-01-18-21:18:41] all done!
+INFO - [2025-01-18-21:18:41] all done!
+INFO - [2025-01-18-21:18:41] all done!
+INFO - [2025-01-18-21:18:41] all done!
+INFO - [2025-01-18-21:18:41] all done!
+INFO - [2025-01-18-21:18:41] all done!
+INFO - [2025-01-18-21:18:42] all done!
+INFO - [2025-01-18-21:18:42] all done!
+INFO - [2025-01-18-21:18:42] all done!
+INFO - [2025-01-18-21:18:42] all done!
+INFO - [2025-01-18-21:18:42] all done!
+INFO - [2025-01-18-21:18:42] all done!
+INFO - [2025-01-18-21:18:42] all done!
+INFO - [2025-01-18-21:18:42] all done!
+INFO - [2025-01-18-21:18:42] all done!
+INFO - [2025-01-18-21:18:42] all done!
+INFO - [2025-01-18-21:18:42] all done!
+INFO - [2025-01-18-21:18:42] all done!
+INFO - [2025-01-18-21:18:42] all done!
+INFO - [2025-01-18-21:18:42] all done!
+INFO - [2025-01-18-21:18:42] all done!
+INFO - [2025-01-18-21:18:42] all done!
+INFO - [2025-01-18-21:18:43] all done!
+INFO - [2025-01-18-21:18:43] all done!
+INFO - [2025-01-18-21:18:43] all done!
+INFO - [2025-01-18-21:18:43] all done!
+INFO - [2025-01-18-21:18:43] all done!
+INFO - [2025-01-18-21:18:43] all done!
+INFO - [2025-01-18-21:18:43] all done!
+INFO - [2025-01-18-21:18:43] all done!
+INFO - [2025-01-18-21:18:43] all done!
+INFO - [2025-01-18-21:18:43] all done!
+INFO - [2025-01-18-21:18:43] all done!
+INFO - [2025-01-18-21:18:43] all done!
+INFO - [2025-01-18-21:18:43] all done!
+INFO - [2025-01-18-21:18:43] all done!
+INFO - [2025-01-18-21:18:43] all done!
+INFO - [2025-01-18-21:18:43] all done!
+INFO - [2025-01-18-21:18:44] all done!
+INFO - [2025-01-18-21:18:44] all done!
+INFO - [2025-01-18-21:18:44] all done!
+INFO - [2025-01-18-21:18:44] all done!
+INFO - [2025-01-18-21:18:44] all done!
+INFO - [2025-01-18-21:18:44] all done!
+INFO - [2025-01-18-21:18:44] all done!
+INFO - [2025-01-18-21:18:44] all done!
+INFO - [2025-01-18-21:18:44] all done!
+INFO - [2025-01-18-21:18:44] all done!
+INFO - [2025-01-18-21:18:44] all done!
+INFO - [2025-01-18-21:18:44] all done!
+INFO - [2025-01-18-21:18:44] all done!
+INFO - [2025-01-18-21:18:44] all done!
+INFO - [2025-01-18-21:18:44] all done!
+INFO - [2025-01-18-21:18:44] all done!
+INFO - [2025-01-18-21:18:45] all done!
+INFO - [2025-01-18-21:18:45] all done!
+INFO - [2025-01-18-21:18:45] all done!
+INFO - [2025-01-18-21:18:45] all done!
+INFO - [2025-01-18-21:18:45] all done!
+INFO - [2025-01-18-21:18:45] all done!
+INFO - [2025-01-18-21:18:45] all done!
+INFO - [2025-01-18-21:18:45] all done!
+INFO - [2025-01-18-21:18:45] all done!
+INFO - [2025-01-18-21:18:45] all done!
+INFO - [2025-01-18-21:18:45] all done!
+INFO - [2025-01-18-21:18:45] all done!
+INFO - [2025-01-18-21:18:45] all done!
+INFO - [2025-01-18-21:18:45] all done!
+INFO - [2025-01-18-21:18:45] all done!
+INFO - [2025-01-18-21:18:45] all done!
+INFO - [2025-01-18-21:18:46] all done!
+INFO - [2025-01-18-21:18:46] all done!
+INFO - [2025-01-18-21:18:46] all done!
+INFO - [2025-01-18-21:18:46] all done!
+INFO - [2025-01-18-21:18:46] all done!
+INFO - [2025-01-18-21:18:46] all done!
+INFO - [2025-01-18-21:18:46] all done!
+INFO - [2025-01-18-21:18:46] all done!
+INFO - [2025-01-18-21:18:46] all done!
+INFO - [2025-01-18-21:18:46] all done!
+INFO - [2025-01-18-21:18:46] all done!
+INFO - [2025-01-18-21:18:46] all done!
+INFO - [2025-01-18-21:18:46] all done!
+INFO - [2025-01-18-21:18:46] all done!
+INFO - [2025-01-18-21:18:46] all done!
+INFO - [2025-01-18-21:18:46] all done!
+INFO - [2025-01-18-21:18:47] all done!
+INFO - [2025-01-18-21:18:47] all done!
+INFO - [2025-01-18-21:18:47] all done!
+INFO - [2025-01-18-21:18:47] all done!
+INFO - [2025-01-18-21:18:47] all done!
+INFO - [2025-01-18-21:18:47] all done!
+INFO - [2025-01-18-21:18:47] all done!
+INFO - [2025-01-18-21:18:47] all done!
+INFO - [2025-01-18-21:18:47] all done!
+INFO - [2025-01-18-21:18:47] all done!
+INFO - [2025-01-18-21:18:47] all done!
+INFO - [2025-01-18-21:18:47] all done!
+INFO - [2025-01-18-21:18:47] all done!
+INFO - [2025-01-18-21:18:47] all done!
+INFO - [2025-01-18-21:18:47] all done!
+INFO - [2025-01-18-21:18:47] all done!
+INFO - [2025-01-18-21:18:48] all done!
+INFO - [2025-01-18-21:18:48] all done!
+INFO - [2025-01-18-21:18:48] all done!
+INFO - [2025-01-18-21:18:48] all done!
+INFO - [2025-01-18-21:18:48] all done!
+INFO - [2025-01-18-21:18:48] all done!
+INFO - [2025-01-18-21:18:48] all done!
+INFO - [2025-01-18-21:18:48] all done!
+INFO - [2025-01-18-21:18:48] all done!
+INFO - [2025-01-18-21:18:48] all done!
+INFO - [2025-01-18-21:18:48] all done!
+INFO - [2025-01-18-21:18:48] all done!
+INFO - [2025-01-18-21:18:48] all done!
+INFO - [2025-01-18-21:18:48] all done!
+INFO - [2025-01-18-21:18:48] all done!
+INFO - [2025-01-18-21:18:48] all done!
+INFO - [2025-01-18-21:18:49] all done!
+INFO - [2025-01-18-21:18:49] all done!
+INFO - [2025-01-18-21:18:49] all done!
+INFO - [2025-01-18-21:18:49] all done!
+INFO - [2025-01-18-21:18:49] all done!
+INFO - [2025-01-18-21:18:49] all done!
+INFO - [2025-01-18-21:18:49] all done!
+INFO - [2025-01-18-21:18:49] all done!
+INFO - [2025-01-18-21:18:49] all done!
+INFO - [2025-01-18-21:18:49] all done!
+INFO - [2025-01-18-21:18:49] all done!
+INFO - [2025-01-18-21:18:49] all done!
+INFO - [2025-01-18-21:18:49] all done!
+INFO - [2025-01-18-21:18:49] all done!
+INFO - [2025-01-18-21:18:49] all done!
+INFO - [2025-01-18-21:18:49] all done!
+INFO - [2025-01-18-21:18:50] all done!
+INFO - [2025-01-18-21:18:50] all done!
+INFO - [2025-01-18-21:18:50] all done!
+INFO - [2025-01-18-21:18:50] all done!
+INFO - [2025-01-18-21:18:50] all done!
+INFO - [2025-01-18-21:18:50] all done!
+INFO - [2025-01-18-21:18:50] all done!
+INFO - [2025-01-18-21:18:50] all done!
+INFO - [2025-01-18-21:18:50] all done!
+INFO - [2025-01-18-21:18:50] all done!
+INFO - [2025-01-18-21:18:50] all done!
+INFO - [2025-01-18-21:18:50] all done!
+INFO - [2025-01-18-21:18:50] all done!
+INFO - [2025-01-18-21:18:50] all done!
+INFO - [2025-01-18-21:18:50] all done!
+INFO - [2025-01-18-21:18:50] all done!
+INFO - [2025-01-18-21:18:51] all done!
+INFO - [2025-01-18-21:18:51] all done!
+INFO - [2025-01-18-21:18:51] all done!
+INFO - [2025-01-18-21:18:51] all done!
+INFO - [2025-01-18-21:18:51] all done!
+INFO - [2025-01-18-21:18:51] all done!
+INFO - [2025-01-18-21:18:51] all done!
+INFO - [2025-01-18-21:18:51] all done!
+INFO - [2025-01-18-21:18:51] all done!
+INFO - [2025-01-18-21:18:51] all done!
+INFO - [2025-01-18-21:18:51] all done!
+INFO - [2025-01-18-21:18:51] all done!
+INFO - [2025-01-18-21:18:51] all done!
+INFO - [2025-01-18-21:18:51] all done!
+INFO - [2025-01-18-21:18:51] all done!
+INFO - [2025-01-18-21:18:51] all done!
+WARNING - [2025-01-18-21:18:52] [137.74.187.100] Port 443 open, HTTP protocol over TLS/SSL
+INFO - [2025-01-18-21:18:52] all done!
+INFO - [2025-01-18-21:18:52] all done!
+INFO - [2025-01-18-21:18:52] all done!
+INFO - [2025-01-18-21:18:52] all done!
+INFO - [2025-01-18-21:18:52] all done!
+INFO - [2025-01-18-21:18:52] all done!
+INFO - [2025-01-18-21:18:52] all done!
+INFO - [2025-01-18-21:18:52] all done!
+INFO - [2025-01-18-21:18:52] all done!
+INFO - [2025-01-18-21:18:52] all done!
+INFO - [2025-01-18-21:18:52] all done!
+INFO - [2025-01-18-21:18:52] all done!
+INFO - [2025-01-18-21:18:52] all done!
+INFO - [2025-01-18-21:18:52] all done!
+INFO - [2025-01-18-21:18:52] all done!
+INFO - [2025-01-18-21:18:52] all done!
+INFO - [2025-01-18-21:18:52] all done!
+INFO - [2025-01-18-21:18:53] all done!
+INFO - [2025-01-18-21:18:53] all done!
+INFO - [2025-01-18-21:18:53] all done!
+INFO - [2025-01-18-21:18:53] all done!
+INFO - [2025-01-18-21:18:53] all done!
+INFO - [2025-01-18-21:18:53] all done!
+INFO - [2025-01-18-21:18:53] all done!
+INFO - [2025-01-18-21:18:53] all done!
+INFO - [2025-01-18-21:18:53] all done!
+INFO - [2025-01-18-21:18:53] all done!
+INFO - [2025-01-18-21:18:53] all done!
+INFO - [2025-01-18-21:18:53] all done!
+INFO - [2025-01-18-21:18:53] all done!
+INFO - [2025-01-18-21:18:53] all done!
+INFO - [2025-01-18-21:18:53] all done!
+INFO - [2025-01-18-21:18:53] all done!
+INFO - [2025-01-18-21:18:54] all done!
+INFO - [2025-01-18-21:18:54] all done!
+INFO - [2025-01-18-21:18:54] all done!
+INFO - [2025-01-18-21:18:54] all done!
+INFO - [2025-01-18-21:18:54] all done!
+INFO - [2025-01-18-21:18:54] all done!
+INFO - [2025-01-18-21:18:54] all done!
+INFO - [2025-01-18-21:18:54] all done!
+INFO - [2025-01-18-21:18:54] all done!
+INFO - [2025-01-18-21:18:54] all done!
+INFO - [2025-01-18-21:18:54] all done!
+INFO - [2025-01-18-21:18:54] all done!
+INFO - [2025-01-18-21:18:54] all done!
+INFO - [2025-01-18-21:18:54] all done!
+INFO - [2025-01-18-21:18:54] all done!
+INFO - [2025-01-18-21:18:54] all done!
+INFO - [2025-01-18-21:18:55] all done!
+INFO - [2025-01-18-21:18:55] all done!
+INFO - [2025-01-18-21:18:55] all done!
+INFO - [2025-01-18-21:18:55] all done!
+INFO - [2025-01-18-21:18:55] all done!
+INFO - [2025-01-18-21:18:55] all done!
+INFO - [2025-01-18-21:18:55] all done!
+INFO - [2025-01-18-21:18:55] all done!
+INFO - [2025-01-18-21:18:55] all done!
+INFO - [2025-01-18-21:18:55] all done!
+INFO - [2025-01-18-21:18:55] all done!
+INFO - [2025-01-18-21:18:55] all done!
+INFO - [2025-01-18-21:18:55] all done!
+INFO - [2025-01-18-21:18:55] all done!
+INFO - [2025-01-18-21:18:55] all done!
+INFO - [2025-01-18-21:18:55] all done!
+INFO - [2025-01-18-21:18:56] all done!
+INFO - [2025-01-18-21:18:56] all done!
+INFO - [2025-01-18-21:18:56] all done!
+INFO - [2025-01-18-21:18:56] all done!
+INFO - [2025-01-18-21:18:56] all done!
+INFO - [2025-01-18-21:18:56] all done!
+INFO - [2025-01-18-21:18:56] all done!
+INFO - [2025-01-18-21:18:56] all done!
+INFO - [2025-01-18-21:18:56] all done!
+INFO - [2025-01-18-21:18:56] all done!
+INFO - [2025-01-18-21:18:56] all done!
+INFO - [2025-01-18-21:18:56] all done!
+INFO - [2025-01-18-21:18:56] all done!
+INFO - [2025-01-18-21:18:56] all done!
+INFO - [2025-01-18-21:18:56] all done!
+INFO - [2025-01-18-21:18:56] all done!
+INFO - [2025-01-18-21:18:57] all done!
+INFO - [2025-01-18-21:18:57] all done!
+INFO - [2025-01-18-21:18:57] all done!
+INFO - [2025-01-18-21:18:57] all done!
+INFO - [2025-01-18-21:18:57] all done!
+INFO - [2025-01-18-21:18:57] all done!
+INFO - [2025-01-18-21:18:57] all done!
+INFO - [2025-01-18-21:18:57] all done!
+INFO - [2025-01-18-21:18:57] all done!
+INFO - [2025-01-18-21:18:57] all done!
+INFO - [2025-01-18-21:18:57] all done!
+INFO - [2025-01-18-21:18:57] all done!
+INFO - [2025-01-18-21:18:57] all done!
+INFO - [2025-01-18-21:18:57] all done!
+INFO - [2025-01-18-21:18:57] all done!
+INFO - [2025-01-18-21:18:57] all done!
+INFO - [2025-01-18-21:18:58] all done!
+INFO - [2025-01-18-21:18:58] all done!
+INFO - [2025-01-18-21:18:58] all done!
+INFO - [2025-01-18-21:18:58] all done!
+INFO - [2025-01-18-21:18:58] all done!
+INFO - [2025-01-18-21:18:58] all done!
+INFO - [2025-01-18-21:18:58] all done!
+INFO - [2025-01-18-21:18:58] all done!
+INFO - [2025-01-18-21:18:58] all done!
+INFO - [2025-01-18-21:18:58] all done!
+INFO - [2025-01-18-21:18:58] all done!
+INFO - [2025-01-18-21:18:58] all done!
+INFO - [2025-01-18-21:18:58] all done!
+INFO - [2025-01-18-21:18:58] all done!
+INFO - [2025-01-18-21:18:58] all done!
+INFO - [2025-01-18-21:18:58] all done!
+INFO - [2025-01-18-21:18:59] all done!
+INFO - [2025-01-18-21:18:59] all done!
+INFO - [2025-01-18-21:18:59] all done!
+INFO - [2025-01-18-21:18:59] all done!
+INFO - [2025-01-18-21:18:59] all done!
+INFO - [2025-01-18-21:18:59] all done!
+INFO - [2025-01-18-21:18:59] all done!
+INFO - [2025-01-18-21:18:59] all done!
+INFO - [2025-01-18-21:18:59] all done!
+INFO - [2025-01-18-21:18:59] all done!
+INFO - [2025-01-18-21:18:59] all done!
+INFO - [2025-01-18-21:18:59] all done!
+INFO - [2025-01-18-21:18:59] all done!
+INFO - [2025-01-18-21:18:59] all done!
+INFO - [2025-01-18-21:18:59] all done!
+INFO - [2025-01-18-21:18:59] all done!
+INFO - [2025-01-18-21:19:00] all done!
+INFO - [2025-01-18-21:19:00] all done!
+INFO - [2025-01-18-21:19:00] all done!
+INFO - [2025-01-18-21:19:00] all done!
+INFO - [2025-01-18-21:19:00] all done!
+INFO - [2025-01-18-21:19:00] all done!
+INFO - [2025-01-18-21:19:00] all done!
+INFO - [2025-01-18-21:19:00] all done!
+INFO - [2025-01-18-21:19:00] all done!
+INFO - [2025-01-18-21:19:00] all done!
+INFO - [2025-01-18-21:19:00] all done!
+INFO - [2025-01-18-21:19:00] all done!
+INFO - [2025-01-18-21:19:00] all done!
+INFO - [2025-01-18-21:19:00] all done!
+INFO - [2025-01-18-21:19:00] all done!
+INFO - [2025-01-18-21:19:00] all done!
+INFO - [2025-01-18-21:19:01] all done!
+INFO - [2025-01-18-21:19:01] all done!
+INFO - [2025-01-18-21:19:01] all done!
+INFO - [2025-01-18-21:19:01] all done!
+INFO - [2025-01-18-21:19:01] all done!
+INFO - [2025-01-18-21:19:01] all done!
+INFO - [2025-01-18-21:19:01] all done!
+INFO - [2025-01-18-21:19:01] all done!
+INFO - [2025-01-18-21:19:01] all done!
+INFO - [2025-01-18-21:19:01] all done!
+INFO - [2025-01-18-21:19:01] all done!
+INFO - [2025-01-18-21:19:01] all done!
+INFO - [2025-01-18-21:19:01] all done!
+INFO - [2025-01-18-21:19:01] all done!
+INFO - [2025-01-18-21:19:01] all done!
+INFO - [2025-01-18-21:19:01] all done!
+INFO - [2025-01-18-21:19:02] all done!
+INFO - [2025-01-18-21:19:02] all done!
+INFO - [2025-01-18-21:19:02] all done!
+INFO - [2025-01-18-21:19:02] all done!
+INFO - [2025-01-18-21:19:02] all done!
+INFO - [2025-01-18-21:19:02] all done!
+INFO - [2025-01-18-21:19:02] all done!
+INFO - [2025-01-18-21:19:02] all done!
+INFO - [2025-01-18-21:19:02] all done!
+INFO - [2025-01-18-21:19:02] all done!
+INFO - [2025-01-18-21:19:02] all done!
+INFO - [2025-01-18-21:19:02] all done!
+INFO - [2025-01-18-21:19:02] all done!
+INFO - [2025-01-18-21:19:02] all done!
+INFO - [2025-01-18-21:19:02] all done!
+INFO - [2025-01-18-21:19:02] all done!
+INFO - [2025-01-18-21:19:03] all done!
+INFO - [2025-01-18-21:19:03] all done!
+INFO - [2025-01-18-21:19:03] all done!
+INFO - [2025-01-18-21:19:03] all done!
+INFO - [2025-01-18-21:19:03] all done!
+INFO - [2025-01-18-21:19:03] all done!
+INFO - [2025-01-18-21:19:03] all done!
+INFO - [2025-01-18-21:19:03] all done!
+INFO - [2025-01-18-21:19:03] all done!
+INFO - [2025-01-18-21:19:03] all done!
+INFO - [2025-01-18-21:19:03] all done!
+INFO - [2025-01-18-21:19:03] all done!
+INFO - [2025-01-18-21:19:03] all done!
+INFO - [2025-01-18-21:19:03] all done!
+INFO - [2025-01-18-21:19:03] all done!
+INFO - [2025-01-18-21:19:03] all done!
+INFO - [2025-01-18-21:19:04] all done!
+INFO - [2025-01-18-21:19:04] all done!
+INFO - [2025-01-18-21:19:04] all done!
+INFO - [2025-01-18-21:19:04] all done!
+INFO - [2025-01-18-21:19:04] all done!
+INFO - [2025-01-18-21:19:04] all done!
+INFO - [2025-01-18-21:19:04] all done!
+INFO - [2025-01-18-21:19:04] all done!
+INFO - [2025-01-18-21:19:04] all done!
+INFO - [2025-01-18-21:19:04] all done!
+INFO - [2025-01-18-21:19:04] all done!
+INFO - [2025-01-18-21:19:04] all done!
+INFO - [2025-01-18-21:19:04] all done!
+INFO - [2025-01-18-21:19:04] all done!
+INFO - [2025-01-18-21:19:04] all done!
+INFO - [2025-01-18-21:19:04] all done!
+INFO - [2025-01-18-21:19:05] all done!
+INFO - [2025-01-18-21:19:05] all done!
+INFO - [2025-01-18-21:19:05] all done!
+INFO - [2025-01-18-21:19:05] all done!
+INFO - [2025-01-18-21:19:05] all done!
+INFO - [2025-01-18-21:19:05] all done!
+INFO - [2025-01-18-21:19:05] all done!
+INFO - [2025-01-18-21:19:05] all done!
+INFO - [2025-01-18-21:19:05] all done!
+INFO - [2025-01-18-21:19:05] all done!
+INFO - [2025-01-18-21:19:05] all done!
+INFO - [2025-01-18-21:19:05] all done!
+INFO - [2025-01-18-21:19:05] all done!
+INFO - [2025-01-18-21:19:05] all done!
+INFO - [2025-01-18-21:19:05] all done!
+INFO - [2025-01-18-21:19:05] all done!
+INFO - [2025-01-18-21:19:06] all done!
+INFO - [2025-01-18-21:19:06] all done!
+INFO - [2025-01-18-21:19:06] all done!
+INFO - [2025-01-18-21:19:06] all done!
+INFO - [2025-01-18-21:19:06] all done!
+INFO - [2025-01-18-21:19:06] all done!
+INFO - [2025-01-18-21:19:06] all done!
+INFO - [2025-01-18-21:19:06] all done!
+INFO - [2025-01-18-21:19:06] all done!
+INFO - [2025-01-18-21:19:06] all done!
+INFO - [2025-01-18-21:19:06] all done!
+INFO - [2025-01-18-21:19:06] all done!
+INFO - [2025-01-18-21:19:06] all done!
+INFO - [2025-01-18-21:19:06] all done!
+INFO - [2025-01-18-21:19:06] all done!
+INFO - [2025-01-18-21:19:06] all done!
+INFO - [2025-01-18-21:19:07] all done!
+INFO - [2025-01-18-21:19:07] all done!
+INFO - [2025-01-18-21:19:07] all done!
+INFO - [2025-01-18-21:19:07] all done!
+INFO - [2025-01-18-21:19:07] all done!
+INFO - [2025-01-18-21:19:07] all done!
+INFO - [2025-01-18-21:19:07] all done!
+INFO - [2025-01-18-21:19:07] all done!
+INFO - [2025-01-18-21:19:07] all done!
+INFO - [2025-01-18-21:19:07] all done!
+INFO - [2025-01-18-21:19:07] all done!
+INFO - [2025-01-18-21:19:07] all done!
+INFO - [2025-01-18-21:19:07] all done!
+INFO - [2025-01-18-21:19:07] all done!
+INFO - [2025-01-18-21:19:07] all done!
+INFO - [2025-01-18-21:19:07] all done!
+INFO - [2025-01-18-21:19:08] all done!
+INFO - [2025-01-18-21:19:08] all done!
+INFO - [2025-01-18-21:19:08] all done!
+INFO - [2025-01-18-21:19:08] all done!
+INFO - [2025-01-18-21:19:08] all done!
+INFO - [2025-01-18-21:19:08] all done!
+INFO - [2025-01-18-21:19:08] all done!
+INFO - [2025-01-18-21:19:08] all done!
+INFO - [2025-01-18-21:19:08] all done!
+INFO - [2025-01-18-21:19:08] all done!
+INFO - [2025-01-18-21:19:08] all done!
+INFO - [2025-01-18-21:19:08] all done!
+INFO - [2025-01-18-21:19:08] all done!
+INFO - [2025-01-18-21:19:08] all done!
+INFO - [2025-01-18-21:19:08] all done!
+INFO - [2025-01-18-21:19:08] all done!
+INFO - [2025-01-18-21:19:09] all done!
+INFO - [2025-01-18-21:19:09] all done!
+INFO - [2025-01-18-21:19:09] all done!
+INFO - [2025-01-18-21:19:09] all done!
+INFO - [2025-01-18-21:19:09] all done!
+INFO - [2025-01-18-21:19:09] all done!
+INFO - [2025-01-18-21:19:09] all done!
+INFO - [2025-01-18-21:19:09] all done!
+INFO - [2025-01-18-21:19:09] all done!
+INFO - [2025-01-18-21:19:09] all done!
+INFO - [2025-01-18-21:19:09] all done!
+INFO - [2025-01-18-21:19:09] all done!
+INFO - [2025-01-18-21:19:09] all done!
+INFO - [2025-01-18-21:19:09] all done!
+INFO - [2025-01-18-21:19:09] all done!
+INFO - [2025-01-18-21:19:09] all done!
+INFO - [2025-01-18-21:19:10] all done!
+INFO - [2025-01-18-21:19:10] all done!
+INFO - [2025-01-18-21:19:10] all done!
+INFO - [2025-01-18-21:19:10] all done!
+INFO - [2025-01-18-21:19:10] all done!
+INFO - [2025-01-18-21:19:10] all done!
+INFO - [2025-01-18-21:19:10] all done!
+INFO - [2025-01-18-21:19:10] all done!
+INFO - [2025-01-18-21:19:10] all done!
+INFO - [2025-01-18-21:19:10] all done!
+INFO - [2025-01-18-21:19:10] all done!
+INFO - [2025-01-18-21:19:10] all done!
+INFO - [2025-01-18-21:19:10] all done!
+INFO - [2025-01-18-21:19:10] all done!
+INFO - [2025-01-18-21:19:10] all done!
+INFO - [2025-01-18-21:19:10] all done!
+INFO - [2025-01-18-21:19:11] all done!
+INFO - [2025-01-18-21:19:11] all done!
+INFO - [2025-01-18-21:19:11] all done!
+INFO - [2025-01-18-21:19:11] all done!
+INFO - [2025-01-18-21:19:11] all done!
+INFO - [2025-01-18-21:19:11] all done!
+INFO - [2025-01-18-21:19:11] all done!
+INFO - [2025-01-18-21:19:11] all done!
+INFO - [2025-01-18-21:19:11] all done!
+INFO - [2025-01-18-21:19:11] all done!
+INFO - [2025-01-18-21:19:11] all done!
+INFO - [2025-01-18-21:19:11] all done!
+INFO - [2025-01-18-21:19:11] all done!
+INFO - [2025-01-18-21:19:11] all done!
+INFO - [2025-01-18-21:19:11] all done!
+INFO - [2025-01-18-21:19:11] all done!
+INFO - [2025-01-18-21:19:12] all done!
+INFO - [2025-01-18-21:19:12] all done!
+INFO - [2025-01-18-21:19:12] all done!
+INFO - [2025-01-18-21:19:12] all done!
+INFO - [2025-01-18-21:19:12] all done!
+INFO - [2025-01-18-21:19:12] all done!
+INFO - [2025-01-18-21:19:12] all done!
+INFO - [2025-01-18-21:19:12] all done!
+INFO - [2025-01-18-21:19:12] all done!
+INFO - [2025-01-18-21:19:12] all done!
+INFO - [2025-01-18-21:19:12] all done!
+INFO - [2025-01-18-21:19:12] all done!
+INFO - [2025-01-18-21:19:12] all done!
+INFO - [2025-01-18-21:19:12] all done!
+INFO - [2025-01-18-21:19:12] all done!
+INFO - [2025-01-18-21:19:12] all done!
+INFO - [2025-01-18-21:19:13] all done!
+INFO - [2025-01-18-21:19:13] all done!
+INFO - [2025-01-18-21:19:13] all done!
+INFO - [2025-01-18-21:19:13] all done!
+INFO - [2025-01-18-21:19:13] all done!
+INFO - [2025-01-18-21:19:13] all done!
+INFO - [2025-01-18-21:19:13] all done!
+INFO - [2025-01-18-21:19:13] all done!
+INFO - [2025-01-18-21:19:13] all done!
+INFO - [2025-01-18-21:19:13] all done!
+INFO - [2025-01-18-21:19:13] all done!
+INFO - [2025-01-18-21:19:13] all done!
+INFO - [2025-01-18-21:19:13] all done!
+INFO - [2025-01-18-21:19:13] all done!
+INFO - [2025-01-18-21:19:13] all done!
+INFO - [2025-01-18-21:19:13] all done!
+INFO - [2025-01-18-21:19:14] all done!
+INFO - [2025-01-18-21:19:14] all done!
+INFO - [2025-01-18-21:19:14] all done!
+INFO - [2025-01-18-21:19:14] all done!
+INFO - [2025-01-18-21:19:14] all done!
+INFO - [2025-01-18-21:19:14] all done!
+INFO - [2025-01-18-21:19:14] all done!
+INFO - [2025-01-18-21:19:14] all done!
+INFO - [2025-01-18-21:19:14] all done!
+INFO - [2025-01-18-21:19:14] all done!
+INFO - [2025-01-18-21:19:14] all done!
+INFO - [2025-01-18-21:19:14] all done!
+INFO - [2025-01-18-21:19:14] all done!
+INFO - [2025-01-18-21:19:14] all done!
+INFO - [2025-01-18-21:19:14] all done!
+INFO - [2025-01-18-21:19:14] all done!
+INFO - [2025-01-18-21:19:15] all done!
+INFO - [2025-01-18-21:19:15] all done!
+INFO - [2025-01-18-21:19:15] all done!
+INFO - [2025-01-18-21:19:15] all done!
+INFO - [2025-01-18-21:19:15] all done!
+INFO - [2025-01-18-21:19:15] all done!
+INFO - [2025-01-18-21:19:15] all done!
+INFO - [2025-01-18-21:19:15] all done!
+INFO - [2025-01-18-21:19:15] all done!
+INFO - [2025-01-18-21:19:15] all done!
+INFO - [2025-01-18-21:19:15] all done!
+INFO - [2025-01-18-21:19:15] all done!
+INFO - [2025-01-18-21:19:15] all done!
+INFO - [2025-01-18-21:19:15] all done!
+INFO - [2025-01-18-21:19:15] all done!
+INFO - [2025-01-18-21:19:15] all done!
+INFO - [2025-01-18-21:19:16] all done!
+INFO - [2025-01-18-21:19:16] all done!
+INFO - [2025-01-18-21:19:16] all done!
+INFO - [2025-01-18-21:19:16] all done!
+INFO - [2025-01-18-21:19:16] all done!
+INFO - [2025-01-18-21:19:16] all done!
+INFO - [2025-01-18-21:19:16] all done!
+INFO - [2025-01-18-21:19:16] all done!
+INFO - [2025-01-18-21:19:16] all done!
+INFO - [2025-01-18-21:19:16] all done!
+INFO - [2025-01-18-21:19:16] all done!
+INFO - [2025-01-18-21:19:16] all done!
+INFO - [2025-01-18-21:19:16] all done!
+INFO - [2025-01-18-21:19:16] all done!
+INFO - [2025-01-18-21:19:16] all done!
+INFO - [2025-01-18-21:19:16] all done!
+INFO - [2025-01-18-21:19:17] all done!
+INFO - [2025-01-18-21:19:17] all done!
+INFO - [2025-01-18-21:19:17] all done!
+INFO - [2025-01-18-21:19:17] all done!
+INFO - [2025-01-18-21:19:17] all done!
+INFO - [2025-01-18-21:19:17] all done!
+INFO - [2025-01-18-21:19:17] all done!
+INFO - [2025-01-18-21:19:17] all done!
+INFO - [2025-01-18-21:19:17] all done!
+INFO - [2025-01-18-21:19:17] all done!
+INFO - [2025-01-18-21:19:17] all done!
+INFO - [2025-01-18-21:19:17] all done!
+INFO - [2025-01-18-21:19:17] all done!
+INFO - [2025-01-18-21:19:17] all done!
+INFO - [2025-01-18-21:19:17] all done!
+INFO - [2025-01-18-21:19:17] all done!
+INFO - [2025-01-18-21:19:18] all done!
+INFO - [2025-01-18-21:19:18] all done!
+INFO - [2025-01-18-21:19:18] all done!
+INFO - [2025-01-18-21:19:18] all done!
+INFO - [2025-01-18-21:19:18] all done!
+INFO - [2025-01-18-21:19:18] all done!
+INFO - [2025-01-18-21:19:18] all done!
+INFO - [2025-01-18-21:19:18] all done!
+INFO - [2025-01-18-21:19:18] all done!
+INFO - [2025-01-18-21:19:18] all done!
+INFO - [2025-01-18-21:19:18] all done!
+INFO - [2025-01-18-21:19:18] all done!
+INFO - [2025-01-18-21:19:18] all done!
+INFO - [2025-01-18-21:19:18] all done!
+INFO - [2025-01-18-21:19:18] all done!
+INFO - [2025-01-18-21:19:18] all done!
+INFO - [2025-01-18-21:19:19] all done!
+INFO - [2025-01-18-21:19:19] all done!
+INFO - [2025-01-18-21:19:19] all done!
+INFO - [2025-01-18-21:19:19] all done!
+INFO - [2025-01-18-21:19:19] all done!
+INFO - [2025-01-18-21:19:19] all done!
+INFO - [2025-01-18-21:19:19] all done!
+INFO - [2025-01-18-21:19:19] all done!
+INFO - [2025-01-18-21:19:19] all done!
+INFO - [2025-01-18-21:19:19] all done!
+INFO - [2025-01-18-21:19:19] all done!
+INFO - [2025-01-18-21:19:19] all done!
+INFO - [2025-01-18-21:19:19] all done!
+INFO - [2025-01-18-21:19:19] all done!
+INFO - [2025-01-18-21:19:19] all done!
+INFO - [2025-01-18-21:19:19] all done!
+INFO - [2025-01-18-21:19:20] all done!
+INFO - [2025-01-18-21:19:20] all done!
+INFO - [2025-01-18-21:19:20] all done!
+INFO - [2025-01-18-21:19:20] all done!
+INFO - [2025-01-18-21:19:20] all done!
+INFO - [2025-01-18-21:19:20] all done!
+INFO - [2025-01-18-21:19:20] all done!
+INFO - [2025-01-18-21:19:20] all done!
+INFO - [2025-01-18-21:19:20] all done!
+INFO - [2025-01-18-21:19:20] all done!
+INFO - [2025-01-18-21:19:20] all done!
+INFO - [2025-01-18-21:19:20] all done!
+INFO - [2025-01-18-21:19:20] all done!
+INFO - [2025-01-18-21:19:20] all done!
+INFO - [2025-01-18-21:19:20] all done!
+INFO - [2025-01-18-21:19:20] all done!
+INFO - [2025-01-18-21:19:21] all done!
+INFO - [2025-01-18-21:19:21] all done!
+INFO - [2025-01-18-21:19:21] all done!
+INFO - [2025-01-18-21:19:21] all done!
+INFO - [2025-01-18-21:19:21] all done!
+INFO - [2025-01-18-21:19:21] all done!
+INFO - [2025-01-18-21:19:21] all done!
+INFO - [2025-01-18-21:19:21] all done!
+INFO - [2025-01-18-21:19:21] all done!
+INFO - [2025-01-18-21:19:21] all done!
+INFO - [2025-01-18-21:19:21] all done!
+INFO - [2025-01-18-21:19:21] all done!
+INFO - [2025-01-18-21:19:21] all done!
+INFO - [2025-01-18-21:19:21] all done!
+INFO - [2025-01-18-21:19:21] all done!
+INFO - [2025-01-18-21:19:21] all done!
+INFO - [2025-01-18-21:19:22] all done!
+INFO - [2025-01-18-21:19:22] all done!
+INFO - [2025-01-18-21:19:22] all done!
+INFO - [2025-01-18-21:19:22] all done!
+INFO - [2025-01-18-21:19:22] all done!
+INFO - [2025-01-18-21:19:22] all done!
+INFO - [2025-01-18-21:19:22] all done!
+INFO - [2025-01-18-21:19:22] all done!
+INFO - [2025-01-18-21:19:22] all done!
+INFO - [2025-01-18-21:19:22] all done!
+INFO - [2025-01-18-21:19:22] all done!
+INFO - [2025-01-18-21:19:22] all done!
+INFO - [2025-01-18-21:19:22] all done!
+INFO - [2025-01-18-21:19:22] all done!
+INFO - [2025-01-18-21:19:22] all done!
+INFO - [2025-01-18-21:19:22] all done!
+INFO - [2025-01-18-21:19:23] all done!
+INFO - [2025-01-18-21:19:23] all done!
+INFO - [2025-01-18-21:19:23] all done!
+INFO - [2025-01-18-21:19:23] all done!
+INFO - [2025-01-18-21:19:23] all done!
+INFO - [2025-01-18-21:19:23] all done!
+INFO - [2025-01-18-21:19:23] all done!
+INFO - [2025-01-18-21:19:23] all done!
+INFO - [2025-01-18-21:19:23] all done!
+INFO - [2025-01-18-21:19:23] all done!
+INFO - [2025-01-18-21:19:23] all done!
+INFO - [2025-01-18-21:19:23] all done!
+INFO - [2025-01-18-21:19:23] all done!
+INFO - [2025-01-18-21:19:23] all done!
+INFO - [2025-01-18-21:19:23] all done!
+INFO - [2025-01-18-21:19:23] all done!
+INFO - [2025-01-18-21:19:24] all done!
+INFO - [2025-01-18-21:19:24] all done!
+INFO - [2025-01-18-21:19:24] all done!
+INFO - [2025-01-18-21:19:24] all done!
+INFO - [2025-01-18-21:19:24] all done!
+INFO - [2025-01-18-21:19:24] all done!
+INFO - [2025-01-18-21:19:24] all done!
+INFO - [2025-01-18-21:19:24] all done!
+INFO - [2025-01-18-21:19:24] all done!
+INFO - [2025-01-18-21:19:24] all done!
+INFO - [2025-01-18-21:19:24] all done!
+INFO - [2025-01-18-21:19:24] all done!
+INFO - [2025-01-18-21:19:24] all done!
+INFO - [2025-01-18-21:19:24] all done!
+INFO - [2025-01-18-21:19:24] all done!
+INFO - [2025-01-18-21:19:24] all done!
+INFO - [2025-01-18-21:19:25] all done!
+INFO - [2025-01-18-21:19:25] all done!
+INFO - [2025-01-18-21:19:25] all done!
+INFO - [2025-01-18-21:19:25] all done!
+INFO - [2025-01-18-21:19:25] all done!
+INFO - [2025-01-18-21:19:25] all done!
+INFO - [2025-01-18-21:19:25] all done!
+INFO - [2025-01-18-21:19:25] all done!
+INFO - [2025-01-18-21:19:25] all done!
+INFO - [2025-01-18-21:19:25] all done!
+INFO - [2025-01-18-21:19:25] all done!
+INFO - [2025-01-18-21:19:25] all done!
+INFO - [2025-01-18-21:19:25] all done!
+INFO - [2025-01-18-21:19:25] all done!
+INFO - [2025-01-18-21:19:25] all done!
+INFO - [2025-01-18-21:19:25] all done!
+INFO - [2025-01-18-21:19:26] all done!
+INFO - [2025-01-18-21:19:26] all done!
+INFO - [2025-01-18-21:19:26] all done!
+INFO - [2025-01-18-21:19:26] all done!
+INFO - [2025-01-18-21:19:26] all done!
+INFO - [2025-01-18-21:19:26] all done!
+INFO - [2025-01-18-21:19:26] all done!
+INFO - [2025-01-18-21:19:26] all done!
+INFO - [2025-01-18-21:19:26] all done!
+INFO - [2025-01-18-21:19:26] all done!
+INFO - [2025-01-18-21:19:26] all done!
+INFO - [2025-01-18-21:19:26] all done!
+INFO - [2025-01-18-21:19:26] all done!
+INFO - [2025-01-18-21:19:26] all done!
+INFO - [2025-01-18-21:19:26] all done!
+INFO - [2025-01-18-21:19:26] all done!
+INFO - [2025-01-18-21:19:27] all done!
+INFO - [2025-01-18-21:19:27] all done!
+INFO - [2025-01-18-21:19:27] all done!
+INFO - [2025-01-18-21:19:27] all done!
+INFO - [2025-01-18-21:23:19] [Scan Started]
+INFO - [2025-01-18-21:23:19] <----------------------------------->
+INFO - [2025-01-18-21:23:19] Scanning ports 1-500 on 137.74.187.100
+INFO - [2025-01-18-21:23:19] [Number of threads: 16]
+
+INFO - [2025-01-18-21:23:19] <----------------------------------->
+INFO - [2025-01-18-21:23:19] [Scan Results:]
+
+WARNING - [2025-01-18-21:23:23] [137.74.187.100] Port 80 open, World Wide Web HTTP
+WARNING - [2025-01-18-21:23:46] [137.74.187.100] Port 443 open, HTTP protocol over TLS/SSL
+INFO - [2025-01-18-21:24:18] [Scan Started]
+INFO - [2025-01-18-21:24:18] <----------------------------------->
+INFO - [2025-01-18-21:24:18] Scanning ports 100-200 on localhost
+INFO - [2025-01-18-21:24:18] [Number of threads: 16]
+
+INFO - [2025-01-18-21:24:18] <----------------------------------->
+INFO - [2025-01-18-21:24:18] [Scan Results:]
+
+INFO - [2025-01-18-21:24:18] all done!
+INFO - [2025-01-18-21:24:18] all done!
+INFO - [2025-01-18-21:24:18] all done!
+INFO - [2025-01-18-21:24:18] all done!
+INFO - [2025-01-18-21:24:18] all done!
+INFO - [2025-01-18-21:24:18] all done!
+INFO - [2025-01-18-21:24:18] all done!
+INFO - [2025-01-18-21:24:18] all done!
+INFO - [2025-01-18-21:24:18] all done!
+INFO - [2025-01-18-21:24:18] all done!
+INFO - [2025-01-18-21:24:18] all done!
+INFO - [2025-01-18-21:24:18] all done!
+INFO - [2025-01-18-21:24:18] all done!
+INFO - [2025-01-18-21:24:18] all done!
+INFO - [2025-01-18-21:24:18] all done!
+INFO - [2025-01-18-21:24:18] all done!
+INFO - [2025-01-18-21:24:19] all done!
+INFO - [2025-01-18-21:24:19] all done!
+INFO - [2025-01-18-21:24:19] all done!
+INFO - [2025-01-18-21:24:19] all done!
+INFO - [2025-01-18-21:24:19] all done!
+INFO - [2025-01-18-21:24:19] all done!
+INFO - [2025-01-18-21:24:19] all done!
+INFO - [2025-01-18-21:24:19] all done!
+INFO - [2025-01-18-21:24:19] all done!
+INFO - [2025-01-18-21:24:19] all done!
+INFO - [2025-01-18-21:24:19] all done!
+INFO - [2025-01-18-21:24:19] all done!
+INFO - [2025-01-18-21:24:19] all done!
+INFO - [2025-01-18-21:24:19] all done!
+INFO - [2025-01-18-21:24:19] all done!
+WARNING - [2025-01-18-21:24:20] [localhost] Port 135 open, No description availabile
+INFO - [2025-01-18-21:24:20] all done!
+INFO - [2025-01-18-21:24:19] all done!
+INFO - [2025-01-18-21:24:20] all done!
+INFO - [2025-01-18-21:24:20] all done!
+INFO - [2025-01-18-21:24:20] all done!
+INFO - [2025-01-18-21:24:20] all done!
+INFO - [2025-01-18-21:24:20] all done!
+INFO - [2025-01-18-21:24:20] all done!
+INFO - [2025-01-18-21:24:20] all done!
+INFO - [2025-01-18-21:24:20] all done!
+INFO - [2025-01-18-21:24:20] all done!
+INFO - [2025-01-18-21:24:20] all done!
+INFO - [2025-01-18-21:24:20] all done!
+INFO - [2025-01-18-21:24:20] all done!
+INFO - [2025-01-18-21:24:20] all done!
+INFO - [2025-01-18-21:24:20] all done!
+INFO - [2025-01-18-21:24:20] all done!
+INFO - [2025-01-18-21:24:20] all done!
+INFO - [2025-01-18-21:24:20] all done!
+INFO - [2025-01-18-21:24:21] all done!
+INFO - [2025-01-18-21:24:21] all done!
+INFO - [2025-01-18-21:24:21] all done!
+INFO - [2025-01-18-21:24:21] all done!
+INFO - [2025-01-18-21:24:21] all done!
+INFO - [2025-01-18-21:24:21] all done!
+INFO - [2025-01-18-21:24:21] all done!
+INFO - [2025-01-18-21:24:21] all done!
+INFO - [2025-01-18-21:24:21] all done!
+INFO - [2025-01-18-21:24:21] all done!
+INFO - [2025-01-18-21:24:21] all done!
+INFO - [2025-01-18-21:24:21] all done!
+INFO - [2025-01-18-21:24:21] all done!
+INFO - [2025-01-18-21:24:21] all done!
+INFO - [2025-01-18-21:24:21] all done!
+INFO - [2025-01-18-21:24:21] all done!
+INFO - [2025-01-18-21:24:22] all done!
+INFO - [2025-01-18-21:24:22] all done!
+INFO - [2025-01-18-21:24:22] all done!
+INFO - [2025-01-18-21:24:22] all done!
+INFO - [2025-01-18-21:24:22] all done!
+INFO - [2025-01-18-21:24:22] all done!
+INFO - [2025-01-18-21:24:22] all done!
+INFO - [2025-01-18-21:24:22] all done!
+INFO - [2025-01-18-21:24:22] all done!
+INFO - [2025-01-18-21:24:22] all done!
+INFO - [2025-01-18-21:24:22] all done!
+INFO - [2025-01-18-21:24:22] all done!
+INFO - [2025-01-18-21:24:22] all done!
+INFO - [2025-01-18-21:24:22] all done!
+INFO - [2025-01-18-21:24:22] all done!
+INFO - [2025-01-18-21:24:22] all done!
+INFO - [2025-01-18-21:24:23] all done!
+INFO - [2025-01-18-21:24:23] all done!
+INFO - [2025-01-18-21:24:23] all done!
+INFO - [2025-01-18-21:24:23] all done!
+INFO - [2025-01-18-21:24:23] all done!
+INFO - [2025-01-18-21:24:23] all done!
+INFO - [2025-01-18-21:24:23] all done!
+INFO - [2025-01-18-21:24:23] all done!
+INFO - [2025-01-18-21:24:23] all done!
+INFO - [2025-01-18-21:24:23] all done!
+INFO - [2025-01-18-21:24:23] all done!
+INFO - [2025-01-18-21:24:23] all done!
+INFO - [2025-01-18-21:24:23] all done!
+INFO - [2025-01-18-21:24:23] all done!
+INFO - [2025-01-18-21:24:23] all done!
+INFO - [2025-01-18-21:24:23] all done!
+INFO - [2025-01-18-21:24:24] all done!
+INFO - [2025-01-18-21:24:24] all done!
+INFO - [2025-01-18-21:24:24] all done!
+INFO - [2025-01-18-21:25:09] [Scan Started]
+INFO - [2025-01-18-21:25:09] <----------------------------------->
+INFO - [2025-01-18-21:25:09] Scanning ports 100-200 on localhost
+INFO - [2025-01-18-21:25:09] [Number of threads: 16]
+
+INFO - [2025-01-18-21:26:22] [Scan Started]
+INFO - [2025-01-18-21:26:22] <----------------------------------->
+INFO - [2025-01-18-21:26:22] Scanning ports 100-200 on localhost
+INFO - [2025-01-18-21:26:22] [Number of threads: 16]
+
+INFO - [2025-01-18-21:26:22] <----------------------------------->
+INFO - [2025-01-18-21:26:22] [Scan Results:]
+
+INFO - [2025-01-18-21:26:22] <----------------------------------->
+INFO - [2025-01-18-21:26:22] <----------------------------------->
+INFO - [2025-01-18-21:26:22] <----------------------------------->
+INFO - [2025-01-18-21:26:22] <----------------------------------->
+INFO - [2025-01-18-21:26:22] <----------------------------------->
+INFO - [2025-01-18-21:26:22] <----------------------------------->
+INFO - [2025-01-18-21:26:22] <----------------------------------->
+INFO - [2025-01-18-21:26:22] <----------------------------------->
+INFO - [2025-01-18-21:26:22] <----------------------------------->
+INFO - [2025-01-18-21:26:22] <----------------------------------->
+INFO - [2025-01-18-21:26:22] <----------------------------------->
+INFO - [2025-01-18-21:26:22] <----------------------------------->
+INFO - [2025-01-18-21:26:22] <----------------------------------->
+INFO - [2025-01-18-21:26:22] <----------------------------------->
+INFO - [2025-01-18-21:26:22] <----------------------------------->
+INFO - [2025-01-18-21:26:22] <----------------------------------->
+INFO - [2025-01-18-21:26:23] <----------------------------------->
+INFO - [2025-01-18-21:26:23] <----------------------------------->
+INFO - [2025-01-18-21:26:23] <----------------------------------->
+INFO - [2025-01-18-21:26:23] <----------------------------------->
+INFO - [2025-01-18-21:26:23] <----------------------------------->
+INFO - [2025-01-18-21:26:23] <----------------------------------->
+INFO - [2025-01-18-21:26:23] <----------------------------------->
+WARNING - [2025-01-18-21:26:24] [localhost] Port 135 open, No description availabile
+INFO - [2025-01-18-21:26:24] <----------------------------------->
+INFO - [2025-01-18-21:26:24] <----------------------------------->
+INFO - [2025-01-18-21:26:23] <----------------------------------->
+INFO - [2025-01-18-21:26:23] <----------------------------------->
+INFO - [2025-01-18-21:26:23] <----------------------------------->
+INFO - [2025-01-18-21:26:23] <----------------------------------->
+INFO - [2025-01-18-21:26:23] <----------------------------------->
+INFO - [2025-01-18-21:26:23] <----------------------------------->
+INFO - [2025-01-18-21:26:23] <----------------------------------->
+INFO - [2025-01-18-21:26:23] <----------------------------------->
+INFO - [2025-01-18-21:26:23] <----------------------------------->
+INFO - [2025-01-18-21:26:24] <----------------------------------->
+INFO - [2025-01-18-21:26:24] <----------------------------------->
+INFO - [2025-01-18-21:26:24] <----------------------------------->
+INFO - [2025-01-18-21:26:24] <----------------------------------->
+INFO - [2025-01-18-21:26:24] <----------------------------------->
+INFO - [2025-01-18-21:26:24] <----------------------------------->
+INFO - [2025-01-18-21:26:24] <----------------------------------->
+INFO - [2025-01-18-21:26:24] <----------------------------------->
+INFO - [2025-01-18-21:26:24] <----------------------------------->
+INFO - [2025-01-18-21:26:24] <----------------------------------->
+INFO - [2025-01-18-21:26:24] <----------------------------------->
+INFO - [2025-01-18-21:26:24] <----------------------------------->
+INFO - [2025-01-18-21:26:24] <----------------------------------->
+INFO - [2025-01-18-21:26:24] <----------------------------------->
+INFO - [2025-01-18-21:26:24] <----------------------------------->
+INFO - [2025-01-18-21:26:24] <----------------------------------->
+INFO - [2025-01-18-21:26:25] <----------------------------------->
+INFO - [2025-01-18-21:26:25] <----------------------------------->
+INFO - [2025-01-18-21:26:25] <----------------------------------->
+INFO - [2025-01-18-21:26:25] <----------------------------------->
+INFO - [2025-01-18-21:26:25] <----------------------------------->
+INFO - [2025-01-18-21:26:25] <----------------------------------->
+INFO - [2025-01-18-21:26:25] <----------------------------------->
+INFO - [2025-01-18-21:26:25] <----------------------------------->
+INFO - [2025-01-18-21:26:25] <----------------------------------->
+INFO - [2025-01-18-21:26:25] <----------------------------------->
+INFO - [2025-01-18-21:26:25] <----------------------------------->
+INFO - [2025-01-18-21:26:25] <----------------------------------->
+INFO - [2025-01-18-21:26:25] <----------------------------------->
+INFO - [2025-01-18-21:26:25] <----------------------------------->
+INFO - [2025-01-18-21:26:25] <----------------------------------->
+INFO - [2025-01-18-21:26:25] <----------------------------------->
+INFO - [2025-01-18-21:26:26] <----------------------------------->
+INFO - [2025-01-18-21:26:26] <----------------------------------->
+INFO - [2025-01-18-21:26:26] <----------------------------------->
+INFO - [2025-01-18-21:26:26] <----------------------------------->
+INFO - [2025-01-18-21:26:26] <----------------------------------->
+INFO - [2025-01-18-21:26:26] <----------------------------------->
+INFO - [2025-01-18-21:26:26] <----------------------------------->
+INFO - [2025-01-18-21:26:26] <----------------------------------->
+INFO - [2025-01-18-21:26:26] <----------------------------------->
+INFO - [2025-01-18-21:26:26] <----------------------------------->
+INFO - [2025-01-18-21:26:26] <----------------------------------->
+INFO - [2025-01-18-21:26:26] <----------------------------------->
+INFO - [2025-01-18-21:26:26] <----------------------------------->
+INFO - [2025-01-18-21:26:26] <----------------------------------->
+INFO - [2025-01-18-21:26:26] <----------------------------------->
+INFO - [2025-01-18-21:26:26] <----------------------------------->
+INFO - [2025-01-18-21:26:27] <----------------------------------->
+INFO - [2025-01-18-21:26:27] <----------------------------------->
+INFO - [2025-01-18-21:26:27] <----------------------------------->
+INFO - [2025-01-18-21:26:27] <----------------------------------->
+INFO - [2025-01-18-21:26:27] <----------------------------------->
+INFO - [2025-01-18-21:26:27] <----------------------------------->
+INFO - [2025-01-18-21:26:27] <----------------------------------->
+INFO - [2025-01-18-21:26:27] <----------------------------------->
+INFO - [2025-01-18-21:26:27] <----------------------------------->
+INFO - [2025-01-18-21:26:27] <----------------------------------->
+INFO - [2025-01-18-21:26:27] <----------------------------------->
+INFO - [2025-01-18-21:26:27] <----------------------------------->
+INFO - [2025-01-18-21:26:27] <----------------------------------->
+INFO - [2025-01-18-21:26:27] <----------------------------------->
+INFO - [2025-01-18-21:26:27] <----------------------------------->
+INFO - [2025-01-18-21:26:27] <----------------------------------->
+INFO - [2025-01-18-21:26:28] <----------------------------------->
+INFO - [2025-01-18-21:26:28] <----------------------------------->
+INFO - [2025-01-18-21:26:28] <----------------------------------->
+INFO - [2025-01-18-21:27:12] [Scan Started]
+INFO - [2025-01-18-21:27:12] <----------------------------------->
+INFO - [2025-01-18-21:27:12] Scanning ports 100-200 on localhost
+INFO - [2025-01-18-21:27:12] [Number of threads: 16]
+
+INFO - [2025-01-18-21:27:12] <----------------------------------->
+INFO - [2025-01-18-21:27:12] [Scan Results:]
+
+INFO - [2025-01-18-21:27:12] <----------------------------------->
+INFO - [2025-01-18-21:27:12] <----------------------------------->
+INFO - [2025-01-18-21:27:12] <----------------------------------->
+INFO - [2025-01-18-21:27:12] <----------------------------------->
+INFO - [2025-01-18-21:27:12] <----------------------------------->
+INFO - [2025-01-18-21:27:12] <----------------------------------->
+INFO - [2025-01-18-21:27:12] <----------------------------------->
+INFO - [2025-01-18-21:27:12] <----------------------------------->
+INFO - [2025-01-18-21:27:12] <----------------------------------->
+INFO - [2025-01-18-21:27:12] <----------------------------------->
+INFO - [2025-01-18-21:27:12] <----------------------------------->
+INFO - [2025-01-18-21:27:12] <----------------------------------->
+INFO - [2025-01-18-21:27:12] <----------------------------------->
+INFO - [2025-01-18-21:27:12] <----------------------------------->
+INFO - [2025-01-18-21:27:12] <----------------------------------->
+INFO - [2025-01-18-21:27:12] <----------------------------------->
+INFO - [2025-01-18-21:27:13] <----------------------------------->
+INFO - [2025-01-18-21:27:13] <----------------------------------->
+INFO - [2025-01-18-21:27:13] <----------------------------------->
+INFO - [2025-01-18-21:27:13] <----------------------------------->
+INFO - [2025-01-18-21:27:13] <----------------------------------->
+INFO - [2025-01-18-21:27:13] <----------------------------------->
+INFO - [2025-01-18-21:27:13] <----------------------------------->
+INFO - [2025-01-18-21:27:13] <----------------------------------->
+INFO - [2025-01-18-21:27:13] <----------------------------------->
+INFO - [2025-01-18-21:27:13] <----------------------------------->
+INFO - [2025-01-18-21:27:13] <----------------------------------->
+INFO - [2025-01-18-21:27:13] <----------------------------------->
+INFO - [2025-01-18-21:27:13] <----------------------------------->
+WARNING - [2025-01-18-21:27:14] [localhost] Port 135 open, No description availabile
+INFO - [2025-01-18-21:27:14] <----------------------------------->
+INFO - [2025-01-18-21:27:13] <----------------------------------->
+INFO - [2025-01-18-21:27:13] <----------------------------------->
+INFO - [2025-01-18-21:27:13] <----------------------------------->
+INFO - [2025-01-18-21:27:14] <----------------------------------->
+INFO - [2025-01-18-21:27:14] <----------------------------------->
+INFO - [2025-01-18-21:27:14] <----------------------------------->
+INFO - [2025-01-18-21:27:14] <----------------------------------->
+INFO - [2025-01-18-21:27:14] <----------------------------------->
+INFO - [2025-01-18-21:27:14] <----------------------------------->
+INFO - [2025-01-18-21:27:14] <----------------------------------->
+INFO - [2025-01-18-21:27:14] <----------------------------------->
+INFO - [2025-01-18-21:27:14] <----------------------------------->
+INFO - [2025-01-18-21:27:14] <----------------------------------->
+INFO - [2025-01-18-21:27:14] <----------------------------------->
+INFO - [2025-01-18-21:27:14] <----------------------------------->
+INFO - [2025-01-18-21:27:14] <----------------------------------->
+INFO - [2025-01-18-21:27:14] <----------------------------------->
+INFO - [2025-01-18-21:27:14] <----------------------------------->
+INFO - [2025-01-18-21:27:14] <----------------------------------->
+INFO - [2025-01-18-21:27:14] <----------------------------------->
+INFO - [2025-01-18-21:27:15] <----------------------------------->
+INFO - [2025-01-18-21:27:15] <----------------------------------->
+INFO - [2025-01-18-21:27:15] <----------------------------------->
+INFO - [2025-01-18-21:27:15] <----------------------------------->
+INFO - [2025-01-18-21:27:15] <----------------------------------->
+INFO - [2025-01-18-21:27:15] <----------------------------------->
+INFO - [2025-01-18-21:27:15] <----------------------------------->
+INFO - [2025-01-18-21:27:15] <----------------------------------->
+INFO - [2025-01-18-21:27:15] <----------------------------------->
+INFO - [2025-01-18-21:27:15] <----------------------------------->
+INFO - [2025-01-18-21:27:15] <----------------------------------->
+INFO - [2025-01-18-21:27:15] <----------------------------------->
+INFO - [2025-01-18-21:27:15] <----------------------------------->
+INFO - [2025-01-18-21:27:15] <----------------------------------->
+INFO - [2025-01-18-21:27:15] <----------------------------------->
+INFO - [2025-01-18-21:27:15] <----------------------------------->
+INFO - [2025-01-18-21:27:16] <----------------------------------->
+INFO - [2025-01-18-21:27:16] <----------------------------------->
+INFO - [2025-01-18-21:27:16] <----------------------------------->
+INFO - [2025-01-18-21:27:16] <----------------------------------->
+INFO - [2025-01-18-21:27:16] <----------------------------------->
+INFO - [2025-01-18-21:27:16] <----------------------------------->
+INFO - [2025-01-18-21:27:16] <----------------------------------->
+INFO - [2025-01-18-21:27:16] <----------------------------------->
+INFO - [2025-01-18-21:27:16] <----------------------------------->
+INFO - [2025-01-18-21:27:16] <----------------------------------->
+INFO - [2025-01-18-21:27:16] <----------------------------------->
+INFO - [2025-01-18-21:27:16] <----------------------------------->
+INFO - [2025-01-18-21:27:16] <----------------------------------->
+INFO - [2025-01-18-21:27:16] <----------------------------------->
+INFO - [2025-01-18-21:27:16] <----------------------------------->
+INFO - [2025-01-18-21:27:16] <----------------------------------->
+INFO - [2025-01-18-21:27:17] <----------------------------------->
+INFO - [2025-01-18-21:27:17] <----------------------------------->
+INFO - [2025-01-18-21:27:17] <----------------------------------->
+INFO - [2025-01-18-21:27:17] <----------------------------------->
+INFO - [2025-01-18-21:27:17] <----------------------------------->
+INFO - [2025-01-18-21:27:17] <----------------------------------->
+INFO - [2025-01-18-21:27:17] <----------------------------------->
+INFO - [2025-01-18-21:27:17] <----------------------------------->
+INFO - [2025-01-18-21:27:17] <----------------------------------->
+INFO - [2025-01-18-21:27:17] <----------------------------------->
+INFO - [2025-01-18-21:27:17] <----------------------------------->
+INFO - [2025-01-18-21:27:17] <----------------------------------->
+INFO - [2025-01-18-21:27:17] <----------------------------------->
+INFO - [2025-01-18-21:27:17] <----------------------------------->
+INFO - [2025-01-18-21:27:17] <----------------------------------->
+INFO - [2025-01-18-21:27:17] <----------------------------------->
+INFO - [2025-01-18-21:27:18] <----------------------------------->
+INFO - [2025-01-18-21:27:18] <----------------------------------->
+INFO - [2025-01-18-21:27:18] <----------------------------------->
+INFO - [2025-01-18-21:33:17] [Scan Started]
+INFO - [2025-01-18-21:33:17] <----------------------------------->
+INFO - [2025-01-18-21:33:17] Scanning ports 100-200 on localhost
+INFO - [2025-01-18-21:33:17] [Number of threads: 16]
+
+INFO - [2025-01-18-21:33:17] <----------------------------------->
+INFO - [2025-01-18-21:33:17] [Scan Results:]
+
+WARNING - [2025-01-18-21:33:19] [localhost] Port 135 open, DCE endpoint resolution
+INFO - [2025-01-18-21:34:15] [Scan Started]
+INFO - [2025-01-18-21:34:15] <----------------------------------->
+INFO - [2025-01-18-21:34:15] Scanning ports 100-200 on localhost
+INFO - [2025-01-18-21:34:15] [Number of threads: 16]
+
+INFO - [2025-01-18-21:34:15] <----------------------------------->
+INFO - [2025-01-18-21:34:15] [Scan Results:]
+
+ERROR - [2025-01-18-21:34:15] Error scanning port 104: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:15] Error scanning port 107: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:15] Error scanning port 100: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:15] Error scanning port 102: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:15] Error scanning port 109: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:15] Error scanning port 108: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:15] Error scanning port 105: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:15] Error scanning port 111: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:15] Error scanning port 110: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:15] Error scanning port 114: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:15] Error scanning port 112: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:15] Error scanning port 113: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:15] Error scanning port 115: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:15] Error scanning port 101: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:15] Error scanning port 103: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:15] Error scanning port 106: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:16] Error scanning port 116: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:16] Error scanning port 121: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:16] Error scanning port 120: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:16] Error scanning port 118: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:16] Error scanning port 117: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:16] Error scanning port 119: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:16] Error scanning port 122: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:17] Error scanning port 135: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:16] Error scanning port 131: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:16] Error scanning port 130: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:16] Error scanning port 125: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:16] Error scanning port 126: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:16] Error scanning port 127: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:16] Error scanning port 128: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:16] Error scanning port 129: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:16] Error scanning port 123: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:16] Error scanning port 124: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:17] Error scanning port 137: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:17] Error scanning port 134: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:17] Error scanning port 136: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:17] Error scanning port 133: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:17] Error scanning port 132: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:17] Error scanning port 139: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:17] Error scanning port 141: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:17] Error scanning port 140: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:17] Error scanning port 142: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:17] Error scanning port 138: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:17] Error scanning port 144: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:17] Error scanning port 146: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:17] Error scanning port 149: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:17] Error scanning port 147: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:17] Error scanning port 145: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:17] Error scanning port 143: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:17] Error scanning port 148: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:18] Error scanning port 150: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:18] Error scanning port 152: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:18] Error scanning port 151: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:18] Error scanning port 153: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:18] Error scanning port 154: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:18] Error scanning port 157: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:18] Error scanning port 155: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:18] Error scanning port 160: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:18] Error scanning port 159: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:18] Error scanning port 161: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:18] Error scanning port 156: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:18] Error scanning port 158: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:18] Error scanning port 162: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:18] Error scanning port 165: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:18] Error scanning port 164: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:18] Error scanning port 163: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:19] Error scanning port 168: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:19] Error scanning port 166: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:19] Error scanning port 167: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:19] Error scanning port 169: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:19] Error scanning port 170: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:19] Error scanning port 172: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:19] Error scanning port 173: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:19] Error scanning port 171: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:19] Error scanning port 181: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:19] Error scanning port 178: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:19] Error scanning port 176: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:19] Error scanning port 177: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:19] Error scanning port 179: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:19] Error scanning port 175: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:19] Error scanning port 174: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:19] Error scanning port 180: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:20] Error scanning port 182: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:20] Error scanning port 183: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:20] Error scanning port 184: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:20] Error scanning port 185: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:20] Error scanning port 186: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:20] Error scanning port 187: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:20] Error scanning port 188: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:20] Error scanning port 189: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:20] Error scanning port 190: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:20] Error scanning port 192: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:20] Error scanning port 191: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:20] Error scanning port 193: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:20] Error scanning port 195: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:20] Error scanning port 196: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:20] Error scanning port 194: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:20] Error scanning port 197: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:21] Error scanning port 199: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:21] Error scanning port 198: get expected at most 2 arguments, got 3
+ERROR - [2025-01-18-21:34:21] Error scanning port 200: get expected at most 2 arguments, got 3
+INFO - [2025-01-18-21:34:49] [Scan Started]
+INFO - [2025-01-18-21:34:49] <----------------------------------->
+INFO - [2025-01-18-21:34:49] Scanning ports 100-200 on localhost
+INFO - [2025-01-18-21:34:49] [Number of threads: 16]
+
+INFO - [2025-01-18-21:34:49] <----------------------------------->
+INFO - [2025-01-18-21:34:49] [Scan Results:]
+
+WARNING - [2025-01-18-21:34:51] [localhost] Port 135 open, DCE endpoint resolution, rdp
+INFO - [2025-01-18-21:39:34] [Scan Started]
+INFO - [2025-01-18-21:39:34] <----------------------------------->
+INFO - [2025-01-18-21:39:34] Scanning ports 100-200 on localhost
+INFO - [2025-01-18-21:39:34] [Number of threads: 16]
+
+INFO - [2025-01-18-21:39:34] <----------------------------------->
+INFO - [2025-01-18-21:39:34] [Scan Results:]
+
+WARNING - [2025-01-18-21:39:36] [localhost] Port 135 open, ('DCE endpoint resolution', 'epmap_udp', 'udp')
+INFO - [2025-01-18-21:40:36] [Scan Started]
+INFO - [2025-01-18-21:40:36] <----------------------------------->
+INFO - [2025-01-18-21:40:36] Scanning ports 1-8090 on 137.74.187.100
+INFO - [2025-01-18-21:40:36] [Number of threads: 16]
+
+INFO - [2025-01-18-21:40:36] <----------------------------------->
+INFO - [2025-01-18-21:40:36] [Scan Results:]
+
+WARNING - [2025-01-18-21:40:40] [137.74.187.100] Port 80 open, ('World Wide Web HTTP', 'http_udp', 'udp')
+WARNING - [2025-01-18-21:41:03] [137.74.187.100] Port 443 open, ('HTTP protocol over TLS/SSL', 'https_udp', 'udp')

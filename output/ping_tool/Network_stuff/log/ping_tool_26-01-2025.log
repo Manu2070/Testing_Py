@@ -1,0 +1,28 @@
+INFO - 3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)]
+INFO - [2025-01-26-15:48:47] [C:\Users\manu\Desktop\Testing_Py\output\ping_tool\_internal\settings.ini]
+INFO - [2025-01-26-15:48:47] [C:\Users\manu\Desktop\Testing_Py\output\ping_tool\_internal\ports.ini]
+INFO - [2025-01-26 15:49:00] [Start ping]
+INFO - [2025-01-26 15:49:00] <----------------------------------->
+INFO - [2025-01-26 15:49:00] [Thread:start]
+INFO - [2025-01-26 15:49:00] Pinging Manu [::1] with 32 bytes of data:
+INFO - [2025-01-26 15:49:00] Reply from ::1: time<1ms
+INFO - [2025-01-26 15:49:00] Reply from ::1: time<1ms
+INFO - [2025-01-26 15:49:00] Reply from ::1: time<1ms
+INFO - [2025-01-26 15:49:00] Reply from ::1: time<1ms
+INFO - [2025-01-26 15:49:00] Ping statistics for ::1:
+INFO - [2025-01-26 15:49:00] Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+INFO - [2025-01-26 15:49:00] Approximate round trip times in milli-seconds:
+INFO - [2025-01-26 15:49:00] Minimum = 0ms, Maximum = 0ms, Average = 0ms
+INFO - [2025-01-26 15:49:00] <----------------------------------->
+INFO - [2025-01-26 15:49:00] [Thread: end]
+INFO - [2025-01-26 15:49:00] [End ping]
+
+INFO - [2025-01-26 15:49:10] [Scan Started]
+INFO - [2025-01-26 15:49:10] <----------------------------------->
+INFO - [2025-01-26 15:49:10] Scanning ports 1-200 on localhost
+INFO - [2025-01-26 15:49:10] [Number of threads: 16]
+
+INFO - [2025-01-26 15:49:10] <----------------------------------->
+INFO - [2025-01-26 15:49:10] [Scan Results:]
+
+WARNING - [2025-01-26 15:49:18] [localhost] Port 135 open, DCE endpoint resolution, udp, epmap_udp
