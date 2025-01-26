@@ -50,9 +50,4 @@ def setup_logging():
     log_sh.setFormatter(log_format)  # Set format to stream handler
     logging.basicConfig(level=logging.INFO)  # Basic configuration
     logging.getLogger().addHandler(log_fh)
-    logging.getLogger().addHandler(log_sh)
-
-
-
-
-        
+    logging.getLogger().addHandler(log_sh)  
