@@ -17,7 +17,6 @@ from hwinfo import log_hardware_info
 setup_logging()
 logging.info(f'{sys.version}\n')
 
-#137.74.187.100 hack this
 
 # --- Class ---
 class TextHandler(logging.Handler):
