@@ -14,6 +14,11 @@ def get_ini_file_path(file_name):
     else:
         # If not bundled, use the current working directory
         base_path = os.path.dirname(__file__)
+
+    if os.name == 'nt':
+        base_path = base_path.replace('/', '\\')
+    else:
+        base_path = base_path.replace('\\', '/')    
     
     return os.path.join(base_path, file_name)
 

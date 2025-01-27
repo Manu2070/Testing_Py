@@ -41,7 +41,7 @@ BG = config['BackgroundColor']['BG']
 N_THREADS = int(config['ThreadSettings']['N_THREADS'])
 Version = str(config['Version']['version_nm'])
 
-logging.info(f'{sys.version + ' ' + 'Version: ' + Version}\n')
+logging.info(f'{sys.version}, Version: {Version}\n')
 
 # --- Extract port descriptions from ports.ini ---
 portsdes = {}
@@ -139,7 +139,7 @@ def ping():
     logging.info(f"[{ts}] [Start ping]")
     logging.info(f"[{ts}] <----------------------------------->")
     try:
-        pull = subprocess.Popen(['ping', address_to_ping], stdout=subprocess.PIPE, bufsize=-1, text=True, shell=False)
+        pull = subprocess.Popen(['ping', '-c', '4', address_to_ping], stdout=subprocess.PIPE, bufsize=-1, text=True, shell=False)
         logging.debug(f"[{ts}] [Thread:start]")
         
         while pull.poll() is None:
