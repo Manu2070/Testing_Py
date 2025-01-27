@@ -12,11 +12,8 @@ from tkinter import ttk
 from config_logging import read_config, setup_logging
 from hwinfo import log_hardware_info
 
-
 # --- logging ---
 setup_logging()
-logging.info(f'{sys.version}\n')
-
 
 # --- Class ---
 class TextHandler(logging.Handler):
@@ -42,6 +39,9 @@ maxheight = int(config['WindowSettings']['maxheight'])
 maxwidth = int(config['WindowSettings']['maxwidth'])
 BG = config['BackgroundColor']['BG']
 N_THREADS = int(config['ThreadSettings']['N_THREADS'])
+Version = str(config['Version']['version_nm'])
+
+logging.info(f'{sys.version + ' ' + 'Version: ' + Version}\n')
 
 # --- Extract port descriptions from ports.ini ---
 portsdes = {}
@@ -83,6 +83,10 @@ scrollbar['command'] = text.yview
 # --- Progressbar ---
 progress_bar = ttk.Progressbar(box, orient='horizontal', length=400, mode='determinate')
 progress_bar.grid(row=0, column=0, pady=5, padx=5, sticky= 'ew')
+
+# --- Version Label --- 
+vl = tk.Label(box, bg=BG, fg='white', text='Version: ' + Version)
+vl.grid(row=2, column=2, pady=5, padx=5, sticky= 'e')
 
 # --- IP Address Entry ---
 address = tk.Entry(master=box, bg=BG, fg='white')
@@ -238,6 +242,5 @@ button.grid(row=2, column=0, sticky='nsew', padx=5, pady=5)
 # Button to start the port scan function
 port_scan_button = tk.Button(box, text="Start Port Scan", command=port_scan, bg=BG, fg='white')
 port_scan_button.grid(row=2, column=1, sticky='nsew', padx=5, pady=5)
-
 
 root.mainloop()

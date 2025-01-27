@@ -1,5 +1,7 @@
 import psutil
 import logging
+import os
+from psutil._common import bytes2human
 
 
 def log_hardware_info():
@@ -23,20 +25,29 @@ def log_hardware_info():
     logging.info(f" Percentage: {virtual_memory.percent}%\n")
 
     # Network information
-    logging.info(" Network Info:")
+    logging.info("Network Info:")
     net_io = psutil.net_io_counters()
     logging.info(f" Total Bytes Sent: {net_io.bytes_sent / (1024 ** 2):.2f} MB")
     logging.info(f" Total Bytes Received: {net_io.bytes_recv / (1024 ** 2):.2f} MB\n")
 
-def disc():
     #Disk information
-    logging.info("Disk Info:")
-    for partition in psutil.disk_partitions():
-        logging.info(f"Device: {partition.device}")
-        logging.info(f"  Mountpoint: {partition.mountpoint}")
-        logging.info(f"  File system type: {partition.fstype}")
-        usage = psutil.disk_usage(partition.mountpoint)
-        logging.info(f"  Total Size: {usage.total / (1024 ** 3):.2f} GB")
-        logging.info(f"  Used: {usage.used / (1024 ** 3):.2f} GB")
-        logging.info(f"  Free: {usage.free / (1024 ** 3):.2f} GB")
-        logging.info(f"  Percentage: {usage.percent}%")
+    templ = "{:<17} {:>8} {:>8} {:>8} {:>5}% {:>9}  {}"
+    logging.info(f'{templ.format("Device", "Total", "Used", "Free", "Use ", "Type", "Mount")}')
+    for part in psutil.disk_partitions(all=False):
+        if os.name == 'nt':
+            if 'cdrom' in part.opts or not part.fstype:
+                # skip cd-rom drives with no disk in it; they may raise
+                # ENOENT, pop-up a Windows GUI error for a non-ready
+                # partition or just hang.
+                continue
+        usage = psutil.disk_usage(part.mountpoint)
+        line = templ.format(
+            part.device,
+            bytes2human(usage.total),
+            bytes2human(usage.used),
+            bytes2human(usage.free),
+            int(usage.percent),
+            part.fstype,
+            part.mountpoint,
+        )
+        logging.info(f'{line}')
