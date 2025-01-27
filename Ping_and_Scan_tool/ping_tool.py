@@ -139,7 +139,10 @@ def ping():
     logging.info(f"[{ts}] [Start ping]")
     logging.info(f"[{ts}] <----------------------------------->")
     try:
-        pull = subprocess.Popen(['ping', '-c', '4', address_to_ping], stdout=subprocess.PIPE, bufsize=-1, text=True, shell=False)
+        if os.name == 'nt':  # Windows
+            pull = subprocess.Popen(['ping', '-n', str(4), address_to_ping], stdout=subprocess.PIPE, bufsize=-1, text=True, shell=False)
+        else:  # Unix-based
+            pull = subprocess.Popen(['ping', '-c', str(4), address_to_ping], stdout=subprocess.PIPE, bufsize=-1, text=True, shell=False)
         logging.debug(f"[{ts}] [Thread:start]")
         
         while pull.poll() is None:
