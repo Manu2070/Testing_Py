@@ -9,24 +9,11 @@ import queue
 from datetime import datetime
 import tkinter as tk
 from tkinter import ttk
-from config_logging import read_config, setup_logging
+from config_logging import read_config, setup_logging, TextHandler
 from hwinfo import log_hardware_info
 
 # --- logging ---
 setup_logging()
-
-# --- Class ---
-class TextHandler(logging.Handler):
-    def __init__(self, widget):
-        logging.Handler.__init__(self)
-        self.widget = widget
-
-    def emit(self, record):
-        msg = self.format(record)
-        def append():
-            self.widget.insert(tk.END, msg + '\n', record.levelname)
-            self.widget.see(tk.END)
-        self.widget.after(0, append)
 
 # --- read settings from config file ---
 config, config_port = read_config()
@@ -123,7 +110,7 @@ text_handler = TextHandler(text)
 logging.getLogger().addHandler(text_handler)
 
 # --- functions ---
-log_hardware_info()
+log_hardware_info(text)
 
 # --- Run function ---
 def run(): 
@@ -136,8 +123,9 @@ def ping():
     if not address_to_ping:
         logging.error(f"[{ts}] No address to ping")
         return
-    logging.info(f"[{ts}] [Start ping]")
-    logging.info(f"[{ts}] <----------------------------------->")
+    #logging.info(f"[{ts}] [Start ping]")
+    text.insert(tk.END, f'[{ts}] [Start ping]\n', 'INFO')
+    text.insert(tk.END, f"[{ts}] <----------------------------------->\n", 'INFO')
     try:
         if os.name == 'nt':  # Windows
             pull = subprocess.Popen(['ping', '-n', str(4), address_to_ping], stdout=subprocess.PIPE, bufsize=-1, text=True, shell=False)
@@ -149,21 +137,21 @@ def ping():
             for msg in pull.stdout:
                 msg = msg.strip()  # read a line from the process output
                 if msg:
-                    logging.info(f"[{ts}] {msg}")
-        logging.info(f"[{ts}] <----------------------------------->")
+                    text.insert(tk.END, f"[{ts}] {msg}\n", 'INFO')
+        text.insert(tk.END, f"[{ts}] <----------------------------------->\n", 'INFO')
+        text.insert(tk.END, f'[{ts}] [End ping]\n', 'INFO')
         logging.debug(f"[{ts}] [Thread: end]")
-        logging.info(f"[{ts}] [End ping]\n")
     except Exception as e:
         logging.error(f"[{ts}] Error during ping: {e}")
 
 # --- Port scan function ---
 def port_scan():
     ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    logging.info(f"[{ts}] [Scan Started]")
-    logging.info(f"[{ts}] <----------------------------------->")
+    text.insert(tk.END, f'[{ts}] [Scan Started]\n', 'INFO')
+    text.insert(tk.END, f"[{ts}] <----------------------------------->\n", 'INFO')
     target = address.get()
     port_range = portE.get()
-    logging.info(f"[{ts}] Scanning ports {port_range} on {target}")
+    text.insert(tk.END, f'[{ts}] Scanning ports {port_range} on {target}\n', 'INFO')
     
     try:
         start_port, end_port = map(int, port_range.split('-'))
@@ -180,24 +168,24 @@ def port_scan():
         logging.debug(f"[{ts}] Port {port} added to queue")
 
     num_threads = min(N_THREADS, os.cpu_count() * 2)  # Optimal Number of threads
-    logging.info(f"[{ts}] [Number of threads: {num_threads}]\n")
+    text.insert(tk.END, f'[{ts}] [Number of threads: {num_threads}]\n', 'INFO')
     
     # Initialize progress bar
     progress_bar['maximum'] = q.qsize()
     progress_bar['value'] = 0
     
-    # Start threads, each thread will call the worker function: Number of threads in settings.py
-    for _ in range(num_threads):
+    # Start threads, each thread will call the worker function: Number of threads in settings.ini
+    for port in range(num_threads):
         logging.debug(f"[{ts}] Starting thread")
         threading.Thread(target=worker, args=(target, q)).start()
     try:
         #q.join()  # Wait for all tasks to finish | won't work proberly the sript will freez don't know why
         logging.debug(f"[{ts}] All tasks finished")
-    except KeyboardInterrupt:
-        logging.error(f"[{ts}] Scan interrupted")
+    except Exception as e:
+        logging.error(f"[{ts}] Scan interrupted [{e}]")
     finally:
-        logging.info(f"[{ts}] <----------------------------------->")
-        logging.info(f"[{ts}] [Scan Results:]\n")
+        text.insert(tk.END, f"[{ts}] <----------------------------------->\n", 'INFO')
+        text.insert(tk.END, f'[{ts}] [Scan Results:]\n', 'INFO')
 
 # --- Worker function ---
 def worker(target, q):
@@ -238,6 +226,11 @@ def on_focus_out(entry, placeholder):
         entry.insert(0, placeholder)
         entry.configure(state='disabled')
 
+# Function to handle window close event
+def on_closing():
+    root.quit()
+    root.destroy()
+
 # - button -
 button = tk.Button(master=box, text='Start Ping', command=run, bg=BG, fg='white', width=20)
 button.grid(row=2, column=0, sticky='nsew', padx=5, pady=5)
@@ -245,5 +238,15 @@ button.grid(row=2, column=0, sticky='nsew', padx=5, pady=5)
 # Button to start the port scan function
 port_scan_button = tk.Button(box, text="Start Port Scan", command=port_scan, bg=BG, fg='white')
 port_scan_button.grid(row=2, column=1, sticky='nsew', padx=5, pady=5)
+
+
+menubar = tk.Menu(root, bg=BG, fg='white')
+filemenu = tk.Menu(menubar, bg=BG, fg='white', tearoff=0)
+filemenu.add_command(label="Exit", command=on_closing)
+menubar.add_cascade(label="File", menu=filemenu)
+root.config(menu=menubar)
+
+# Bind the window close event to the on_closing function
+root.protocol("WM_DELETE_WINDOW", on_closing)
 
 root.mainloop()

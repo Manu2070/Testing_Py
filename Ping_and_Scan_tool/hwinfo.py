@@ -1,39 +1,39 @@
 import psutil
 import logging
 import os
-import time
+import tkinter as tk
 from psutil._common import bytes2human
+from config_logging import TextHandler
 
-
-def log_hardware_info():
+def log_hardware_info(text_widget):
 
     # CPU information
-    logging.info("CPU Info:")
-    logging.info(f" Physical cores: {psutil.cpu_count(logical=False)}")
-    logging.info(f" Total cores: {psutil.cpu_count(logical=True)}")
-    logging.info(f" Max Frequency: {psutil.cpu_freq().max}Mhz")
-    logging.info(f" Min Frequency: {psutil.cpu_freq().min}Mhz")
-    logging.info(f" Current Frequency: {psutil.cpu_freq().current}Mhz")
-    logging.info(f" CPU Usage Per Core: {psutil.cpu_percent(percpu=True)}")
-    logging.info(f" Total CPU Usage: {psutil.cpu_percent()}%\n")
+    text_widget.insert(tk.END, f"CPU Info:\n")
+    text_widget.insert(tk.END, f" Physical cores: {psutil.cpu_count(logical=False)}\n")
+    text_widget.insert(tk.END, f" Total cores: {psutil.cpu_count(logical=True)}\n")
+    text_widget.insert(tk.END, f" Max Frequency: {psutil.cpu_freq().max}Mhz\n")
+    text_widget.insert(tk.END, f" Min Frequency: {psutil.cpu_freq().min}Mhz\n")
+    text_widget.insert(tk.END, f" Current Frequency: {psutil.cpu_freq().current}Mhz\n")
+    text_widget.insert(tk.END, f" CPU Usage Per Core: {psutil.cpu_percent(percpu=True)}\n")
+    text_widget.insert(tk.END, f" Total CPU Usage: {psutil.cpu_percent()}%\n")
 
     # Memory information
-    logging.info("Memory Info:")
+    text_widget.insert(tk.END, "Memory Info:\n")
     virtual_memory = psutil.virtual_memory()
-    logging.info(f" Total: {virtual_memory.total / (1024 ** 3):.2f} GB")
-    logging.info(f" Available: {virtual_memory.available / (1024 ** 3):.2f} GB")
-    logging.info(f" Used: {virtual_memory.used / (1024 ** 3):.2f} GB")
-    logging.info(f" Percentage: {virtual_memory.percent}%\n")
+    text_widget.insert(tk.END, f" Total: {virtual_memory.total / (1024 ** 3):.2f} GB\n")
+    text_widget.insert(tk.END, f" Available: {virtual_memory.available / (1024 ** 3):.2f} GB\n")
+    text_widget.insert(tk.END, f" Used: {virtual_memory.used / (1024 ** 3):.2f} GB\n")
+    text_widget.insert(tk.END, f" Percentage: {virtual_memory.percent}%\n")
 
     # Network information
-    logging.info("Network Info:")
+    text_widget.insert(tk.END, "Network Info:\n")
     net_io = psutil.net_io_counters()
-    logging.info(f" Total Bytes Sent: {net_io.bytes_sent / (1024 ** 2):.2f} MB")
-    logging.info(f" Total Bytes Received: {net_io.bytes_recv / (1024 ** 2):.2f} MB\n")
+    text_widget.insert(tk.END, f" Total Bytes Sent: {net_io.bytes_sent / (1024 ** 2):.2f} MB\n")
+    text_widget.insert(tk.END, f" Total Bytes Received: {net_io.bytes_recv / (1024 ** 2):.2f} MB\n\n")
 
     #Disk information
-    templ = "{:<17} {:>8} {:>8} {:>8} {:>5}% {:>9}  {}"
-    logging.info(f'{templ.format("Device", "Total", "Used", "Free", "Use ", "Type", "Mount")}')
+    templ = "{:<8} {:>8} {:>8} {:>8} {:>5}% {:>9}  \n"
+    text_widget.insert(tk.END, f'{templ.format("Device", "Total", "Used", "Free", "Use ", "Type")}\n')
     for part in psutil.disk_partitions(all=False):
         if os.name == 'nt':
             if 'cdrom' in part.opts or not part.fstype:
@@ -49,6 +49,5 @@ def log_hardware_info():
             bytes2human(usage.free),
             int(usage.percent),
             part.fstype,
-            part.mountpoint,
         )
-        logging.info(f'{line}')
+        text_widget.insert(tk.END, f'{line}')

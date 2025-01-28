@@ -2,9 +2,23 @@ import os
 import logging
 import sys
 import configparser
+import tkinter as tk
 from datetime import datetime
 
 ts = datetime.now().strftime("%Y-%m-%d-%H:%M:%S")
+
+# --- Class ---
+class TextHandler(logging.Handler):
+    def __init__(self, widget):
+        logging.Handler.__init__(self)
+        self.widget = widget
+
+    def emit(self, record):
+        msg = self.format(record)
+        def append():
+            self.widget.insert(tk.END, msg + '\n', record.levelname)
+            self.widget.see(tk.END)
+        self.widget.after(0, append)
 
 def get_ini_file_path(file_name):
     # Check if running as a bundled exe
@@ -27,19 +41,19 @@ def read_config():
     settings_path = get_ini_file_path('settings.ini')
     ports_path = get_ini_file_path('ports.ini')
 
-    logging.info(f"[{ts}] [{settings_path}] found")
-    logging.info(f"[{ts}] [{ports_path}] found\n")
+    logging.debug(f"[{ts}] [{settings_path}] found")
+    logging.debug(f"[{ts}] [{ports_path}] found\n")
     
     # Read both config files
     config = configparser.ConfigParser()
     config.read(settings_path)
     if not config.sections():
-        logging.info(f"[{ts}] [Settings file not loaded or is empty!]\n")
+        logging.error(f"[{ts}] [Settings file not loaded or is empty!]\n")
     
     config_port = configparser.ConfigParser()
     config_port.read(ports_path)
     if not config_port.sections():
-        logging.info(f"[{ts}] [Ports file not loaded or is empty!]\n")
+        logging.error(f"[{ts}] [Ports file not loaded or is empty!]\n")
     
     return config, config_port
 
