@@ -28,8 +28,6 @@ BG = config['BackgroundColor']['BG']
 N_THREADS = int(config['ThreadSettings']['N_THREADS'])
 Version = str(config['Version']['version_nm'])
 
-logging.info(f'{sys.version}, Version: {Version}\n')
-
 # --- Extract port descriptions from ports.ini ---
 portsdes = {}
 for section in config_port.sections():
@@ -110,6 +108,8 @@ text_handler = TextHandler(text)
 logging.getLogger().addHandler(text_handler)
 
 # --- functions ---
+text.insert(tk.END, f'Tool version: {Version}\n', 'NOM')
+text.insert(tk.END, f'Sytem version: {sys.version}\n\n', 'NOM')
 log_hardware_info(text)
 
 # --- Run function ---

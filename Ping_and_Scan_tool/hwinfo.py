@@ -8,7 +8,7 @@ from config_logging import TextHandler
 def log_hardware_info(text_widget):
 
     # CPU information
-    text_widget.insert(tk.END, f"CPU Info:\n")
+    text_widget.insert(tk.END, f"CPU Info:\n", 'DEBUG')
     text_widget.insert(tk.END, f" Physical cores: {psutil.cpu_count(logical=False)}\n")
     text_widget.insert(tk.END, f" Total cores: {psutil.cpu_count(logical=True)}\n")
     text_widget.insert(tk.END, f" Max Frequency: {psutil.cpu_freq().max}Mhz\n")
@@ -18,7 +18,7 @@ def log_hardware_info(text_widget):
     text_widget.insert(tk.END, f" Total CPU Usage: {psutil.cpu_percent()}%\n")
 
     # Memory information
-    text_widget.insert(tk.END, "Memory Info:\n")
+    text_widget.insert(tk.END, "Memory Info:\n", 'DEBUG')
     virtual_memory = psutil.virtual_memory()
     text_widget.insert(tk.END, f" Total: {virtual_memory.total / (1024 ** 3):.2f} GB\n")
     text_widget.insert(tk.END, f" Available: {virtual_memory.available / (1024 ** 3):.2f} GB\n")
@@ -26,14 +26,14 @@ def log_hardware_info(text_widget):
     text_widget.insert(tk.END, f" Percentage: {virtual_memory.percent}%\n")
 
     # Network information
-    text_widget.insert(tk.END, "Network Info:\n")
+    text_widget.insert(tk.END, "Network Info:\n", 'DEBUG')
     net_io = psutil.net_io_counters()
     text_widget.insert(tk.END, f" Total Bytes Sent: {net_io.bytes_sent / (1024 ** 2):.2f} MB\n")
     text_widget.insert(tk.END, f" Total Bytes Received: {net_io.bytes_recv / (1024 ** 2):.2f} MB\n\n")
 
     #Disk information
     templ = "{:<8} {:>8} {:>8} {:>8} {:>5}% {:>9}  \n"
-    text_widget.insert(tk.END, f'{templ.format("Device", "Total", "Used", "Free", "Use ", "Type")}\n')
+    text_widget.insert(tk.END, f'{templ.format("Device", "Total", "Used", "Free", "Use ", "Type")}', 'DEBUG')
     for part in psutil.disk_partitions(all=False):
         if os.name == 'nt':
             if 'cdrom' in part.opts or not part.fstype:
