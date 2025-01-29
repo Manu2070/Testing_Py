@@ -1,9 +1,8 @@
 import psutil
-import logging
 import os
 import tkinter as tk
 from psutil._common import bytes2human
-from config_logging import TextHandler
+
 
 def log_hardware_info(text_widget):
 

@@ -239,7 +239,11 @@ button.grid(row=2, column=0, sticky='nsew', padx=5, pady=5)
 port_scan_button = tk.Button(box, text="Start Port Scan", command=port_scan, bg=BG, fg='white')
 port_scan_button.grid(row=2, column=1, sticky='nsew', padx=5, pady=5)
 
+# Checkbox
+cbox = tk.Checkbutton(box, text='Check', bg=BG, fg='white')
+cbox.grid(row=1, column=2, sticky='nsew', padx=5, pady=5)
 
+#Menubar
 menubar = tk.Menu(root, bg=BG, fg='white')
 filemenu = tk.Menu(menubar, bg=BG, fg='white', tearoff=0)
 filemenu.add_command(label="Exit", command=on_closing)
