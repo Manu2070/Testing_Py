@@ -14,7 +14,7 @@ def log_hardware_info(text_widget):
     text_widget.insert(tk.END, f" Min Frequency: {psutil.cpu_freq().min}Mhz\n")
     text_widget.insert(tk.END, f" Current Frequency: {psutil.cpu_freq().current}Mhz\n")
     text_widget.insert(tk.END, f" CPU Usage Per Core: {psutil.cpu_percent(percpu=True)}\n")
-    text_widget.insert(tk.END, f" Total CPU Usage: {psutil.cpu_percent()}%\n")
+    text_widget.insert(tk.END, f" Total CPU Usage: {psutil.cpu_percent(interval=1)}%\n")
 
     # Memory information
     text_widget.insert(tk.END, "Memory Info:\n", 'DEBUG')
@@ -49,4 +49,4 @@ def log_hardware_info(text_widget):
             int(usage.percent),
             part.fstype,
         )
-        text_widget.insert(tk.END, f'{line}')
+        text_widget.insert(tk.END, f'{line}')  
