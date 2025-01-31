@@ -29,10 +29,11 @@ def get_ini_file_path(file_name):
         # If not bundled, use the current working directory
         base_path = os.path.dirname(__file__)
 
+    # Check if the operating system is Windows
     if os.name == 'nt':
-        base_path = base_path.replace('/', '\\')
+        base_path = base_path.replace('/', base_path)
     else:
-        base_path = base_path.replace('\\', '/')    
+        base_path = base_path.replace('\\', base_path)    
     
     return os.path.join(base_path, file_name)
 

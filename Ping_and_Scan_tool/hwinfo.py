@@ -31,22 +31,23 @@ def log_hardware_info(text_widget):
     text_widget.insert(tk.END, f" Total Bytes Received: {net_io.bytes_recv / (1024 ** 2):.2f} MB\n\n")
 
     #Disk information
-    templ = "{:<8} {:>8} {:>8} {:>8} {:>5}% {:>9}  \n"
-    text_widget.insert(tk.END, f'{templ.format("Device", "Total", "Used", "Free", "Use ", "Type")}', 'DEBUG')
-    for part in psutil.disk_partitions(all=False):
-        if os.name == 'nt':
-            if 'cdrom' in part.opts or not part.fstype:
-                # skip cd-rom drives with no disk in it; they may raise
-                # ENOENT, pop-up a Windows GUI error for a non-ready
-                # partition or just hang.
-                continue
-        usage = psutil.disk_usage(part.mountpoint)
-        line = templ.format(
-            part.device,
-            bytes2human(usage.total),
-            bytes2human(usage.used),
-            bytes2human(usage.free),
-            int(usage.percent),
-            part.fstype,
-        )
-        text_widget.insert(tk.END, f'{line}')  
+    if os.name != 'nt':
+     templ = "{:<8} {:>8} {:>8} {:>8} {:>5}% {:>9}  \n"
+     text_widget.insert(tk.END, f'{templ.format("Device", "Total", "Used", "Free", "Use ", "Type")}', 'DEBUG')
+     for part in psutil.disk_partitions(all=False):
+         if os.name == 'nt':
+             if 'cdrom' in part.opts or not part.fstype:
+                 # skip cd-rom drives with no disk in it; they may raise
+                 # ENOENT, pop-up a Windows GUI error for a non-ready
+                 # partition or just hang.
+                 continue
+         usage = psutil.disk_usage(part.mountpoint)
+         line = templ.format(
+             part.device,
+             bytes2human(usage.total),
+             bytes2human(usage.used),
+             bytes2human(usage.free),
+             int(usage.percent),
+             part.fstype,
+         )
+         text_widget.insert(tk.END, f'{line}')  

@@ -110,6 +110,7 @@ logging.getLogger().addHandler(text_handler)
 # --- functions ---
 text.insert(tk.END, f'Tool version: {Version}\n', 'NOM')
 text.insert(tk.END, f'Sytem version: {sys.version}\n\n', 'NOM')
+
 log_hardware_info(text)
 
 # --- Run function ---

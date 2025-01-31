@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Ping Tool",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/Ping_and_Scan_tool/ping_tool.py",
+            "console": "integratedTerminal",
+            "justMyCode": false
+        }
+        // {
+        //     "type": "debugpy",
+        //     "request": "launch",
+        //     "name": "Launch Ping Tool",
+        //     "program": "${workspaceFolder}/Ping_and_Scan_tool/ping_tool.py"
+        // }
+    ]
+}
