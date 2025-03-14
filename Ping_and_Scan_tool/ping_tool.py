@@ -5,10 +5,11 @@ import subprocess
 import threading
 import logging
 import socket
-import queue
 from datetime import datetime
 import tkinter as tk
 from tkinter import ttk
+
+import concurrent
 from config_logging import read_config, setup_logging, TextHandler
 from hwinfo import log_hardware_info
 from concurrent.futures import ThreadPoolExecutor
@@ -27,6 +28,10 @@ maxheight = int(config['WindowSettings']['maxheight'])
 maxwidth = int(config['WindowSettings']['maxwidth'])
 BG = config['BackgroundColor']['BG']
 N_THREADS = int(config['ThreadSettings']['N_THREADS'])
+MIN_PORT = int(config['PortScanConstants']['MIN_PORT'])
+MAX_PORT = int(config['PortScanConstants']['MAX_PORT'])
+DEFAULT_TIMEOUT = float(config['PortScanConstants']['DEFAULT_TIMEOUT']) # seconds  
+RESULT_TIMEOUT = float(config['PortScanConstants']['RESULT_TIMEOUT']) # seconds
 Version = str(config['Version']['version_nm'])
 
 # --- Extract port descriptions from ports.ini ---
@@ -146,94 +151,92 @@ def ping():
     except Exception as e:
         logging.error(f"[{ts}] Error during ping: {e}")
 
+# Create thread pool
+executor = ThreadPoolExecutor(max_workers = N_THREADS)
 # --- Port scan function ---
 def port_scan():
-    threading.Thread(port_scan_background()).start()
-    
-    # # Start threads, each thread will call the worker function: Number of threads in settings.ini
-    # for port in range(num_threads):
-    #      logging.debug(f"[{ts}] Starting thread")
-    #      threading.Thread(target=worker, args=(target, q)).start()
-    # try:
-    #      #q.join()  # Wait for all tasks to finish | won't work proberly the sript will freez don't know why
-    #      logging.debug(f"[{ts}] All tasks finished")
-    # except Exception as e:
-    #      logging.error(f"[{ts}] Scan interrupted [{e}]")
-    # finally:
-    #      text.insert(tk.END, f"[{ts}] <----------------------------------->\n", 'INFO')
-    #      text.insert(tk.END, f'[{ts}] [Scan Results:]\n', 'INFO')
-
+    threading.Thread(target=port_scan_background).start()
 
 def port_scan_background():
 
     ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    text.insert(tk.END, f'[{ts}] [Scan Started]\n', 'INFO')
-    text.insert(tk.END, f"[{ts}] <----------------------------------->\n", 'INFO')
     target = address.get()
     port_range = portE.get()
+    completed = 0
+
+    text.insert(tk.END, f'[{ts}] [Scan Started]\n', 'INFO')
+    text.insert(tk.END, f"[{ts}] <----------------------------------->\n", 'INFO')
     text.insert(tk.END, f'[{ts}] Scanning ports {port_range} on {target}\n', 'INFO')
     
     try:
-        start_port, end_port = map(int, port_range.split('-'))
-        logging.debug(f"[{ts}] Port range: {start_port} to {end_port}")
-    except ValueError:
-        logging.error(f"[{ts}] Invalid port range: {port_range}")
-        return
+        # Validate port range
+        start_port, end_port = validate_port_range(port_range)
+        
+        # Create work queue
+        ports = list(range(start_port, end_port + 1))
+        total_ports = len(ports) 
+        progress_bar['maximum'] = total_ports
+        progress_bar['value'] = 0
+        
+        # Submit scan tasks to thread pool
+        scan_tasks = []
+        for port in ports:
+        # Process results as they complete
+            try:
+                future = executor.submit(scan_port, target, port)
+                scan_tasks.append((port,future))
+            except Exception as e:
+                text.insert(tk.END,f"[{ts}] Error submitting port {port}: {str(e)}\n", 'ERROR')
 
-    q = queue.Queue()
-    logging.debug(f"[{ts}] Scanning ports {start_port} to {end_port}")
-
-    for port in range(start_port, end_port + 1):
-        q.put(port)
-        logging.debug(f"[{ts}] Port {port} added to queue")
-
-    num_threads = min(N_THREADS, os.cpu_count() * 2)  # Optimal Number of threads
-    text.insert(tk.END, f'[{ts}] [Number of threads: {num_threads}]\n', 'INFO')
-    
-    # Initialize progress bar
-    progress_bar['maximum'] = q.qsize()
-    progress_bar['value'] = 0
-    
-    # Start threads, each thread will call the worker function: Number of threads in settings.ini
-    for port in range(num_threads):
-         logging.debug(f"[{ts}] Starting thread")
-         threading.Thread(target=worker, args=(target, q)).start()
-    try:
-         #q.join()  # Wait for all tasks to finish | won't work proberly the sript will freez don't know why
-         logging.debug(f"[{ts}] All tasks finished")
+        for i, (port,future) in enumerate(scan_tasks):
+            try:
+                future.result(timeout = RESULT_TIMEOUT * 2)
+                completed += 1
+            except concurrent.futures.TimeoutError:
+                logging.error(f"[{ts}] Timeout scanning port {port}\n")
+            except Exception as e:
+                text.insert(tk.END,f"[{ts}] Error scanning port {port}: {str(e)}\n", 'ERROR')
+            finally:
+                progress_bar['value'] += 1
+                if i % 10 == 0 or i == total_ports - 1:
+                    root.update_idletasks()
+                
+    except ValueError as e:
+        logging.error(f"[{ts}] Invalid port range {str(e)}\n")
     except Exception as e:
-         logging.error(f"[{ts}] Scan interrupted [{e}]")
+        logging.error(f"[{ts}] Unexpected error: {str(e)}\n")
     finally:
-         text.insert(tk.END, f"[{ts}] <----------------------------------->\n", 'INFO')
-         text.insert(tk.END, f'[{ts}] [Scan Results:]\n', 'INFO')
-
-# --- Worker function ---
-def worker(target, q):
-    while not q.empty():
-        ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        port = q.get()
-        try:
-            scan_port(target, port)
-        except Exception as e:
-            logging.error(f"[{ts}] Error scanning port {port}: {e}")
-        finally:
-            q.task_done()
-            # Update progress bar
-            progress_bar.step(1)
-            root.update_idletasks()
-
+        text.insert(tk.END, f"[{ts}] <----------------------------------->\n", 'INFO')
+        text.insert(tk.END, f'[{ts}] Scan Complete - {completed}/{total_ports} ports scanned\n', 'INFO')
+        progress_bar['value'] = 0
+    
+def validate_port_range(port_range: str) -> tuple[int, int]:
+    """Validate port range input"""
+    try:
+        start_port, end_port = map(int, port_range.split('-'))
+        if not (MIN_PORT <= start_port <= end_port <= MAX_PORT):
+            raise ValueError(f"Ports must be between {MIN_PORT} and {MAX_PORT}")
+        return start_port, end_port
+    except ValueError:
+        raise ValueError("Invalid port range format. Use 'start-end' (e.g., '1-1024')")
+    
 # --- Scan function ---
-def scan_port(target, port):
+def scan_port(target: str, port: int):
+    """Scan single port"""
     ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    sock.settimeout(0.5)
-    result = sock.connect_ex((target, port))
-    description, section, protocol = portsdes.get(str(port), ("No description available", "Unknown section", "Unknown protocol"))
-    if result == 0:
-        logging.warning(f"[{ts}] [{target}] Port {port} open, {description}, {protocol}, {section}")
-    else:
-        logging.debug(f"[{ts}] Port {port} closed")
-    sock.close()
+    sock.settimeout(DEFAULT_TIMEOUT)
+    
+    try:
+        result = sock.connect_ex((target, port))
+        description, section, protocol = portsdes.get(str(port), ("No description available", "Unknown section", "Unknown protocol"))
+        
+        if result == 0:
+            text.insert(tk.END,f"[{ts}] [{target}] Port {port} open, {description}, {protocol}, {section}\n", 'WARNING')
+    except Exception as e:
+        text.insert(tk.END,f"[{ts}] Error scanning port {port}: {e}\n", 'ERROR')
+    finally:
+        sock.close()
 
 # --- Entry functions ---
 def on_focus_in(entry):
@@ -246,10 +249,15 @@ def on_focus_out(entry, placeholder):
         entry.insert(0, placeholder)
         entry.configure(state='disabled')
 
+def cleanup():
+    """Cleanup resources"""
+    executor.shutdown(wait=True)
+    root.destroy()
+
 # Function to handle window close event
 def on_closing():
+    cleanup()
     root.quit()
-    root.destroy()
 
 # - button -
 button = tk.Button(master=box, text='Start Ping', command=run, bg=BG, fg='white', width=20)
