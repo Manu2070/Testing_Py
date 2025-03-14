@@ -11,6 +11,7 @@ import tkinter as tk
 from tkinter import ttk
 from config_logging import read_config, setup_logging, TextHandler
 from hwinfo import log_hardware_info
+from concurrent.futures import ThreadPoolExecutor
 
 # --- logging ---
 setup_logging()
@@ -147,6 +148,24 @@ def ping():
 
 # --- Port scan function ---
 def port_scan():
+    threading.Thread(port_scan_background()).start()
+    
+    # # Start threads, each thread will call the worker function: Number of threads in settings.ini
+    # for port in range(num_threads):
+    #      logging.debug(f"[{ts}] Starting thread")
+    #      threading.Thread(target=worker, args=(target, q)).start()
+    # try:
+    #      #q.join()  # Wait for all tasks to finish | won't work proberly the sript will freez don't know why
+    #      logging.debug(f"[{ts}] All tasks finished")
+    # except Exception as e:
+    #      logging.error(f"[{ts}] Scan interrupted [{e}]")
+    # finally:
+    #      text.insert(tk.END, f"[{ts}] <----------------------------------->\n", 'INFO')
+    #      text.insert(tk.END, f'[{ts}] [Scan Results:]\n', 'INFO')
+
+
+def port_scan_background():
+
     ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     text.insert(tk.END, f'[{ts}] [Scan Started]\n', 'INFO')
     text.insert(tk.END, f"[{ts}] <----------------------------------->\n", 'INFO')
@@ -177,16 +196,16 @@ def port_scan():
     
     # Start threads, each thread will call the worker function: Number of threads in settings.ini
     for port in range(num_threads):
-        logging.debug(f"[{ts}] Starting thread")
-        threading.Thread(target=worker, args=(target, q)).start()
+         logging.debug(f"[{ts}] Starting thread")
+         threading.Thread(target=worker, args=(target, q)).start()
     try:
-        #q.join()  # Wait for all tasks to finish | won't work proberly the sript will freez don't know why
-        logging.debug(f"[{ts}] All tasks finished")
+         #q.join()  # Wait for all tasks to finish | won't work proberly the sript will freez don't know why
+         logging.debug(f"[{ts}] All tasks finished")
     except Exception as e:
-        logging.error(f"[{ts}] Scan interrupted [{e}]")
+         logging.error(f"[{ts}] Scan interrupted [{e}]")
     finally:
-        text.insert(tk.END, f"[{ts}] <----------------------------------->\n", 'INFO')
-        text.insert(tk.END, f'[{ts}] [Scan Results:]\n', 'INFO')
+         text.insert(tk.END, f"[{ts}] <----------------------------------->\n", 'INFO')
+         text.insert(tk.END, f'[{ts}] [Scan Results:]\n', 'INFO')
 
 # --- Worker function ---
 def worker(target, q):
@@ -207,7 +226,7 @@ def worker(target, q):
 def scan_port(target, port):
     ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    sock.settimeout(1)
+    sock.settimeout(0.5)
     result = sock.connect_ex((target, port))
     description, section, protocol = portsdes.get(str(port), ("No description available", "Unknown section", "Unknown protocol"))
     if result == 0:
