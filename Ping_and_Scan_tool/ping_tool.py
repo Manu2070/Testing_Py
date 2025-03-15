@@ -1,5 +1,6 @@
 # Description: A simple ping/port scan tool with a GUI using tkinter, subprocess, threading, logging, and socket modules.
 import os
+from re import S
 import sys
 import subprocess
 import threading
@@ -21,18 +22,18 @@ setup_logging()
 config, config_port = read_config()
 
 # --- Extract settings from config file ---
-windowname:str = config['WindowSettings']['windowname']
-height = int(config['WindowSettings']['height'])
-width = int(config['WindowSettings']['width'])
-maxheight = int(config['WindowSettings']['maxheight'])
-maxwidth = int(config['WindowSettings']['maxwidth'])
-BG = config['BackgroundColor']['BG']
-N_THREADS = int(config['ThreadSettings']['N_THREADS'])
-MIN_PORT = int(config['PortScanConstants']['MIN_PORT'])
-MAX_PORT = int(config['PortScanConstants']['MAX_PORT'])
+windowname:str = config['WindowSettings']['windowname'] # Window name
+height = int(config['WindowSettings']['height']) # Window height
+width = int(config['WindowSettings']['width']) # Window width
+maxheight = int(config['WindowSettings']['maxheight']) # Window max height
+maxwidth = int(config['WindowSettings']['maxwidth']) # Window max width
+BG = config['BackgroundColor']['BG'] # Background color
+N_THREADS = int(config['ThreadSettings']['N_THREADS']) # Number of threads
+MIN_PORT = int(config['PortScanConstants']['MIN_PORT']) # Minimum port number
+MAX_PORT = int(config['PortScanConstants']['MAX_PORT']) # Maximum port number
 DEFAULT_TIMEOUT = float(config['PortScanConstants']['DEFAULT_TIMEOUT']) # seconds  
 RESULT_TIMEOUT = float(config['PortScanConstants']['RESULT_TIMEOUT']) # seconds
-Version = str(config['Version']['version_nm'])
+Version = str(config['Version']['version_nm']) # Version number
 
 # --- Extract port descriptions from ports.ini ---
 portsdes = {}
