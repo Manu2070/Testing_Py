@@ -1,6 +1,5 @@
 # Description: A simple ping/port scan tool with a GUI using tkinter, subprocess, threading, logging, and socket modules.
 import os
-from re import S
 import sys
 import subprocess
 import threading
@@ -11,8 +10,9 @@ import tkinter as tk
 from tkinter import ttk
 
 import concurrent
+from turtle import up
 from config_logging import read_config, setup_logging, TextHandler
-from hwinfo import log_hardware_info
+from hwinfo import log_hardware_info, update_hardware_info
 from concurrent.futures import ThreadPoolExecutor
 
 # --- logging ---
@@ -118,6 +118,16 @@ logging.getLogger().addHandler(text_handler)
 text.insert(tk.END, f'Tool version: {Version}\n', 'NOM')
 text.insert(tk.END, f'Sytem version: {sys.version}\n\n', 'NOM')
 
+def start_real_time_updates():
+    """
+    Starts real-time updates for hardware information.
+    """
+    update_hardware_info(text)  # Update hardware info in the text widget
+    root.after(1000, start_real_time_updates)  # Schedule next update after 1 second
+
+
+#start_real_time_updates()
+
 log_hardware_info(text)
 
 # --- Run function ---
@@ -161,6 +171,7 @@ def port_scan():
 def port_scan_background():
 
     ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    start_time = datetime.now()
     target = address.get()
     port_range = portE.get()
     completed = 0
@@ -207,10 +218,15 @@ def port_scan_background():
     except Exception as e:
         logging.error(f"[{ts}] Unexpected error: {str(e)}\n")
     finally:
+        end_time = datetime.now()
+        elapsed_time = round((end_time - start_time).total_seconds(), 2)
         text.insert(tk.END, f"[{ts}] <----------------------------------->\n", 'INFO')
-        text.insert(tk.END, f'[{ts}] Scan Complete - {completed}/{total_ports} ports scanned\n', 'INFO')
+        text.insert(tk.END, f'[{ts}] Scan Complete in {elapsed_time}sec - {completed}/{total_ports} ports scanned\n', 'INFO')
         progress_bar['value'] = 0
-    
+
+if os.name != 'nt':
+    from typing import Tuple
+
 def validate_port_range(port_range: str) -> tuple[int, int]:
     """Validate port range input"""
     try:
@@ -281,6 +297,7 @@ root.config(menu=menubar)
 
 # Bind the window close event to the on_closing function
 root.protocol("WM_DELETE_WINDOW", on_closing)
+
 
 if __name__ == "__main__":
     root.mainloop()
