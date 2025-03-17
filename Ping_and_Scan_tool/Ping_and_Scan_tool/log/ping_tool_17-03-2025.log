@@ -1,0 +1,21 @@
+INFO - Tool version: 0.0.3
+
+INFO - Sytem version: 3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)]
+
+
+ERROR - [2025-03-17 18:15:21] Error exporting to C:/Users/manu/Desktop/test.csv: list index out of range
+
+ERROR - [2025-03-17 18:22:47] Error exporting to C:/Users/manu/Desktop/scan.csv: Invalid port info
+
+ERROR - [2025-03-17 18:22:47] Error exporting to C:/Users/manu/Desktop/scan.csv: Invalid port info
+
+ERROR - [2025-03-17 18:36:01] Error exporting to C:/Users/manu/Desktop/scan.csv: list index out of range
+
+ERROR - [2025-03-17 18:36:55] Error exporting to C:/Users/manu/Desktop/scan.csv: list index out of range
+
+ERROR - [2025-03-17 18:37:14] Error exporting to C:/Users/manu/Desktop/scan.csv: list index out of range
+
+INFO - Hardware Information:
+
+WARNING - Hardware Information:
+

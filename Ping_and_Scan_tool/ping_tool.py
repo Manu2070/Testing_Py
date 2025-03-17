@@ -5,9 +5,11 @@ import subprocess
 import threading
 import logging
 import socket
+import csv
 from datetime import datetime
 import tkinter as tk
-from tkinter import ttk
+from tkinter import ttk, filedialog
+
 
 import concurrent
 from turtle import up
@@ -47,7 +49,7 @@ for section in config_port.sections():
 root = tk.Tk()
 # --- Window settings ---
 # - Background color -
-root.configure(bg=BG)
+root.configure(bg=BG, relief='flat', borderwidth=0, highlightthickness=0)
 # - Set the title of the window -
 root.title(windowname)
 # - Set the minimum size of the window -
@@ -57,14 +59,19 @@ if maxwidth > 0 and maxheight > 0:
     root.maxsize(width=maxwidth, height=maxheight)
 
 # --- Frame with Text and Scrollbar ---
-frame = tk.Frame(root)
+frame = tk.Frame(root, relief='flat', borderwidth=0, highlightthickness=0)
 frame.grid(row=0, column=0, sticky='nsew')
 
-box = tk.Frame(root, bg=BG)
+box = tk.Frame(root, bg=BG, relief='flat', borderwidth=0, highlightthickness=0)
 box.grid(row=1, column=0, sticky='sew')
 
-text = tk.Text(frame, bg=BG, fg='white')
+text = tk.Text(frame, bg=BG, fg='white', relief='flat', borderwidth=0, highlightthickness=0)
 text.grid(row=0, column=0, sticky='nsew')
+
+hwinfo_frame = tk.Frame(frame, bg=BG)
+hwinfo_frame.place(relx=0.70, y=0.05, width=300, height=230)
+hwinfo_text = tk.Text(hwinfo_frame,wrap="word", bg=BG, fg='white', relief='flat', borderwidth=0, highlightthickness=0)
+hwinfo_text.pack(expand=False, fill='both', padx=5, pady=5)
 
 scrollbar = tk.Scrollbar(frame, bg=BG)
 scrollbar.grid(row=0, column=1, sticky='ns')
@@ -77,7 +84,7 @@ progress_bar = ttk.Progressbar(box, orient='horizontal', length=400, mode='deter
 progress_bar.grid(row=0, column=0, pady=5, padx=5, sticky= 'ew')
 
 # --- Version Label --- 
-vl = tk.Label(box, bg=BG, fg='white', text='Version: ' + Version)
+vl = tk.Label(box, bg=BG, fg='white', text='System version: ' + sys.version + "\n" + 'Version: ' + Version, justify='left')
 vl.grid(row=2, column=2, pady=5, padx=5, sticky= 'e')
 
 # --- IP Address Entry ---
@@ -110,25 +117,24 @@ text.tag_configure("ERROR", foreground="red")
 text.tag_configure("DEBUG", foreground="blue")
 text.tag_configure("CRITICAL", foreground="red", background="white")
 text.tag_configure("NOM", foreground="magenta")
+hwinfo_text.tag_configure("DEBUG", foreground="blue")
 
 text_handler = TextHandler(text)
 logging.getLogger().addHandler(text_handler)
 
 # --- functions ---
-text.insert(tk.END, f'Tool version: {Version}\n', 'NOM')
-text.insert(tk.END, f'Sytem version: {sys.version}\n\n', 'NOM')
+logging.debug( f'Tool version: {Version}\n')
+logging.debug(f'Sytem version: {sys.version}\n\n')
+
+# Create thread pool
+executor = ThreadPoolExecutor(max_workers = N_THREADS)
 
 def start_real_time_updates():
     """
     Starts real-time updates for hardware information.
     """
-    update_hardware_info(text)  # Update hardware info in the text widget
+    threading.Thread(target=update_hardware_info(hwinfo_text))  # Update hardware info in the text widget
     root.after(1000, start_real_time_updates)  # Schedule next update after 1 second
-
-
-#start_real_time_updates()
-
-log_hardware_info(text)
 
 # --- Run function ---
 def run(): 
@@ -162,8 +168,6 @@ def ping():
     except Exception as e:
         logging.error(f"[{ts}] Error during ping: {e}")
 
-# Create thread pool
-executor = ThreadPoolExecutor(max_workers = N_THREADS)
 # --- Port scan function ---
 def port_scan():
     threading.Thread(target=port_scan_background).start()
@@ -255,11 +259,75 @@ def scan_port(target: str, port: int):
     finally:
         sock.close()
 
-# --- Entry functions ---
+def exprt_results():
+    """Export results to a file"""
+    ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    filename = filedialog.asksaveasfilename(defaultextension=".csv", filetypes=[("CSV files", "*.csv"),("Text files", "*.txt")])
+    if filename: 
+        try:
+            content = text.get("17.0", tk.END).strip().split("\n")
+            total_lines = len(content)
+            progress_bar['maximum'] = total_lines
+            progress_bar['value'] = 0
+            if filename.endswith ('.csv'):
+                with open (filename, mode= "w", newline='', encoding="utf-8") as csv_file:
+                    csv_writer = csv.writer(csv_file)
+                    csv_writer.writerow(["Timestamp", "Target Address", "Port", "Status", "Description", "Protocol", "Section"])
+
+                    for i, line in enumerate(content):
+                        if "Port" in line and "open" in line.lower():
+                                try:
+                                 # Extract timestamp
+                                    timestamp = line.split("]")[0].replace("[", "").strip()
+                                    
+                                    # Extract target address
+                                    target = line.split("]")[1].split()[0].replace("[", "").strip()
+                                    
+                                    # Extract port number and status
+                                    port_info = line.split("Port")[1].split()
+                                    port = port_info[0].strip()
+                                    status = port_info[1].strip().replace(",", "")
+                                    
+                                    # Extract description, protocol, and section
+                                    remaining_info = " ".join(port_info[2:])
+                                    description, protocol, section = remaining_info.split(", ")
+                                    
+                                    # Write row to CSV
+                                    csv_writer.writerow([timestamp, target, port, status, description.strip(), protocol.strip(), section.strip()])
+                                except Exception as e:
+                                    logging.error(f"[{ts}] Malformed line: {line} - {e}")
+                        else:
+                            logging.debug(f"[{ts}] Skipped line: {line}")
+                        progress_bar['value'] += 1
+            else:
+                with open(filename, 'w', encoding='utf-8') as txtfile:
+                 txtfile.write(f"Results from {ts}\n")
+                 txtfile.write(text.get("17.0", tk.END))
+        except Exception as e:
+            logging.error(f"[{ts}] Error exporting to {filename}: {e}\n")
+        finally:
+            text.insert(tk.END, f"[{ts}] Results exported to {filename}\n", "INFO")
+            progress_bar['value'] = 0
+            
 def on_focus_in(entry):
     if entry.cget('state') == 'disabled':
         entry.configure(state='normal')
         entry.delete(0, 'end')
+
+checkbox_var = tk.BooleanVar(value=False)
+
+def on_checkbox_toggle():
+    if checkbox_var.get():
+        hwinfo_text.config(state='normal')
+        hwinfo_text.delete("1.0", tk.END)
+        hwinfo_text.insert(tk.END, f"Hardware Information:\n", 'INFO')
+        log_hardware_info(text_widget=hwinfo_text)
+        #start_real_time_updates() #todo: fix performance issue
+        hwinfo_text.configure(state='disabled')
+    else:
+        hwinfo_text.config(state='normal')
+        hwinfo_text.delete("1.0", "17.0")
+        hwinfo_text.configure(state='disabled')
 
 def on_focus_out(entry, placeholder):
     if entry.get() == "":
@@ -276,6 +344,7 @@ def on_closing():
     cleanup()
     root.quit()
 
+
 # - button -
 button = tk.Button(master=box, text='Start Ping', command=run, bg=BG, fg='white', width=20)
 button.grid(row=2, column=0, sticky='nsew', padx=5, pady=5)
@@ -285,14 +354,16 @@ port_scan_button = tk.Button(box, text="Start Port Scan", command=port_scan, bg=
 port_scan_button.grid(row=2, column=1, sticky='nsew', padx=5, pady=5)
 
 # Checkbox
-cbox = tk.Checkbutton(box, text='Check', bg=BG, fg='white')
-cbox.grid(row=1, column=2, sticky='nsew', padx=5, pady=5)
+cbox = tk.Checkbutton(box, text='HWInfo', bg=BG, fg='white',selectcolor="black", variable=checkbox_var, command=on_checkbox_toggle)
+cbox.grid(row=1, column=2, sticky='w', padx=5, pady=5)
 
 #Menubar
 menubar = tk.Menu(root, bg=BG, fg='white')
 filemenu = tk.Menu(menubar, bg=BG, fg='white', tearoff=0)
-filemenu.add_command(label="Exit", command=on_closing)
 menubar.add_cascade(label="File", menu=filemenu)
+filemenu.add_command(label="Export", command=exprt_results)
+filemenu.add_command(label="Exit", command=on_closing)
+
 root.config(menu=menubar)
 
 # Bind the window close event to the on_closing function

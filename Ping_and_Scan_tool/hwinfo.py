@@ -10,10 +10,10 @@ def log_hardware_info(text_widget):
     text_widget.insert(tk.END, f"CPU Info:\n", 'DEBUG')
     text_widget.insert(tk.END, f" Physical cores: {psutil.cpu_count(logical=False)}\n")
     text_widget.insert(tk.END, f" Total cores: {psutil.cpu_count(logical=True)}\n")
-    text_widget.insert(tk.END, f" Max Frequency: {psutil.cpu_freq().max}Mhz\n")
-    text_widget.insert(tk.END, f" Min Frequency: {psutil.cpu_freq().min}Mhz\n")
+    #text_widget.insert(tk.END, f" Max Frequency: {psutil.cpu_freq().max}Mhz\n")
+    #text_widget.insert(tk.END, f" Min Frequency: {psutil.cpu_freq().min}Mhz\n")
     text_widget.insert(tk.END, f" Current Frequency: {psutil.cpu_freq().current}Mhz\n")
-    text_widget.insert(tk.END, f" CPU Usage Per Core: {psutil.cpu_percent(percpu=True)}\n")
+    #text_widget.insert(tk.END, f" CPU Usage Per Core: {psutil.cpu_percent(percpu=True)}\n")
     text_widget.insert(tk.END, f" Total CPU Usage: {psutil.cpu_percent(interval=1)}%\n")
 
     # Memory information
@@ -22,7 +22,7 @@ def log_hardware_info(text_widget):
     text_widget.insert(tk.END, f" Total: {virtual_memory.total / (1024 ** 3):.2f} GB\n")
     text_widget.insert(tk.END, f" Available: {virtual_memory.available / (1024 ** 3):.2f} GB\n")
     text_widget.insert(tk.END, f" Used: {virtual_memory.used / (1024 ** 3):.2f} GB\n")
-    text_widget.insert(tk.END, f" Percentage: {virtual_memory.percent}%\n")
+    #text_widget.insert(tk.END, f" Percentage: {virtual_memory.percent}%\n")
 
     # Network information
     text_widget.insert(tk.END, "Network Info:\n", 'DEBUG')
@@ -57,16 +57,16 @@ def update_hardware_info(text_widget):
     Function to update hardware information in real-time.
     Clears previous content and inserts updated values.
     """
-    text_widget.delete("1.0", "20.end")  # Clear previous content
+    text_widget.delete("1.0", "17.0")  # Clear previous content
 
     # CPU information
     text_widget.insert(tk.END, f"CPU Info:\n", 'DEBUG')
     text_widget.insert(tk.END, f" Physical cores: {psutil.cpu_count(logical=False)}\n")
     text_widget.insert(tk.END, f" Total cores: {psutil.cpu_count(logical=True)}\n")
-    text_widget.insert(tk.END, f" Max Frequency: {psutil.cpu_freq().max}Mhz\n")
-    text_widget.insert(tk.END, f" Min Frequency: {psutil.cpu_freq().min}Mhz\n")
+    #text_widget.insert(tk.END, f" Max Frequency: {psutil.cpu_freq().max}Mhz\n")
+    #text_widget.insert(tk.END, f" Min Frequency: {psutil.cpu_freq().min}Mhz\n")
     text_widget.insert(tk.END, f" Current Frequency: {psutil.cpu_freq().current}Mhz\n")
-    text_widget.insert(tk.END, f" CPU Usage Per Core: {psutil.cpu_percent(percpu=True)}\n")
+    #text_widget.insert(tk.END, f" CPU Usage Per Core: {psutil.cpu_percent(percpu=True)}\n")
     text_widget.insert(tk.END, f" Total CPU Usage: {psutil.cpu_percent(interval=1)}%\n")
 
     # Memory information
@@ -75,7 +75,7 @@ def update_hardware_info(text_widget):
     text_widget.insert(tk.END, f" Total: {virtual_memory.total / (1024 ** 3):.2f} GB\n")
     text_widget.insert(tk.END, f" Available: {virtual_memory.available / (1024 ** 3):.2f} GB\n")
     text_widget.insert(tk.END, f" Used: {virtual_memory.used / (1024 ** 3):.2f} GB\n")
-    text_widget.insert(tk.END, f" Percentage: {virtual_memory.percent}%\n")
+    #text_widget.insert(tk.END, f" Percentage: {virtual_memory.percent}%\n")
 
     # Network information
     text_widget.insert(tk.END, "Network Info:\n", 'DEBUG')
