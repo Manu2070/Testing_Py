@@ -69,7 +69,7 @@ text = tk.Text(frame, bg=BG, fg='white', relief='flat', borderwidth=0, highlight
 text.grid(row=0, column=0, sticky='nsew')
 
 hwinfo_frame = tk.Frame(frame, bg=BG)
-hwinfo_frame.place(relx=0.70, y=0.05, width=300, height=230)
+hwinfo_frame.grid(row=0, column=0, sticky='ne')
 hwinfo_text = tk.Text(hwinfo_frame,wrap="word", bg=BG, fg='white', relief='flat', borderwidth=0, highlightthickness=0)
 hwinfo_text.pack(expand=False, fill='both', padx=5, pady=5)
 
@@ -133,7 +133,7 @@ def start_real_time_updates():
     """
     Starts real-time updates for hardware information.
     """
-    threading.Thread(target=update_hardware_info(hwinfo_text))  # Update hardware info in the text widget
+    update_hardware_info(hwinfo_text)  # Update hardware info in the text widget
     root.after(1000, start_real_time_updates)  # Schedule next update after 1 second
 
 # --- Run function ---
@@ -231,15 +231,17 @@ def port_scan_background():
 if os.name != 'nt':
     from typing import Tuple
 
-def validate_port_range(port_range: str) -> tuple[int, int]:
+def validate_port_range(port_range: str) -> Tuple[int, int]:
     """Validate port range input"""
     try:
         start_port, end_port = map(int, port_range.split('-'))
         if not (MIN_PORT <= start_port <= end_port <= MAX_PORT):
             raise ValueError(f"Ports must be between {MIN_PORT} and {MAX_PORT}")
+        if end_port > MAX_PORT:
+            raise ValueError(f"End port can't be grater than {MAX_PORT}")
         return start_port, end_port
     except ValueError:
-        raise ValueError("Invalid port range format. Use 'start-end' (e.g., '1-1024')")
+        raise ValueError(f"Invalid port range format. Use 'start-end' (e.g., '1-1024')")
     
 # --- Scan function ---
 def scan_port(target: str, port: int):
