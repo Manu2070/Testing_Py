@@ -69,7 +69,7 @@ text = tk.Text(frame, bg=BG, fg='white', relief='flat', borderwidth=0, highlight
 text.grid(row=0, column=0, sticky='nsew')
 
 hwinfo_frame = tk.Frame(frame, bg=BG)
-hwinfo_frame.place(relx=0.70, y=0.05, width=300, height=230)
+hwinfo_frame.place(relx=0.70, rely=0.05, relwidth=0.5, relheight=0.9)
 hwinfo_text = tk.Text(hwinfo_frame,wrap="word", bg=BG, fg='white', relief='flat', borderwidth=0, highlightthickness=0)
 hwinfo_text.pack(expand=False, fill='both', padx=5, pady=5)
 

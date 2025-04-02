@@ -19,3 +19,5 @@ INFO - Hardware Information:
 
 WARNING - Hardware Information:
 
+ERROR - [2025-03-17 21:56:36] Invalid port range Invalid port range format. Use 'start-end' (e.g., '1-1024')
+
