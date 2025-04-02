@@ -12,7 +12,6 @@ from tkinter import ttk, filedialog
 
 
 import concurrent
-from turtle import up
 from config_logging import read_config, setup_logging, TextHandler
 from hwinfo import log_hardware_info, update_hardware_info
 from concurrent.futures import ThreadPoolExecutor
@@ -228,8 +227,8 @@ def port_scan_background():
         text.insert(tk.END, f'[{ts}] Scan Complete in {elapsed_time}sec - {completed}/{total_ports} ports scanned\n', 'INFO')
         progress_bar['value'] = 0
 
-if os.name != 'nt':
-    from typing import Tuple
+#if os.name != 'nt':
+from typing import Tuple
 
 def validate_port_range(port_range: str) -> Tuple[int, int]:
     """Validate port range input"""
