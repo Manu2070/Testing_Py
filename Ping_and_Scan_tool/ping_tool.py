@@ -133,7 +133,7 @@ def start_real_time_updates():
     """
     Starts real-time updates for hardware information.
     """
-    threading.Thread(target=update_hardware_info(hwinfo_text))  # Update hardware info in the text widget
+    update_hardware_info(hwinfo_text)  # Update hardware info in the text widget
     root.after(1000, start_real_time_updates)  # Schedule next update after 1 second
 
 # --- Run function ---
@@ -231,15 +231,17 @@ def port_scan_background():
 if os.name != 'nt':
     from typing import Tuple
 
-def validate_port_range(port_range: str) -> tuple[int, int]:
+def validate_port_range(port_range: str) -> Tuple[int, int]:
     """Validate port range input"""
     try:
         start_port, end_port = map(int, port_range.split('-'))
         if not (MIN_PORT <= start_port <= end_port <= MAX_PORT):
             raise ValueError(f"Ports must be between {MIN_PORT} and {MAX_PORT}")
+        if end_port > MAX_PORT:
+            raise ValueError(f"End port can't be grater than {MAX_PORT}")
         return start_port, end_port
     except ValueError:
-        raise ValueError("Invalid port range format. Use 'start-end' (e.g., '1-1024')")
+        raise ValueError(f"Invalid port range format. Use 'start-end' (e.g., '1-1024')")
     
 # --- Scan function ---
 def scan_port(target: str, port: int):

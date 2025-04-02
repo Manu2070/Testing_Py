@@ -1,2 +1,4 @@
 Ping_and_Scan_tool/log/
 templates/ports.txt
+Ping_and_Scan_tool/__pycache__/config_logging.cpython-38.pyc
+Ping_and_Scan_tool/__pycache__/hwinfo.cpython-38.pyc
